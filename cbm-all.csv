@@ -1,0 +1,36 @@
+ids,labels,parents
+rco-Retail and Commercial Operations,Retail and Commercial Operations,
+rco-Commercial Operations,Commercial Operations,rco-Retail and Commercial Operations
+rco-Sales,Sales,rco-Commercial Operations
+rco-Market Analysis,Market Analysis,rco-Commercial Operations
+rco-Pricing,Pricing,rco-Commercial Operations
+rco-Quotation Management,Quotation Management,rco-Commercial Operations
+rco-Brand Marketing,Brand Marketing,rco-Commercial Operations
+rco-Product Development and Configuration,Product Development and Configuration,rco-Commercial Operations
+rco-Product Management,Product Management,rco-Commercial Operations
+pm-SAP,SAP,rco-Product Management
+rco-Customer Operations,Customer Operations,rco-Retail and Commercial Operations
+r-Customer Account Management,Customer Account Management,rco-Customer Operations
+r-Meter Data Management,Meter Data Management,rco-Customer Operations
+r-Customer Relationship Management,Customer Relationship Management,rco-Customer Operations
+r-Case & Complaints Management,Case & Complaints Management,rco-Customer Operations
+r-Billing & Invoicing,Billing & Invoicing,rco-Customer Operations
+r-Next Best Action,Next Best Action,rco-Customer Operations
+r-Payments & Collections,Payments & Collections,rco-Customer Operations
+r-Loyalty Management,Loyalty Management,rco-Customer Operations
+rco-Energy Services,Energy Services,rco-Retail and Commercial Operations
+es-price comparison,Price Comparison,rco-Energy Services
+es-edh,Energy Data Hub,rco-Energy Services
+es-mp,Market Place Peer to Peer,rco-Energy Services
+es-sh,Smart Home Building Management,rco-Energy Services
+es-rec,Renewable Energy Certificates,rco-Energy Services
+es-cem,Customer Energy Management,rco-Energy Services
+cec-Customer,Customer Engagement and Channel,
+reng-External Portal,External Portal,cec-Customer
+reng-Customer Account Portal,Customer Account Portal,cec-Customer
+reng-Customer Interaction Channel,Customer Interaction Channel,cec-Customer
+reng-Customer Applications and Mobile,Customer Applications and Mobile,cec-Customer
+reng-Call Management & IVR,Call Management & IVR,cec-Customer
+reng-Social Media Management,Social Media Management,cec-Customer
+reng-Payment Channels & Gateway,Payment Channels & Gateway,cec-Customer
+reng-Partner Channels,Partner Channels,cec-Customer
