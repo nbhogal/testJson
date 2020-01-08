@@ -1,0 +1,60 @@
+ids,labels,parents
+de,Digital Enablers,
+de-an,Analytics (System of Insights),de
+de-an-vi,Visualisation and Insights,de-an
+de-an-vi-mcf,Market and Commodity Forcasting,de-an-vi
+de-an-vi-od,Optimised Dispatch,de-an-vi
+de-an-vi-pods,Plant Ops and Design Optimisation,de-an-vi
+de-an-vi-pve,Predictive Maintenance,de-an-vi
+de-an-vi-aso,Asset Performance Optimisation,de-an-vi
+de-an-vi-gp,Global Ops ,de-an-vi
+de-an-vi-de,Data Lake,de-an-vi
+de-an-dm,Data Modelling,de-an
+de-an-dm-bda,Big Data Analytics,de-an-dm
+de-an-dm-vvisual,Visual Analytics,de-an-dm
+de-an-dm-omi,Optimisation,de-an-dm
+de-an-dm-aartifi,Artificial Intelligence,de-an-dm
+de-an-dm-mmachin,Machine Learning,de-an-dm
+de-an-dm-sstatis,Statistical Modelling,de-an-dm
+de-cs,Cyber Security,de
+de-cs-ci,Cyber Intelligence,de-cs
+de-cs-ci-soc,Security Operations Center,de-cs-ci
+de-cs-ci-cbrm,Cyber Breach Response Management,de-cs-ci
+de-cs-ci-cti,Cyber Threat Intelligence,de-cs-ci
+de-cs-ci-mm,Malware Management,de-cs-ci
+de-cs-ci- ics,Industrial Control System (ICS) Security,de-cs-ci
+de-cs-ci-fw,Firewall,de-cs-ci
+de-cs-ci-vm,Vulnerability Management,de-cs-ci
+de-cs-ci-tps,Third Party Security,de-cs-ci
+de-cs-di,Digital Identity,de-cs
+de-cs-di-casb,Cloud Access Security Broker (CASB),de-cs-di
+de-cs-di-ueba,User Entity Behaviour Analytics,de-cs-di
+de-cs-di-iam,Identity Access Management (IAM),de-cs-di
+de-cs-di- dpdp,Data Protection and Data Privacy,de-cs-di
+de-cs-di-pki,Public Key Infrastructure (PKI) Services,de-cs-di
+de-cs-di-cs,Cryptography Services,de-cs-di
+de-int,Integration,de
+de-int-int,Interfaces,de-int
+de-int-int-api,API Gateway & Management,de-int-int
+de-int-int-esb,Enterprise Service Bus,de-int-int
+de-int-int-batch,Batch / ETL Processing,de-int-int
+de-int-int-edi,Electronic Data Interchange (EDI),de-int-int
+de-int-int-sftp,SFTP,de-int-int
+de-int-int-mi,Market Interfaces,de-int-int
+de-int-int-pi,Plant (Asset) Interfaces,de-int-int
+de-int-iot,IoT,de-int
+de-int-iot-dg,IoT / Device Gateway,de-int-iot
+de-int-iot-ec,Edge Controller,de-int-iot
+de-int-iot-dm,Device Management,de-int-iot
+de-int-iot-cep,Complex Event Processing (Device Data),de-int-iot
+de-en,Enterprise Network,de
+de-en-dev,Device,de-en
+de-en-dev-dm,"Digital Meters (AMR, Smart)",de-en-dev
+de-en-dev-iiot,Industrial IoT Devices,de-en-dev
+de-en-dev-ccommercial,Commercial IoT,de-en-dev
+de-en-dev-ciot,Consumer IoT Devices,de-en-dev
+de-en-cn,Comms Network,de-en
+de-en-cn-wnc,Wireless Network Comms,de-en-cn
+de-en-cn-knc,Wired Network Comms,de-en-cn
+de-en-cn-rnc,Routing and Switching,de-en-cn
+de-en-cn-ndm,Network Device Management,de-en-cn
