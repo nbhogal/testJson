@@ -55,27 +55,27 @@ aom-ap,Asset Planning,aom
 aom-ap-qm,Quality Management,aom-ap
 aom-ap-crp,Capacity Resources Planning,aom-ap
 aom-ap-mps,Master Production Scheduling,aom-ap
-aom-ap,Asset Operations & Maintenance,aom
-aom-ap-eam,Enterprise Asset Management,aom-ap
-aom-ap-cmms,Computerised Maintenance Management Systems,aom-ap
-aom-ap-slm,Site Logistics Management,aom-ap
-aom-ap-rio,Remote / Integrated Operation Center,aom-ap
-aom-ap-fft,Field Force Tools & Apps,aom-ap
-aom-ap-wms,Workforce Management System,aom-ap
-aom-ap-fm,Facility Monitoring,aom-ap
-aom-ap-dcs,Distributed Control System (DCS),aom-ap
-aom-ap-ics,Industrial Control System,aom-ap
-aom-ap-hist,Historian,aom-ap
-aom-ap-osem,Other Scada Control System,aom-ap
-aom-ap-em,Environment Monitoring,aom-ap
-aom-ap-osm,Outage Scheduling and Management,aom-ap
-aom-ap-ims,Inspections Management Systems,aom-ap
-aom-ap-psp,Plant Security (Physical),aom-ap
-aom-ap-epr,Emergency Prevention & Response Management,aom-ap
-aom-ap-gis,Geographic Information System (GIS),aom-ap
-aom-ap-hs,Health and Safety,aom-ap
-aom-ap-sm,Shift Management,aom-ap
-aom-ap-cm,Contractor Management,aom-ap
+aom-aop,Asset Operations & Maintenance,aom
+aom-ap-eam,Enterprise Asset Management,aom-aop
+aom-ap-cmms,Computerised Maintenance Management Systems,aom-aop
+aom-ap-slm,Site Logistics Management,aom-aop
+aom-ap-rio,Remote / Integrated Operation Center,aom-aop
+aom-ap-fft,Field Force Tools & Apps,aom-aop
+aom-ap-wms,Workforce Management System,aom-aop
+aom-ap-fm,Facility Monitoring,aom-aop
+aom-ap-dcs,Distributed Control System (DCS),aom-aop
+aom-ap-ics,Industrial Control System,aom-aop
+aom-ap-hist,Historian,aom-aop
+aom-ap-osem,Other Scada Control System,aom-aop
+aom-ap-em,Environment Monitoring,aom-aop
+aom-ap-osm,Outage Scheduling and Management,aom-aop
+aom-ap-ims,Inspections Management Systems,aom-aop
+aom-ap-psp,Plant Security (Physical),aom-aop
+aom-ap-epr,Emergency Prevention & Response Management,aom-aop
+aom-ap-gis,Geographic Information System (GIS),aom-aop
+aom-ap-hs,Health and Safety,aom-aop
+aom-ap-sm,Shift Management,aom-aop
+aom-ap-cm,Contractor Management,aom-aop
 aom-ao,Asset Optimization,aom
 aom-ao-apm,Asset Performance Management,aom-ao
 aom-ao-dt,Digital Twin,aom-ao
