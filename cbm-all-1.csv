@@ -1,0 +1,91 @@
+ids,labels,parents
+cec,Customer Engagement and Channel,
+cec-ep,External Portal,cec
+cec-cap,Customer Account Portal,cec
+cec-cic,Customer Interaction Channel,cec
+cec-cam,Customer Applications and Mobile,cec
+cec-cmi,Call Management & IVR,cec
+cec-smm,Social Media Management,cec
+cec-pcg,Payment Channels & Gateway,cec
+cec-pcg,Partner Channels,cec
+rco,Retail and Commercial Operations,
+rco-co,Commercial Operations,rco
+rco-co-sales,Sales,rco-co
+rco-co-ma,Market Analysis,rco-co
+rco-co-pricing,Pricing,rco-co
+rco-co-qm,Quotation Management,rco-co
+rco-co-bm,Brand Marketing,rco-co
+rco-co-pdc,Product Development and Configuration,rco-co
+rco-co-pm,Product Management,rco-co
+rco-cuo,Customer Operations,rco
+rco-cuo-cam,Customer Account Management,rco-cuo
+rco-cuo-mdm,Meter Data Management,rco-cuo
+rco-cuo-crm,Customer Relationship Management,rco-cuo
+rco-cuo-ccm,Case & Complaints Management,rco-cuo
+rco-cuo-bi,Billing & Invoicing,rco-cuo
+rco-cuo-nba,Next Best Action,rco-cuo
+rco-cuo-pc,Payments & Collections,rco-cuo
+rco-cuo-lm,Loyalty Management,rco-cuo
+rco-es,Energy Services,rco
+rco-es-pc,Price Comparison,rco-es
+rco-es-edh,Energy Data Hub,rco-es
+rco-es-mp,Market Place Peer to Peer,rco-es
+rco-es-shb,Smart Home Building Management,rco-es
+rco-es-rec,Renewable Energy Certificates,rco-es
+rco-es-cem,Customer Energy Management,rco-es
+mer,Merchant,
+mer-fo,Front Office,mer
+mer-fo-etrm,Energy Trading & Risk Management (ETRM),mer-fo
+mer-fo-tds,Trading Decision Support Tools,mer-fo
+mer-fo-tools,Market Modelling Tools,mer-fo
+mer-fo-mia,Market Intelligence and Analysis,mer-fo
+mer-mo,Middle Office,mer
+mer-mo-cm,Contract Management,mer-mo
+mer-mo-pm,Position Management,mer-mo
+mer-mo-mf,Market Forecasting,mer-mo
+mer-mo-to,Trade Optimization,mer-mo
+mer-bo,Back Office,mer
+mer-bo-ss,24h Settlements System,mer-bo
+mer-bo-ers,Energy Reconciliation and Settlement,mer-bo
+mer-bo-fpr,Financial and Performance Reporting,mer-bo
+mer-bo-trc,Trading Risk and Compliance Management,mer-bo
+mer-bo-tms,Treasury Management System,mer-bo
+aomo,"Asset Operations, Maintenance and Optimisation",
+aomo-ap,Asset Planning,aomo
+aomo-ap-qm,Quality Management,aomo-ap
+aomo-ap-crp,Capacity Resources Planning,aomo-ap
+aomo-ap-mps,Master Production Scheduling,aomo-ap
+aomo-aop,Asset Operations & Maintenance,aomo
+aomo-aop-eam,Enterprise Asset Management,aomo-aop
+aomo-aop-cmms,Computerised Maintenance Management Systems,aomo-aop
+aomo-aop-slm,Site Logistics Management,aomo-aop
+aomo-aop-rio,Remote / Integrated Operation Center,aomo-aop
+aomo-aop-fft,Field Force Tools & Apps,aomo-aop
+aomo-aop-wms,Workforce Management System,aomo-aop
+aomo-aop-fm,Facility Monitoring,aomo-aop
+aomo-aop-dcs,Distributed Control System (DCS),aomo-aop
+aomo-aop-ics,Industrial Control System,aomo-aop
+aomo-aop-hist,Historian,aomo-aop
+aomo-aop-osem,Other Scada Control System,aomo-aop
+aomo-aop-em,Environment Monitoring,aomo-aop
+aomo-aop-osm,Outage Scheduling and Management,aomo-aop
+aomo-aop-ims,Inspections Management Systems,aomo-aop
+aomo-aop-psp,Plant Security (Physical),aomo-aop
+aomo-aop-epr,Emergency Prevention & Response Management,aomo-aop
+aomo-aop-gis,Geographic Information System (GIS),aomo-aop
+aomo-aop-hs,Health and Safety,aomo-aop
+aomo-aop-sm,Shift Management,aomo-aop
+aomo-aop-cm,Contractor Management,aomo-aop
+aomo-ao,Asset Optimization,aomo
+aomo-ao-apm,Asset Performance Management,aomo-ao
+aomo-ao-dt,Digital Twin,aomo-ao
+aomo-ao-ao,Asset Optimisation,aomo-ao
+aomo-ao-ads,Automated Decision Support,aomo-ao
+aomo-dem,Distributed Energy Management,aomo
+aomo-dem-derms,Distributed Energy Resources Management (DERMS),aomo-dem
+aomo-dem-drms,Demand Response Management System (DRMS),aomo-dem
+aomo-dem-df,Deman Forecasting,aomo-dem
+aomo-dem-ems,Energy Management System,aomo-dem
+aomo-dem-wf,Weather Forecasting,aomo-dem
+aomo-dem-do,Dispatch Optimisation,aomo-dem
+aomo-dem-smhes,Smart Meter Head End Systems (HES),aomo-dem
