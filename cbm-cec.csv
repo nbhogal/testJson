@@ -1,0 +1,10 @@
+ids,labels,parents
+cec,Customer Engagement and Channel,
+cec-ep,External Portal,cec
+cec-cap,Customer Account Portal,cec
+cec-cic,Customer Interaction Channel,cec
+cec-cam,Customer Applications and Mobile,cec
+cec-cmi,Call Management & IVR,cec
+cec-smm,Social Media Management,cec
+cec-pcg,Payment Channels & Gateway,cec
+cec-pcg,Partner Channels,cec

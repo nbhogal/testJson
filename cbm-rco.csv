@@ -1,0 +1,25 @@
+rco,Retail and Commercial Operations,
+rco-co,Commercial Operations,rco
+rco-co-sales,Sales,rco-co
+rco-co-ma,Market Analysis,rco-co
+rco-co-pricing,Pricing,rco-co
+rco-co-qm,Quotation Management,rco-co
+rco-co-bm,Brand Marketing,rco-co
+rco-co-pdc,Product Development and Configuration,rco-co
+rco-co-pm,Product Management,rco-co
+rco-cuo,Customer Operations,rco
+rco-cuo-cam,Customer Account Management,rco-cuo
+rco-cuo-mdm,Meter Data Management,rco-cuo
+rco-cuo-crm,Customer Relationship Management,rco-cuo
+rco-cuo-ccm,Case & Complaints Management,rco-cuo
+rco-cuo-bi,Billing & Invoicing,rco-cuo
+rco-cuo-nba,Next Best Action,rco-cuo
+rco-cuo-pc,Payments & Collections,rco-cuo
+rco-cuo-lm,Loyalty Management,rco-cuo
+rco-es,Energy Services,rco
+rco-es-pc,Price Comparison,rco-es
+rco-es-edh,Energy Data Hub,rco-es
+rco-es-mp,Market Place Peer to Peer,rco-es
+rco-es-shb,Smart Home Building Management,rco-es
+rco-es-rec,Renewable Energy Certificates,rco-es
+rco-es-cem,Customer Energy Management,rco-es
