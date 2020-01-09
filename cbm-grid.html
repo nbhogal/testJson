@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <div id="myDiv1" style="width:auto;height:auto;"></div>
+  <script>
+    Plotly.d3.csv(
+      "https://raw.githubusercontent.com/nbhogal/testJson/master/cbm-cec.csv",
+      function(err, rows) {
+        function unpack(rows, key) {
+          return rows.map(function(row) {
+            return row[key];
+          });
+        }
+
+        var myPlot = document.getElementById("myDiv1");
+        var data = [
+          {
+            type: "treemap",
+            ids: unpack(rows, "ids"),
+            labels: unpack(rows, "labels"),
+            parents: unpack(rows, "parents"),
+            textposition: "middle center"
+          }
+        ];
+        // console.log(data);
+        var x = data[0]["ids"];
+
+        console.log(x[2]);
+        // console.log(data.length);
+        /* for (var i = 0; i < x.length; i++) {
+          console.log(i);
+        }
+*/
+        var layout = {
+          title: "Sembcorp 2.0 Blueprint, Dec 2019",
+          font: { size: 14 }
+        };
+
+        Plotly.newPlot("myDiv1", data, layout, { responsive: true });
+        myPlot.on("plotly_treemapclick", function(data) {
+          console.log("You clicked this plotly chart");
+          console.log(data);
+          for (var i = 0; i < data.points.length; i++) {
+            pn = data.points[i].pointNumber;
+            tn = data.points[i].curveNumber;
+            console.log(data.points[i].data.ids[pn]);
+            console.log(data.points[i].data.labels[pn]);
+            console.log("PN = " + pn);
+            console.log("TN = " + tn);
+          }
+        });
+      }
+    );
+  </script>
+</body>
