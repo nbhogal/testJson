@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <div id="myDiv1" style="width:1400px;height:1000px;"></div>
+  <script>
+    Plotly.d3.csv(
+      "https://raw.githubusercontent.com/nbhogal/testJson/master/cbm-all-1.csv",
+      function(err, rows) {
+        function unpack(rows, key) {
+          return rows.map(function(row) {
+            return row[key];
+          });
+        }
+        var app_ids = unpack(rows, "app_ids");
+        app_ids = app_ids.filter(function(el) {
+          return el != null && el != "";
+        });
+        var ids = unpack(rows, "ids");
+        var all_ids = ids.concat(app_ids);
+
+        var app_labels = unpack(rows, "app_labels");
+        app_labels = app_labels.filter(function(el) {
+          return el != null && el != "";
+        });
+        var labels = unpack(rows, "labels");
+        var all_labels = labels.concat(app_labels);
+
+        var app_parents = unpack(rows, "app_parents");
+        app_parents = app_parents.filter(function(el) {
+          return el != null && el != "";
+        });
+        var parents = unpack(rows, "parents");
+        var all_parents = parents.concat(app_parents);
+
+        console.log(all_ids);
+        console.log(all_labels);
+        console.log(all_parents);
+        var data = [
+          {
+            type: "treemap",
+            /* ids: unpack(rows, "ids"),
+            labels: unpack(rows, "labels"),
+            parents: unpack(rows, "parents"), */
+            ids: all_ids,
+            labels: all_labels,
+            parents: all_parents,
+            textposition: "middle center"
+          }
+        ];
+        var layout = {
+          title: "Sembcorp 2.0 Blueprint, Dec 2019",
+          font: { size: 14 }
+        };
+
+        Plotly.newPlot("myDiv1", data, layout, { responsive: true });
+      }
+    );
+  </script>
+</body>
