@@ -3,4 +3,4 @@ Level 2: A,Top Level,15,grey,red,suit
 Top Level,null,10,black,red,suit
 Son of A,Level 2: A,5,steelblue,orange,licensing
 Daughter of A,Level 2: A,8,steelblue,red,licensing
-Level 2: A,Top Level,10,grey,green,resolved
+Level 2: B,Top Level,10,grey,green,resolved
