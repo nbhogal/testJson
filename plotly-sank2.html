@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  </head>
+  <body>
+    <div id="myDiv1" style="width:1000px;height:1000px;"></div>
+    <script>
+      Plotly.d3.json(
+        "https://raw.githubusercontent.com/plotly/plotly.js/master/test/image/mocks/sankey_energy.json",
+        function(fig) {
+          var data = {
+            type: "sankey",
+            orientation: "h",
+            domain: {
+              x: [0, 1],
+              y: [0, 1]
+            },
+            valueformat: ".0f",
+            valuesuffix: "TWh",
+
+            node: {
+              pad: 15,
+              thickness: 15,
+              line: {
+                color: "black",
+                width: 0.5
+              },
+              label: fig.data[0].node.label,
+              color: fig.data[0].node.color
+            },
+
+            link: {
+              source: fig.data[0].link.source,
+              target: fig.data[0].link.target,
+              value: fig.data[0].link.value,
+              label: fig.data[0].link.label
+            }
+          };
+
+          var data = [data];
+
+          var layout = {
+            title: "Energy Forecast",
+            width: 1118,
+            height: 772,
+            font: {
+              size: 10
+            }
+          };
+
+          Plotly.newPlot("myDiv1", data, layout);
+          console.log(data);
+        }
+      );
+    </script>
+  </body>
+</html>
