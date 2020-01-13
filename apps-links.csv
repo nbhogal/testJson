@@ -1,0 +1,13 @@
+node_label,node_color,link_source,link_target,link_label,link_color,value
+Trade Information  Reporting Systems v. 1,red,0,1,,red,
+CSLUCAS v. 1,green,2,3,,green,
+Process History Data v. 1.0,blue,4,2,,blue,
+Sakra Cogen - DCS v. 1.0,cyan,2,5,,cyan,
+Sakra SUT - DCS v. TPS3000,magenta,6,7,,magenta,
+ETAPRO,black,8,7,,black,
+Wonderware Historian,yellow,10,9,,yellow,
+LGAMS v. 10.4.5.1,orange,9,11,,orange,
+UMIS 1.0,,,,,,
+Employee Common Database v. 1.0,,,,,,
+SAP HCM v. SAP ERP 6.0 EhP8,,,,,,
+Resource Tracking System v. 1.0,,,,,,
