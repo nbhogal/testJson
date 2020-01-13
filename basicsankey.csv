@@ -1,0 +1,7 @@
+label,color,source,target,value
+A1,blue,0,2,8
+A2,blue,1,3,4
+B1,blue,0,3,2
+B2,blue,2,4,8
+C1,blue,3,4,4
+C2,blue,3,5,2
