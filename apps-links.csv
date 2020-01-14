@@ -1,0 +1,145 @@
+node_label,index,node_color,link_source,link_target,link_label,link_color,value
+Trade Information  Reporting Systems v. 1,0,red,0,1,,red,2
+CSLUCAS v. 1,1,green,2,3,,green,2
+Process History Data v. 1.0,2,blue,4,2,,blue,2
+Sakra Cogen - DCS v. 1.0,3,cyan,2,5,,green,2
+Sakra SUT - DCS v. TPS3000,4,magenta,6,7,,magenta,2
+ETAPRO,5,black,8,7,,black,2
+Wonderware Historian,6,yellow,10,9,,yellow,2
+LGAMS v. 10.4.5.1,7,orange,9,11,,orange,2
+UMIS 1.0,8,red,13,12,,wheat,2
+Employee Common Database v. 1.0,9,green,2,14,,green,2
+SAP HCM v. SAP ERP 6.0 EhP8,10,blue,15,16,,crimson,2
+Resource Tracking System v. 1.0,11,cyan,17,18,,limegreen,2
+SAP ASP v. 1.0,12,magenta,19,15,,navy,2
+SAP FICO v. SAP ERP 6.0 EhP8,13,black,15,13,,peru,2
+Data Lake,14,yellow,20,21,,brown,2
+Customer Management System Web v. 7.5,15,orange,20,17,,brown,2
+Citibank File Uploader (External),16,red,20,0,,brown,2
+Customer Management System v. 7.5,17,green,22,14,,maroon,2
+Gyro,18,blue,23,24,,gray,2
+External - AXS 1.0,19,cyan,2,24,,green,2
+Electronic Business Transaction v. 1,20,magenta,23,13,,gray,2
+Settlement v. 1,21,black,23,25,,gray,2
+VBR,22,yellow,23,26,,gray,2
+IBMS (Integrated Billing Management System) v. 1,23,orange,25,27,,steelblue,2
+Weighbridge Information System,24,red,10,28,,yellow,2
+Integrated Waste Information System (IWIS) v. 1,25,green,10,29,,yellow,2
+Customer Relations Management (SWM Call Centre) v. 1,26,blue,30,3,,teal,2
+Compactor Management Mobile App v. 1,27,cyan,31,2,,green,2
+TMS (Time Management System) v. 1,28,magenta,32,2,,green,2
+HR Self-service Kiosk v. 1,29,black,33,34,,olive,2
+EMC Extract Monitoring System v. 1,30,yellow,36,35,,peru,2
+Storage & Terminalling,31,orange,37,38,,black ,2
+Laboratory Information Management System,32,red,39,40,,gray,2
+GEO Information System,33,green,41,42,,crimson,2
+SAP PM v. SAP ERP 6.0 EhP8,34,blue,41,43,,crimson,2
+Workato,35,cyan,41,10,,crimson,2
+Jira Software v. 1,36,magenta,13,44,,maroon,2
+SGX Live Feed,37,black,13,45,,maroon,2
+Sembcorp Internet Website/Corporate Website v. 1.0,38,yellow,13,46,,olive,2
+Sembcorp Secure Mobile App v. 1.3,39,orange ,43,47,,teal,2
+Sembcorp Secure App - Backend Administrative Portal v. 1.0,40,green,43,48,,teal,2
+SAP Approval Mobile App System - Sembcorp Approval 3.0 v. 2.1,41,red,48,35,,olive,2
+SAP VIM v. 7.5,42,teal,10,48,,yellow,2
+SAP MM v. SAP ERP 6.0 EhP8,43,gray,42,48,,limegreen,2
+Cognos Controller v. 10.3.1,44,crimson,10,50,,yellow,2
+Faxmaker v. 16.0,45,orange,20,57,,brown,2
+C2SAPLite v. 1.0,46,blue,57,13,,maroon,2
+SAP Ariba v. 14s,47,cyan,43,59,,teal,2
+Dell Boomi,48,black,13,59,,olive,2
+Sembcorp OTUJ - Backend Administrative Portal v. 1.0,49,orange,10,59,,yellow,2
+Sembcorp OTUJ v. 1.3,50,blue,59,60,,aqua,2
+Robotic Process Automation v. 1,51,red,52,52,,red,2
+Contact Management System v. 1.0,52,teal,53,53,,red,2
+Contact Management System v. 1.1,53,magenta,54,54,,red,2
+Incident Management System,54,red,55,55,,red,2
+IT Services Management System 1.0,55,black,56,56,,red,2
+Global HSE Information System v. 1.0,56,crimson,58,58,,red,2
+Customer Utility Billing & Experience Management v. 1.0,57,orange,61,63,,green,2
+Board Papers Apps v. 1.0,58,teal,61,62,,green,2
+KOLA v. 1.0,59,red,2,7,,crimson,2
+Tableau Reporting Dashboard v. 10.3.2,60,yellow,8,5,,aqua,2
+Career Centre Admin v. 1.0,61,red,6,5,,aqua,2
+Career Centre Internal v. 1.0,62,green,20,15,,brown,2
+Career Centre Public v. 1.0,63,blue,30,15,,teal,2
+"Nomination, Allocation Billing System v. 1",64,crimson,64,15,,magenta,2
+Solar System v. 1,65,brown,65,15,,orange,2
+Investment Risk Exposure v. 1.0,66,orange,63,38,,brown,2
+Sustainability Data Management System v. 8.4,67,brown,66,66,,olive,2
+Company Profile and Shareholding Database System v. 1.0,68,red,67,67,,brown,2
+Scholarship.net v. 1.0,69,blue,68,68,,red,2
+Annual Declaration Form v. 1.0,70,green,69,69,,blue,2
+Non-Audit Services Report Consolidation v. 1.0,71,red,9,70,,green,2
+Sembcorp Portal v. SharePoint 2013,72,limegreen,71,71,,red,2
+"CAPEX Purchase, Fixed Asset Disposal, CAPEX Replacement eform v. 1.0",73,gray,73,72,,teal,2
+Fixed Asset Transfer eform v. 1.0,74,olive,74,72,,teal,2
+Project Portal (Intranet) v. SharePoint 2013,75,brown,75,75,,red,2
+Department Portal (Intranet) v. SharePoint 2013,76,yellow,76,76,,blue,2
+Project Portal (Online) v. SharePoint Online,77,orange,77,77,,green,2
+Department Portal (Online) v. SharePoint Online,78,aqua,78,35,,aqua,2
+Sembcorp Media Gallery v. SharePoint 2013,79,green,79,79,,teal,2
+SAP Business Warehouse  Business Planning and Consolidation v. BPC 810 SP7,80,orange,43,13,,olive,2
+Bank (External),81,brown,80,13,,brown,2
+PCard v. 1.0,82,red,1,13,,red,2
+Property Management System (Mysoft) v. 3.0.7,83,blue,81,13,,blue,2
+MIS 2.0  v. 2.0,84,green,82,13,,green,2
+MIS 3.0  (Pufeite) v. 3.0,85,red,42,13,,red,2
+Timesheets v. 1.0,86,limegreen,10,13,,teal,2
+Payment Request eform v. 1.0,87,gray,17,13,,teal,2
+SAP GSP v. 1.0,88,green,83,13,,red,2
+Electronic Document Management System v. 1.0,89,brown,84,13,,blue,2
+Gift and Entertainment Management v. 1.0,90,red,85,13,,green,2
+Event Attendance (Power Apps) v. 1.0,91,brown,86,13,,aqua,2
+Microsoft Stream (Internet-Online) v. Microsoft Stream,92,teal,73,13,,teal,2
+Slack v. Enterprise Grid,93,red,74,13,,red,2
+Time Off eform v. 1.0,94,gray,87,13,,blue,2
+Employee Share Plans System v. 1.0,95,yellow,34,13,,green,2
+Performance Share Plans System v. 1.0,96,red,88,13,,aqua,2
+Restricted  Share Plans System v. 1.0,97,brown,89,89,,blue,2
+Enterprise Risk and Control Management System v. 5.X,98,aqua,90,90,,olive,2
+Workforce Management System v. 1.0,99,green,9,91,,crimson,2
+AMS Machinery v. 5.7,100,red,92,92,,orange,2
+Salesforce v. 1,101,orange,93,35,,aqua,2
+Salesforce-TIRS  Intergration Webservices v. 1.0,102,aqua,94,94,,red,2
+Visitor Management System v. 1,103,red,42,43,,teal,2
+KABA v. 1.0,104,yellow,43,80,,red,2
+Virtual Brain Water v. 2.0,105,red,43,88,,blue,2
+DataBricks,106,limegreen,43,12,,green,2
+Data Warehouse,107,red,43,34,,aqua,2
+Website Content Management System v. 1.0,108,blue,95,95,,yellow,2
+,,,96,96,,green,2
+,,,97,97,,brown,2
+,,,98,98,,aqua,2
+,,,34,99,,crimson,2
+,,,30,17,,blue,2
+,,,64,17,,olive,2
+,,,65,17,,crimson,2
+,,,100,100,,red,2
+,,,99,34,,green,2
+,,,34,80,,teal,2
+,,,101,102,,orange,2
+,,,102,0,,crimson,2
+,,,30,0,,orange,2
+,,,30,20,,red,2
+,,,30,21,,blue,2
+,,,103,103,,brown,2
+,,,80,10,,blue,2
+,,,28,10,,olive,2
+,,,10,41,,crimson,2
+,,,10,80,,red,2
+,,,10,104,,green,2
+,,,105,14,,teal,2
+,,,105,106,,red,2
+,,,106,105,,blue,2
+,,,107,105,,green,2
+,,,13,42,,aqua,2
+,,,42,41,,olive,2
+,,,13,23,,blue,2
+,,,25,23,,green,2
+,,,2,31,,red,2
+,,,108,108,,blue,2
+,,,47,43,,red,2
+,,,43,41,,blue,2
+,,,13,57,,green,2
+,,,16,15,,aqua,2
