@@ -26,6 +26,8 @@
           var link_target = unpack(rows, "link_target");
           // console.log(link_target);
           var link_value = unpack(rows, "value");
+
+          var link_color = unpack(rows, "link_color");
           // console.log(link_value);
           // var link_label = unpack(rows, "link_label");
           // console.log(link_label);
@@ -38,7 +40,7 @@
               pad: 15,
               thickness: 15,
               line: {
-                color: "black",
+                color: link_color,
                 width: 0.5
               },
               label: node_label,
