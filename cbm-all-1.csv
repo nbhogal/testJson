@@ -185,7 +185,7 @@ de-cs-di-iam,Identity Access Management (IAM),de-cs-di,teal,de-cs-ci-fw-fa,Forti
 de-cs-di-dpdp,Data Protection and Data Privacy,de-cs-di,teal,de-cs-ci-mm-sep,Symantec Endpoint Protection,de-cs-ci-mm,indigo,,,,,,,,,,Data Protection and Data Privacy
 de-cs-di-pki,Public Key Infrastructure (PKI) Services,de-cs-di,teal,de-cs-di-pki-atf,Axway Trusted File,de-cs-di-pki,indigo,,,,,,,,,,Public Key Infrastructure (PKI) Services
 de-cs-di-cs,Cryptography Services,de-cs-di,teal,de-cs-ci-soc-aa,Arcsight Appliance,de-cs-ci-soc,indigo,,,,,,,,,,Cryptography Services
-de-int,Integration,de,seagreen,de-cs-ci-vm,Tenable,de-cs-ci-vm,indigo,,,,,,,,,,Integration
+de-int,Integration,de,seagreen,de-cs-ci-vm-ten,Tenable,de-cs-ci-vm,indigo,,,,,,,,,,Integration
 de-int-int,Interfaces,de-int,olivedrab,de-en-cn-ndm-aw,Airwave,de-en-cn-ndm,indigo,,,,,,,,,,Interfaces
 de-int-int-api,API Gateway & Management,de-int-int,teal,de-en-cn-rnc-cw,Catalyst Switch,de-en-cn-rnc,indigo,,,,,,,,,,API Gateway & Management
 de-int-int-esb,Enterprise Service Bus,de-int-int,teal,de-en-cn-rnc-ciw,Cisco Switch,de-en-cn-rnc,indigo,,,,,,,,,,Enterprise Service Bus
