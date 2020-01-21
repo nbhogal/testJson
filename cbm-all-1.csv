@@ -182,14 +182,14 @@ de-cs-di,Digital Identity,de-cs,olivedrab,de-cs-ci-fw-cfa,Checkpoint Firewall Ap
 de-cs-di-casb,Cloud Access Security Broker (CASB),de-cs-di,teal,de-cs-ci-fw-fsm,Firemon Security Manager,de-cs-ci-fw,indigo,,,,,,,,,,Cloud Access Security Broker (CASB)
 de-cs-di-ueba,User Entity Behaviour Analytics,de-cs-di,teal,de-cs-ci-fw-fm,Fortimanager,de-cs-ci-fw,indigo,,,,,,,,,,User Entity Behaviour Analytics
 de-cs-di-iam,Identity Access Management (IAM),de-cs-di,teal,de-cs-ci-fw-fa,FortiAnalyzer,de-cs-ci-fw,indigo,,,,,,,,,,Identity Access Management (IAM)
-de-cs-di-dpdp,Data Protection and Data Privacy,de-cs-di,teal,,,,,,,,,,,,,,Data Protection and Data Privacy
-de-cs-di-pki,Public Key Infrastructure (PKI) Services,de-cs-di,teal,,,,,,,,,,,,,,Public Key Infrastructure (PKI) Services
-de-cs-di-cs,Cryptography Services,de-cs-di,teal,,,,,,,,,,,,,,Cryptography Services
-de-int,Integration,de,seagreen,,,,,,,,,,,,,,Integration
-de-int-int,Interfaces,de-int,olivedrab,,,,,,,,,,,,,,Interfaces
-de-int-int-api,API Gateway & Management,de-int-int,teal,,,,,,,,,,,,,,API Gateway & Management
-de-int-int-esb,Enterprise Service Bus,de-int-int,teal,,,,,,,,,,,,,,Enterprise Service Bus
-de-int-int-batch,Batch / ETL Processing,de-int-int,teal,,,,,,,,,,,,,,Batch / ETL Processing
+de-cs-di-dpdp,Data Protection and Data Privacy,de-cs-di,teal,de-cs-ci-mm-sep,Symantec Endpoint Protection,de-cs-ci-mm,indigo,,,,,,,,,,Data Protection and Data Privacy
+de-cs-di-pki,Public Key Infrastructure (PKI) Services,de-cs-di,teal,de-cs-di-pki-atf,Axway Trusted File,de-cs-di-pki,indigo,,,,,,,,,,Public Key Infrastructure (PKI) Services
+de-cs-di-cs,Cryptography Services,de-cs-di,teal,de-cs-ci-soc-aa,Arcsight Appliance,de-cs-ci-soc,indigo,,,,,,,,,,Cryptography Services
+de-int,Integration,de,seagreen,de-cs-ci-vm,Tenable,de-cs-ci-vm,indigo,,,,,,,,,,Integration
+de-int-int,Interfaces,de-int,olivedrab,de-en-cn-ndm-aw,Airwave,de-en-cn-ndm,indigo,,,,,,,,,,Interfaces
+de-int-int-api,API Gateway & Management,de-int-int,teal,de-en-cn-rnc-cw,Catalyst Switch,de-en-cn-rnc,indigo,,,,,,,,,,API Gateway & Management
+de-int-int-esb,Enterprise Service Bus,de-int-int,teal,de-en-cn-rnc-ciw,Cisco Switch,de-en-cn-rnc,indigo,,,,,,,,,,Enterprise Service Bus
+de-int-int-batch,Batch / ETL Processing,de-int-int,teal,de-en-cn-rnc-nw,Nexus Switch,de-en-cn-rnc,indigo,,,,,,,,,,Batch / ETL Processing
 de-int-int-edi,Electronic Data Interchange (EDI),de-int-int,teal,,,,,,,,,,,,,,Electronic Data Interchange (EDI)
 de-int-int-sftp,SFTP,de-int-int,teal,,,,,,,,,,,,,,SFTP
 de-int-int-mi,Market Interfaces,de-int-int,teal,,,,,,,,,,,,,,Market Interfaces
