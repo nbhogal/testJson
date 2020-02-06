@@ -8,7 +8,7 @@ Salesforce v. 1,,,,,,,
 Sembcorp Internet Website/Corporate Website v. 1.0,,,,,,,
 Contact Management System v. 1.1,,,,,,,
 Customer Utility Billing & Experience Management v. 1.0,,,,,,billing,
-Customer Management System v. 7.5,".NET Framework v. 3.5, Crystal Reports v. 6.0, Microsoft Server v. 2008 R2, Revenue Manager v. 7.5, Usage Conversion System v. 1.0",Singapore,"7/12/2011,  05 Mar 2002, 14 Jan 2020, 29 Dec 2017, 31 Dec 2017",,Kuan Choon Cheit ,billing,"Most of the programs and the web application are dependent on the Revenue Manager application and its API which are running in the .NET 3.5 Framework. 
+Customer Management System v. 7.5,".NET Framework v. 3.5, Crystal Reports v. 6.0, Microsoft Server v. 2008 R2, Revenue Manager v. 7.5, Usage Conversion System v. 1.0",Singapore,"7/12/2011,  05/03/2002, 14/01/2020, 29/12/2017, 31/12/2017",,Kuan Choon Cheit ,billing,"Most of the programs and the web application are dependent on the Revenue Manager application and its API which are running in the .NET 3.5 Framework. 
  
 Modernization of these applications are currently in-progress, pending recommendations by an external system architect, and a subsequent server upgrade. "
 NTUC,,,,,,,
