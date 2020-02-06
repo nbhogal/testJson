@@ -25,9 +25,8 @@ MIS 3.0  (Pufeite) v. 3.0,"Microsoft Server v. 2008 R2, Oracle Database v. 10.2.
 Solar Data DB,,,,,,,
 RISK v. 7.6.0,,,,,,,
 Salesforce-TIRS  Intergration Webservices v. 1.0,".NET Framework v. 3.5, Microsoft Server v. 2008 R2",Singapore,"7/12/2011,  14 Jan 2020",,Kuan Choon Cheit ,,
-Trade Information Reporting Systems v. 1,Microsoft Server v. 2008 R2,Singapore,14-Jan-20,,Kuan Choon Cheit ,,
+Trade Information Reporting Systems v. 1,".NET Framework v. 3.5, DotNetNuke v. 7.0, Internet Information Services v. 6.0, Microsoft Server v. 2008 R2 ",Singapore," 12 Jul 2011, 27 Nov 2015,  14 Jul 2015, 14 Jan 2020",Dec-19,Kuan Choon Cheit ,,TIRS server will be upgraded to Windows 2016
 EMC Extract Monitoring System v. 1,".NET Framework v. 3.5, Internet Information Services v. 6.0 ",Singapore,"7/12/2011, 14 Jul 2015",Dec-19,Kuan Choon Cheit ,,EMC server will be upgraded to Windows 2016
-Trade Information Reporting Systems v. 1,,Singapore,,,,,
 Electronic Business Transaction v. 1,,Singapore,,,,,
 Settlement v. 1,".NET Framework v. 3.5, Internet Information Services v. 6.0 ",Singapore,"7/12/2011,  14 Jan 2020",31-Dec-19,Kuan Choon Cheit ,,Settlement server will be upgraded to Windows 2016.  Settlement Application is no longer in used. Only the report scripts are still in used.
 CSLUCAS v. 1,"IBM HTTP Server v. 8.0, IBM WebSphere Application Server v. 8.0, Java Runtime Environment v. 1.6 ",Singapore,"4/30/2018, 30 Apr 2018, 01 Sep 2017",,Kuan Choon Cheit ,,CSLUCAS will be replaced by TMS
@@ -35,7 +34,7 @@ Non-Audit Services Report Consolidation v. 1.0,,,,,,,
 Integrated Waste Information System (IWIS) v. 1,,,,,,,
 SAP PM v. SAP ERP 6.0 EhP8,,Corporate,,,,,
 Turbine Data Downloader v. 2.0.0,,Singapore,,,,,
-Process History Data v. 1.0,,Singapore,,,,,
+Process History Data v. 1.0,".NET Framework v. 2.0, .NET Framework v. 3.5, Internet Information Services v. 7.0, Uniformance Process History Database (PHD) v. 320, Uniformance Process Studio v. 310.1, Uniformance Process Studio v. 310.2",Singapore," 12 Jul 2011,  12 Jul 2011, 14 Jan 2020, 31 Dec 2018, 31 Dec 2018,  01 Jan 2018",Apr-20,Kuan Choon Cheit ,,Server upgrade in progress
 Water Plant Management System v. 1.0,Windows 7 v. Professional,China,14-Jan-20,Jul-20,Dong George,,Planned to replace WPMS with a new historian system which will not contain any expired/expiring component in 2020.
 Banyan CCP3 - DCS v. 1.0,,,,,,,
 Bayan WWTP - DCS v. NA,,,,,,,
@@ -61,11 +60,11 @@ LGAMS v. 10.4.5.1,,,,,,,
 Virtual Brain Water v. 2.0,,Corporate,,,,,
 Enterprise Architecture Tool v. 1.0,,,,,,,
 SAP Ariba v. 14s,,Singapore,,,,,
-C2SAPLite v. 1.0,Microsoft Server v. 2008 R2,Corporate,14-Jan-20,,Wong Mel Na,finance,
+C2SAPLite v. 1.0,"CuteFTP v. 8.3, Microsoft Server v. 2008 R2",Corporate,"5/27/2013, 14 Jan 2020",,Wong Mel Na,finance,Upgrade completed
 "CAPEX Purchase, Fixed Asset Disposal, CAPEX Replacement eform v. 1.0",,,,,,finance,
 Cognos Controller v. 10.3.1,,,,,,finance,
 Exception Form v. 1.0,,,,,,finance,
-Faxmaker v. 16.0,FaxMaker,Corporate,,,Wong Mel Na,finance,
+Faxmaker v. 16.0,FaxMaker v.16.0,Corporate,1-Oct-14,,Wong Mel Na,finance,Upgrade completed
 Fixed Asset Transfer eform v. 1.0,,,,,,finance,
 Investment Risk Exposure v. 1.0,,,,,,finance,
 Mobile Bills v. 1.0,.NET Framework v. 2.0,uk,12-Jul-11,,Siatrak Mateusz,finance,
@@ -73,15 +72,15 @@ Non-Audit Services Report Consolidation v. 1.0,,,,,,finance,
 Payment Request eform v. 1.0,,,,,,finance,
 SAP Business Warehouse  Business Planning and Consolidation v. BPC 810 SP7,Microsoft Server v. 2008 R2,Singapore,14-Jan-20,,Partha Dutta,finance,Migrating to cloud hosting
 SAP FICO v. SAP ERP 6.0 EhP8,,,,,,finance,
-SAP VIM v. 7.5,OpenText Imaging Web Viewer v. 10.5,Corporate,31-Mar-19,,Wong Mel Na,finance,
+SAP VIM v. 7.5,OpenText Imaging Web Viewer v. 10.5,Corporate,31-Mar-19,Q3 2020,Wong Mel Na,finance,Upgrade project to kick-off in Feb 2020.
 Career Centre Admin v. 1.0,,,,,,,
 Career Centre Internal v. 1.0,,,,,,,
 Career Centre Public v. 1.0,,,,,,,
 Employee Common Database v. 1.0,,,,,,,
-Employee Share Plans System v. 1.0,.NET Framework v. 2.0 (12 Jul 2011,Corporate,12-Jul-11,,Prasanth Thomas,,
+Employee Share Plans System v. 1.0,.NET Framework v. 2.0,Corporate,12-Jul-11,,Prasanth Thomas,,It will be retired once the new provider/software is selected 
 HR Self-service Kiosk v. 1,,,,,,,
 KABA v. 1.0,,,,,,,
-Performance Share Plans System v. 1.0,.NET Framework v. 2.0 (12 Jul 2011,Corporate,12-Jul-11,,Prasanth Thomas,,
+Performance Share Plans System v. 1.0,.NET Framework v. 2.0,Corporate,12-Jul-11,,Prasanth Thomas,,It will be retired once the new provider/software is selected 
 Resource Tracking System v. 1.0,,,,,,,
 Restricted  Share Plans System v. 1.0,,,,,,,
 SAP HCM v. SAP ERP 6.0 EhP8,,,,,,,
@@ -98,7 +97,7 @@ Annual Declaration Form v. 1.0,,,,,,,
 Company Profile and Shareholding Database System v. 1.0,,,,,,,
 Gift and Entertainment Management v. 1.0,,,,,,,
 KOLA v. 1.0,,,,,,,
-Tableau Reporting Dashboard v. 10.3.2,Server (Tableau Server) v. 10.3,corporate,30-Nov-19,,Prasanth Thomas,,
+Tableau Reporting Dashboard v. 10.3.2,"Desktop (Tableau Desktop) v. 10.3, Server (Tableau Server) v. 10.3",Corporate,"11/30/2019, 30 Nov 2019",,Prasanth Thomas,,
 Sustainability Data Management System v. 8.4,,,,,,,
 Enterprise Risk and Control Management System v. 5.X,,,,,,,
 Global HSE Information System v. 1.0,,,,,,,
@@ -212,3 +211,11 @@ Cogenweb,".NET Framework v. 2.0, Internet Information Services v. 7.0 ",Singapor
 Gasboy Head Office,Java Runtime Environment v. 10.0  ,Singapore,1-Sep-18,Nov-19,Kuan Choon Cheit,,To upgrade to latest java version during production server patching
 Customer Management System Web,".NET Framework v. 2.0, .NET Framework v. 3.5, Internet Information Services v. 7.5, Microsoft Enterprise Library v. 2.0, Microsoft Server v. 2008 R2  Usage Conversion System v. 1.0 ",Singapore," 12 Jul 2011, 12 Jul 2011, 14 Jan 2020,  12 Apr 2016, 14 Jan 2020, 31 Dec 2017",,Kuan Choon Cheit,,"Modernization of these applications are currently in-progress, pending recommendations by an external system architect, and a subsequent server upgrade. "
 Sonic MQ Broker,SonicMQ v. 2015,Singapore,30-Oct-19,,Kuan Choon Cheit,,Need to check the impact to upgrade
+Network Monitoring System,Microsoft Server v. 2008 R2,Corporate,14-Jan-20,Q1 2020,Nigel Watson,,To be replaced early 2020 once SolarWinds is implemented
+Email and Calendaring Platform ,Microsoft Server v. 2008 R2,Corporate,14-Jan-20,Q2 2020,Nigel Watson,,"Decommissioning of the legacy Exchange environment to be completed first, planned for end Q2 2020 
+"
+SGI Legacy SAP System,SAP NetWeaver (ABAP) v. 7.01,India,31-Dec-17,,Jitesh Patel,,"This is SGI legacy SAP system migrated from SGI ex vendor, and is owned by India Team.  SGP ITSM Infrastructure Support only supports for OS patching and server availability. OS + DB can last until 2022. "
+Lidar Data Downloader,".NET Framework v. 2.0, Windows XP v. 5.0",,"7/12/2011, 24 Apr 2014",,Jitesh Patel,,
+Warehouse Management System,Microsoft Visual Studio 2017 v. 15.0 ,Singapore,14-Jan-20,,Prasanth Thomas,,
+Tripwire Enterprise,Tomcat v. 8.0,Corporate,30-Jun-18,,Raymond Lee,,Tripwire is a bundled software. We can’t just upgrade Tomcat. Enquired vendor (support) informed that it is still supported. However they need to escalate to principle vendor – Tripwire for further clarification. Pending reply. 
+SAP Solution Manager,SAP NetWeaver (ABAP + JAVA) v. 7.02,Corporate,31-Dec-17,,Wong Mel Na,,"OS + DB can last until 2022. We don’t use major functionality of Solution Manager such as ITSM, no impact for no functionality patches after major support. New version will be using HANA and it is budgeted together with S4HANA."
