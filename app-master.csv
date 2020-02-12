@@ -1,7 +1,7 @@
 app_name,technology,country,end_date,resolution_date,it_owner,func_area,action_plan
 Sembcorp Internet Website/Corporate Website v. 1.0,,Corporate,,,,,
-Website Content Management System v. 1.0,,Singapore,,,,,
-Customer Relations Management (SWM Call Centre) v. 1,,Singapore,,,,,
+Website Content Management System v. 1.0,"Umbarco v. 7.2, .NET Frameworkv. 4.5, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,,,
+Customer Relations Management (SWM Call Centre) v. 1,".NET Framework v. 4.6, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Singapore,,,,,
 Creams v. 3.19.09.26,,China,,,,,
 Property Management System (Mysoft) v. 3.0.7,,,,,,,
 Salesforce v. 1,,,,,,,
@@ -12,9 +12,9 @@ Customer Management System v. 7.5,".NET Framework v. 3.5, Crystal Reports v. 6.0
  
 Modernization of these applications are currently in-progress, pending recommendations by an external system architect, and a subsequent server upgrade. "
 NTUC,,,,,,,
-IBMS (Integrated Billing Management System) v. 1,,,,,,billing,
+IBMS (Integrated Billing Management System) v. 1,".NET Framework v. 4.6, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Singapore,,,,billing,
 MIS 2.0  v. 2.0,Microsoft Server v. 2008 R2,China,14/1/2020,Q1 2020,Dong George,billing, FZ has a plan to upgrade SQL server to 2014 while replacement of MIS 2.0 server in 2020 Q1  
-MIS 3.0  (Pufeite) v. 3.0,"Microsoft Server v. 2008 R2, Oracle Database v. 10.2.0.1",China,"14/1/2020, 22/2/2009",Sep-20,Dong George,billing," SSW has made a budget to replace it billing system (Pufeite) in 2020.  Oracle 10.2.0.1 and Windows Server will retire once the new system go live. 
+MIS 3.0  (Pufeite) v. 3.0,"Microsoft Server v. 2008 R2, Oracle Database v. 10.2.0.1",China,"14/1/2020, 22/2/2009",20-Sep,Dong George,billing," SSW has made a budget to replace it billing system (Pufeite) in 2020.  Oracle 10.2.0.1 and Windows Server will retire once the new system go live. 
   SSW has made a budget to replace it billing system (Pufeite) in 2020.  Oracle 10.2.0.1 and Windows Server will retire once the new system go live. 
   SSW has made a budget to replace it billing system (Pufeite) in 2020.  Oracle 10.2.0.1 and Windows Server will retire once the new system go live. 
   SSW has made a budget to replace it billing system (Pufeite) in 2020.  Oracle 10.2.0.1 and Windows Server will retire once the new system go live. 
@@ -25,17 +25,17 @@ MIS 3.0  (Pufeite) v. 3.0,"Microsoft Server v. 2008 R2, Oracle Database v. 10.2.
 Solar Data DB,,,,,,,
 RISK v. 7.6.0,,,,,,,
 Salesforce-TIRS  Intergration Webservices v. 1.0,".NET Framework v. 3.5, Microsoft Server v. 2008 R2",Singapore,"7/12/2011,14/1/2020",,Kuan Choon Cheit ,,
-Trade Information Reporting Systems v. 1,".NET Framework v. 3.5, DotNetNuke v. 7.0, Internet Information Services v. 6.0, Microsoft Server v. 2008 R2 ",Singapore," 12/7/2011, 27/11/2015, 14/7/2015, 14/1/2020",Dec-19,Kuan Choon Cheit ,,TIRS server will be upgraded to Windows 2016
-EMC Extract Monitoring System v. 1,".NET Framework v. 3.5, Internet Information Services v. 6.0 ",Singapore,"7/12/2011, 14/7/2015",Dec-19,Kuan Choon Cheit ,,EMC server will be upgraded to Windows 2016
+Trade Information Reporting Systems v. 1,".NET Framework v. 3.5, DotNetNuke v. 7.0, Internet Information Services v. 6.0, Microsoft Server v. 2008 R2 ",Singapore," 12/7/2011, 27/11/2015, 14/7/2015, 14/1/2020",19-Dec,Kuan Choon Cheit ,,TIRS server will be upgraded to Windows 2016
+EMC Extract Monitoring System v. 1,".NET Framework v. 3.5, Internet Information Services v. 6.0 ",Singapore,"7/12/2011, 14/7/2015",19-Dec,Kuan Choon Cheit ,,EMC server will be upgraded to Windows 2016
 Electronic Business Transaction v. 1,,Singapore,,,,,
 Settlement v. 1,".NET Framework v. 3.5, Internet Information Services v. 6.0 ",Singapore,"7/12/2011,  14/1/2020",31-Dec-19,Kuan Choon Cheit ,,Settlement server will be upgraded to Windows 2016.  Settlement Application is no longer in used. Only the report scripts are still in used.
 CSLUCAS v. 1,"IBM HTTP Server v. 8.0, IBM WebSphere Application Server v. 8.0, Java Runtime Environment v. 1.6 ",Singapore,"30/4//2018, 30/4/2018, 01/9/2017",,Kuan Choon Cheit ,,CSLUCAS will be replaced by TMS
 Non-Audit Services Report Consolidation v. 1.0,,,,,,,
-Integrated Waste Information System (IWIS) v. 1,,,,,,,
+Integrated Waste Information System (IWIS) v. 1,".NET Framework v. 4.6, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012, Microsoft SQL Server Reporting Services v. 2012",Singapore,,,,,
 SAP PM v. SAP ERP 6.0 EhP8,,Corporate,,,,,
 Turbine Data Downloader v. 2.0.0,,Singapore,,,,,
-Process History Data v. 1.0,".NET Framework v. 2.0, .NET Framework v. 3.5, Internet Information Services v. 7.0, Uniformance Process History Database (PHD) v. 320, Uniformance Process Studio v. 310.1, Uniformance Process Studio v. 310.2",Singapore," 12/7/2011,  12/7/2011, 14/1/2020, 31/12/2018, 31/12/2018,  01/01/2018",Apr-20,Kuan Choon Cheit ,,Server upgrade in progress
-Water Plant Management System v. 1.0,Windows 7 v. Professional,China,14/1//2020,Jul-20,Dong George,,Planned to replace WPMS with a new historian system which will not contain any expired/expiring component in 2020.
+Process History Data v. 1.0,".NET Framework v. 2.0, .NET Framework v. 3.5, Internet Information Services v. 7.0, Uniformance Process History Database (PHD) v. 320, Uniformance Process Studio v. 310.1, Uniformance Process Studio v. 310.2",Singapore," 12/7/2011,  12/7/2011, 14/1/2020, 31/12/2018, 31/12/2018,  01/01/2018",20-Apr,Kuan Choon Cheit ,,Server upgrade in progress
+Water Plant Management System v. 1.0,Windows 7 v. Professional,China,14/1//2020,20-Jul,Dong George,,Planned to replace WPMS with a new historian system which will not contain any expired/expiring component in 2020.
 Banyan CCP3 - DCS v. 1.0,,,,,,,
 Bayan WWTP - DCS v. NA,,,,,,,
 EFW - DCS v. NA,,,,,,,
@@ -50,7 +50,7 @@ Sakra SVC - DCS v. NA,,Singapore,,,,,
 Seraya Incineration - DCS v. 6,,Singapore,,,,,
 Woodchip boiler - DCS v. NA,,Singapore,,,,,
 ZJG - DCS v. 5.3+sp3,,,,,,,
-Compactor Management Mobile App v. 1,ASP.NET Core v. 1.0 ,Singapore,27/6/2019,,Kuan Coon Cheit,,To recompile with latest Xamarin version
+Compactor Management Mobile App v. 1,"ASP.NET Core v. 1.0, .NET Framework v. 4.5, Windows 8, Xamarin.Android v. 1.0, Xamarin.iOS v. 1.0",Singapore,27/6/2019,,Kuan Coon Cheit,,To recompile with latest Xamarin version
 NPR v. 1.0,,,,,,,
 Workforce Management System v. 1.0,,,,,,,
 Visitor Management System v. 1,Microsoft Server v. 2008 R2,Singapore,14/1/2020,,Kuan Coon Cheit,,Decommission server once Security have moved to new visitor management system.  JI Security is in process of implementing a new system to start in SUT/Cogen at Sakra Ave. They will progressively replace the system. 
@@ -60,11 +60,11 @@ LGAMS v. 10.4.5.1,,,,,,,
 Virtual Brain Water v. 2.0,,Corporate,,,,,
 Enterprise Architecture Tool v. 1.0,,,,,,,
 SAP Ariba v. 14s,,Singapore,,,,,
-C2SAPLite v. 1.0,"CuteFTP v. 8.3, Microsoft Server v. 2008 R2",Corporate,"5/27/2013, 14/1/2020",,Wong Mel Na,finance,Upgrade completed
+C2SAPLite v. 1.0,"CuteFTP v. 8.3, Microsoft Server v. 2008 R2, Axway Trusted File v. 3.6.0",Corporate,"5/27/2013, 14/1/2020",,Wong Mel Na,finance,Upgrade completed
 "CAPEX Purchase, Fixed Asset Disposal, CAPEX Replacement eform v. 1.0",,,,,,finance,
-Cognos Controller v. 10.3.1,,,,,,finance,
+Cognos Controller v. 10.3.1,"IBM Cognos Configuration v. 11.0, IBM Cognos Controller Configuration, Microsoft Server v. 2016, Microsoft SQL Server v. 2017",Corporate,,,,finance,
 Exception Form v. 1.0,,,,,,finance,
-Faxmaker v. 16.0,FaxMaker v.16.0,Corporate,1/10/2014,,Wong Mel Na,finance,Upgrade completed
+Faxmaker v. 16.0,"FaxMaker v.16.0, Fluid Monitor v. 2.1, Microsoft Server v. 2016",Corporate,1/10/2014,,Wong Mel Na,finance,Upgrade completed
 Fixed Asset Transfer eform v. 1.0,,,,,,finance,
 Investment Risk Exposure v. 1.0,,,,,,finance,
 Mobile Bills v. 1.0,.NET Framework v. 2.0,uk,12/7/2011,,Siatrak Mateusz,finance,
@@ -78,14 +78,14 @@ Career Centre Internal v. 1.0,,,,,,,
 Career Centre Public v. 1.0,,,,,,,
 Employee Common Database v. 1.0,,,,,,,
 Employee Share Plans System v. 1.0,.NET Framework v. 2.0,Corporate,12/7/2011,,Prasanth Thomas,,It will be retired once the new provider/software is selected 
-HR Self-service Kiosk v. 1,,,,,,,
+HR Self-service Kiosk v. 1,".NET Framework v. 4.6, WCF Data Services 5.6.0 Runtime v.5.6.0",Corporate,,,,,
 KABA v. 1.0,,,,,,,
 Performance Share Plans System v. 1.0,.NET Framework v. 2.0,Corporate,12/7/2011,,Prasanth Thomas,,It will be retired once the new provider/software is selected 
 Resource Tracking System v. 1.0,,,,,,,
 Restricted  Share Plans System v. 1.0,,,,,,,
 SAP HCM v. SAP ERP 6.0 EhP8,,,,,,,
 Scholarship.net v. 1.0,,,,,,,
-TMS (Time Management System) v. 1,,,,,,,
+TMS (Time Management System) v. 1,".NET Framework v 4.6, Internet Information Services v. 8.0, Microsoft SQL Server Reporting Services v. 2012, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,,,
 Sembcorp OTUJ - Backend Administrative Portal v. 1.0,,,,,,,
 Sembcorp OTUJ v. 1.3,,,,,,,
 Time Off eform v. 1.0,,,,,,,
@@ -104,7 +104,6 @@ Global HSE Information System v. 1.0,,,,,,,
 Sembcorp Secure App - Backend Administrative Portal v. 1.0,,,,,,,
 Sembcorp Secure Mobile App v. 1.3,,,,,,,
 SAP ARIBA Strategic sourcing v. 1.0,,,,,,,
-SAP Ariba v. 14s,,,,,,,
 PCard v. 1.0,,,,,,,
 SAP MM v. SAP ERP 6.0 EhP8,,,,,,,
 Jira Software v. 1,,,,,,,
@@ -129,7 +128,7 @@ SAP Approval Mobile App System - Sembcorp Approval 3.0 v. 2.1,,,,,,,
 "CAPEX Purchase, Fixed Asset Disposal, CAPEX Replacement eform v. 1.0",,,,,,,
 Event Attendance (Power Apps) v. 1.0,,,,,,,
 Robotic Process Automation v. 1,,,,,,,
-Dell Boomi,,,,,,,
+Dell Boomi,"Dell Boomi API Gateway v. 1.0, Microsoft Server v. 2016 Datacenter",Corporate,,,,,
 Workato,,,,,,,
 Wonderware Historian,,,,,,,
 UMIS 1.0,,,,,,,
@@ -139,14 +138,12 @@ Citibank File Uploader (External),,,,,,,
 Giro,,,,,,,
 External - AXS 1.0,,,,,,,
 VBR,,,,,,,
-Weighbridge Information System,"Internet Information Services v. 7.5 ,Microsoft Server v. 2008 R2  ",Singapore,"14/1/2020, 14/1/2020",Dec-19,Kuan Choon Cheit ,,Server upgrade (AZSGP-SCUAPP1P) in progress
-Storage & Terminalling,".NET Framework v 2.0 Internet Information Services v. 7.5 ,Microsoft Server v. 2008 R2, ",Singapore,"12/7/2011, 14/1/2020, 14/1/2020",Dec-19,Kuan Choon Cheit ,,Server upgrade (AZSGP-SCUAPP1P) in progress
-Laboratory Information Management System,".NET Framework v. 3.5, Oracle Database v. 11.2.0.3 ",Singapore,"12/7/2011, 27/8/2015",,Kuan Choon Cheit ,,Will be decommissioned and moved to the Virtual Brain project
-GEO Information System,".NET Framework v. 4.0, Python v. 2.7 ",Singapore,"1/12/2016, 01/1/2020",,Kuan Choon Cheit ,,Phase 4 in 2020
-SGX Live Feed,,,,,,,
+Weighbridge Information System,"Internet Information Services v. 7.5 ,Microsoft Server v. 2008 R2  ",Singapore,"14/1/2020, 14/1/2020",19-Dec,Kuan Choon Cheit ,,Server upgrade (AZSGP-SCUAPP1P) in progress
+Storage & Terminalling,".NET Framework v 2.0 Internet Information Services v. 7.5 ,Microsoft Server v. 2008 R2, Microsoft SQL Server v. 2008 R2",Singapore,"12/7/2011, 14/1/2020, 14/1/2020",19-Dec,Kuan Choon Cheit ,,Server upgrade (AZSGP-SCUAPP1P) in progress
+Laboratory Information Management System,".NET Framework v. 3.5, Oracle Database v. 11.2.0.3, Business Flex v. 242, Microsoft Server v. 2012 R2",Singapore,"12/7/2011, 27/8/2015",,Kuan Choon Cheit ,,Will be decommissioned and moved to the Virtual Brain project
+GEO Information System,".NET Framework v. 4.0, Python v. 2.7, ArcGIS Enterprise v. 10.4, Internet Information Services v. 8.5, Microsoft Server v. 2012 R2, Micorsoft SQL Server v. 2016",Singapore,"1/12/2016, 01/1/2020",,Kuan Choon Cheit ,,Phase 4 in 2020
 Incident Management System,,,,,,,
 IT Services Management System 1.0,,,,,,,
-Bank (External),,,,,,,
 DataBricks,,,,,,,
 Data Warehouse,,,,,,,
 Azure AD,,,,,,,
@@ -177,10 +174,6 @@ Whistle Blowing Portal,,,,,,,
 Whistle Blowing Case Management,,,,,,,
 SAP Password Reset,,,,,,,
 Customer Management System FTP Server,,,,,,,
-EMC (External),,,,,,,
-KrisFlyer,,,,,,,
-Payment Gateway (Ext),,,,,,,
-Singpost,,,,,,,
 Power Settlement System,,,,,,,
 SUT Billing File,,,,,,,
 SP Systems Interfact,,,,,,,
@@ -207,8 +200,8 @@ Vijeo citect 2015,"Microsoft Office Home, Business 2013 v. 15.0, Windows 7 v. Pr
 WinCC OA ,".NET Framework v. 4.0, Windows 7 v. Professional",India," 12/1/2016,  14/1/2020",,,,
 Fire Works,Windows 7 v. Professional,India,14/1/2020,,,,
 Gravostyle,Windows 7 v. Professional,India,14/1/2020,,,,
-Cogenweb,".NET Framework v. 2.0, Internet Information Services v. 7.0 ",Singapore,"7/12/2011, 14/1/2020",Dec-19,Kuan Choon Cheit,,Server Upgrade (SCUPAPP1P) in progress
-Gasboy Head Office,Java Runtime Environment v. 10.0  ,Singapore,1/9/2018,Nov-19,Kuan Choon Cheit,,To upgrade to latest java version during production server patching
+Cogenweb,".NET Framework v. 2.0, Internet Information Services v. 7.0, Microsoft Server v. 2008",Singapore,"7/12/2011, 14/1/2020",19-Dec,Kuan Choon Cheit,,Server Upgrade (SCUPAPP1P) in progress
+Gasboy Head Office,"Java Runtime Environment v. 10.0, Internet Information Services v. 10.0, Microsoft Server v 2016, Microsoft SQL Server v 2016 ",Singapore,1/9/2018,19-Nov,Kuan Choon Cheit,,To upgrade to latest java version during production server patching
 Customer Management System Web,".NET Framework v. 2.0, .NET Framework v. 3.5, Internet Information Services v. 7.5, Microsoft Enterprise Library v. 2.0, Microsoft Server v. 2008 R2  Usage Conversion System v. 1.0 ",Singapore," 12/7/2011, 12/7/2011, 14/1/2020,  12/4/2016, 14/1/2020, 31/12/2017",,Kuan Choon Cheit,,"Modernization of these applications are currently in-progress, pending recommendations by an external system architect, and a subsequent server upgrade. "
 Sonic MQ Broker,SonicMQ v. 2015,Singapore,30/10/2019,,Kuan Choon Cheit,,Need to check the impact to upgrade
 Network Monitoring System,Microsoft Server v. 2008 R2,Corporate,14/1/2020,Q1 2020,Nigel Watson,,To be replaced early 2020 once SolarWinds is implemented
@@ -219,3 +212,5 @@ Lidar Data Downloader,".NET Framework v. 2.0, Windows XP v. 5.0",,"7/12/2011, 24
 Warehouse Management System,Microsoft Visual Studio 2017 v. 15.0 ,Singapore,14/1/2020,,Prasanth Thomas,,
 Tripwire Enterprise,Tomcat v. 8.0,Corporate,30/6/2018,,Raymond Lee,,Tripwire is a bundled software. We can’t just upgrade Tomcat. Enquired vendor (support) informed that it is still supported. However they need to escalate to principle vendor – Tripwire for further clarification. Pending reply. 
 SAP Solution Manager,SAP NetWeaver (ABAP + JAVA) v. 7.02,Corporate,31/12/2017,,Wong Mel Na,,"OS + DB can last until 2022. We don’t use major functionality of Solution Manager such as ITSM, no impact for no functionality patches after major support. New version will be using HANA and it is budgeted together with S4HANA."
+SAP Plant Connectivity,"SAP Plant Connectivity v. 15.0.6, Microsoft Server v. 2012 R2",Corporate,,,,,
+SAP ESS/MSS SAP NetWeaver 7.5,"SAP NetWeaver (JAVA) v. 7.5, Solution Manager v. 7.1, SAP Router v. 745, SAP Web Dispatcher v. 7.2, Microsoft Server v. 2008, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,,,
