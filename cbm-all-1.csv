@@ -205,7 +205,7 @@ de-en-dev-dm,"Digital Meters (AMR, Smart)",de-en-dev,teal,de-int-int-mi-sps,SP S
 de-en-dev-iiot,Industrial IoT Devices,de-en-dev,teal,aomo-ao-apm-ava,AMS Vibration Analyser CSI 2140,aomo-ao-apm,silver,,,,,,,,,,Industrial IoT Devices
 de-en-dev-ccommercial,Commercial IoT,de-en-dev,teal,aomo-ao-apm-fsd,F&S Data Collector,aomo-ao-apm,lightyellow,,,,,,,,,,Commercial IoT
 de-en-dev-ciot,Consumer IoT Devices,de-en-dev,teal,de-int-int-mi-fas,External - Forecasting Agencies Systems,de-int-int-mi,lightyellow,,,,,,,,,,Consumer IoT Devices
-de-en-cn,Comms Network,de-en,olivedrab,aomo-aop-zee,Zenon Energy Edition Server,aomo-aop-osem,,,,,,,,,,,Comms Network
+de-en-cn,Comms Network,de-en,olivedrab,aomo-aop-zee,Zenon Energy Edition Server,aomo-aop-osem,lightyellow,,,,,,,,,,Comms Network
 de-en-cn-wnc,Wireless Network Comms,de-en-cn,teal,,,,,,,,,,,,,,Wireless Network Comms
 de-en-cn-knc,Wired Network Comms,de-en-cn,teal,,,,,,,,,,,,,,Wired Network Comms
 de-en-cn-rnc,Routing and Switching,de-en-cn,teal,,,,,,,,,,,,,,Routing and Switching
