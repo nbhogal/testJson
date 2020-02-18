@@ -126,11 +126,11 @@ cs-psc,Procurement and Supply Chain,cs,brown,cs-psc-sm-sap,SAP Ariba v. 14s,cs-p
 cs-psc-ss,Strategic Sourcing,cs-psc,peru,cs-psc-scm-car,PCard v. 1.0,cs-psc-scm,lightyellow,,Customer Management System FTP Server,teal,99,34,,crimson,1,PCard v. 1.0,Strategic Sourcing
 cs-psc-cm,Contract Management,cs-psc,peru,cs-psc-scm-sap,SAP MM v. SAP ERP 6.0 EhP8,cs-psc-scm,lightyellow,,AMS Vibration Analyser CSI 2140,crimson,34,80,,crimson,1,"SAP MM v. SAP ERP 6.0 EhP8: MM is the Material Management module.It includes the following functions - Purchasing, Inventory Management, Invoice Verification, Physical Inventory",Contract Management
 cs-psc-sm,Supplier Management,cs-psc,peru,es-pmds-jira,Jira Software v. 1,es-pmds,lightyellow,,F&S Data Collector,crimson,101,102,,royalblue,1,Jira Software v. 1: Issue Tracking & Project Management Software,Supplier Management
-cs-psc-scm,Supply Chain Management,cs-psc,peru,es-intranet-hom,Home v. 1.0,es-intranet,lightyellow,,External - Forecasting Agencies Systems,team,102,0,,royalblue,1,Home v. 1.0,Supply Chain Management
-es,Enterprise Services,,darkslategray,es-intranet-semb,Sembcorp Portal v. SharePoint 2013,es-intranet,lightyellow,,,,30,0,,wheat,1,Sembcorp Portal v. SharePoint 2013: Sharepoint Portal for internal staffs,Enterprise Services
-es-pmds,Project Management & Delivery Systems,es,lightslategray,es-ecm-bpa,Board Papers Apps v. 1.0,es-ecm,lightyellow,,,,30,20,SQL,wheat,1,Board Papers Apps v. 1.0: A system to allow sharing of confidential commitee meeting papers,Project Management & Delivery Systems
-es-intranet,Intranet,es,lightslategray,es-ecm-dpi,Department Portal (Intranet) v. SharePoint 2013,es-ecm,lightyellow,,,,30,21,,wheat,1,Department Portal (Intranet) v. SharePoint 2013: Sharepoint portal for department,Intranet
-es-ecm,Enterprise Content Management,es,lightslategray,es-ecm-dpo,Department Portal (Online) v. SharePoint Online,es-ecm,lightyellow,,,,103,103,,crimson,1,Department Portal (Online) v. SharePoint Online: Sharepoint portal for department,Enterprise Content Management
+cs-psc-scm,Supply Chain Management,cs-psc,peru,es-intranet-hom,Home v. 1.0,es-intranet,lightyellow,,External - Forecasting Agencies Systems,teal,102,0,,royalblue,1,Home v. 1.0,Supply Chain Management
+es,Enterprise Services,,darkslategray,es-intranet-semb,Sembcorp Portal v. SharePoint 2013,es-intranet,lightyellow,,Solar Invertor PLC,crimson,30,0,,wheat,1,Sembcorp Portal v. SharePoint 2013: Sharepoint Portal for internal staffs,Enterprise Services
+es-pmds,Project Management & Delivery Systems,es,lightslategray,es-ecm-bpa,Board Papers Apps v. 1.0,es-ecm,lightyellow,,Zenon Energy Edition Server,crimson,30,20,SQL,wheat,1,Board Papers Apps v. 1.0: A system to allow sharing of confidential commitee meeting papers,Project Management & Delivery Systems
+es-intranet,Intranet,es,lightslategray,es-ecm-dpi,Department Portal (Intranet) v. SharePoint 2013,es-ecm,lightyellow,,Lidar Data Downloader,crimson,30,21,,wheat,1,Department Portal (Intranet) v. SharePoint 2013: Sharepoint portal for department,Intranet
+es-ecm,Enterprise Content Management,es,lightslategray,es-ecm-dpo,Department Portal (Online) v. SharePoint Online,es-ecm,lightyellow,,Lidar Data Aggregation,crimson,103,103,,crimson,1,Department Portal (Online) v. SharePoint Online: Sharepoint portal for department,Enterprise Content Management
 es-css,Collaboration Services (e.g. Slack),es,lightslategray,es-ecm-edm,Electronic Document Management System v. 1.0,es-ecm,lightyellow,,,,80,10,,peru,1,Electronic Document Management System v. 1.0: A system to facilite management and turnaround time for engineering drawing / documentation for SUT PD,Collaboration Services (e.g. Slack)
 es-peci,Process Excellence & Continuous Improvement,es,lightslategray,es-ecm-home,Home v. 1.0,es-ecm,lightyellow,,,,28,10,,peru,1,Home v. 1.0,Process Excellence & Continuous Improvement
 es-wia,Workflow and Intelligent Automation,es,lightslategray,es-ecm-msi,Microsoft Stream (Internet-Online) v. Microsoft Stream,es-ecm,lightyellow,,,,10,41,,peru,1,Microsoft Stream (Internet-Online) v. Microsoft Stream: A system to stream video,Workflow and Intelligent Automation
@@ -183,7 +183,7 @@ de-cs-di-casb,Cloud Access Security Broker (CASB),de-cs-di,teal,de-cs-ci-fw-fsm,
 de-cs-di-ueba,User Entity Behaviour Analytics,de-cs-di,teal,de-cs-ci-fw-fm,Fortimanager,de-cs-ci-fw,indigo,,,,18,17,CSV,blue,1,,User Entity Behaviour Analytics
 de-cs-di-iam,Identity Access Management (IAM),de-cs-di,teal,de-cs-ci-fw-fa,FortiAnalyzer,de-cs-ci-fw,indigo,,,,120,119,"FTP, e-mail (CSV)",teal,1,,Identity Access Management (IAM)
 de-cs-di-dpdp,Data Protection and Data Privacy,de-cs-di,teal,de-cs-ci-mm-sep,Symantec Endpoint Protection,de-cs-ci-mm,indigo,,,,119,22,API (CSV),teal,1,,Data Protection and Data Privacy
-de-cs-di-pki,Public Key Infrastructure (PKI) Services,de-cs-di,teal,de-cs-di-pki-atf,Axway Trusted File,de-cs-di-pki,indigo,,,,,,,,1,,Public Key Infrastructure (PKI) Services
+de-cs-di-pki,Public Key Infrastructure (PKI) Services,de-cs-di,teal,de-cs-di-pki-atf,Axway Trusted File,de-cs-di-pki,indigo,,,,121,122,API (realtime),crimson,1,,Public Key Infrastructure (PKI) Services
 de-cs-di-cs,Cryptography Services,de-cs-di,teal,de-cs-ci-soc-aa,Arcsight Appliance,de-cs-ci-soc,indigo,,,,,,,,,,Cryptography Services
 de-int,Integration,de,seagreen,de-cs-ci-vm-ten,Tenable,de-cs-ci-vm,indigo,,,,,,,,,,Integration
 de-int-int,Interfaces,de-int,olivedrab,de-en-cn-ndm-aw,Airwave,de-en-cn-ndm,indigo,,,,,,,,,,Interfaces
@@ -205,8 +205,8 @@ de-en-dev-dm,"Digital Meters (AMR, Smart)",de-en-dev,teal,de-int-int-mi-sps,SP S
 de-en-dev-iiot,Industrial IoT Devices,de-en-dev,teal,aomo-ao-apm-ava,AMS Vibration Analyser CSI 2140,aomo-ao-apm,silver,,,,,,,,,,Industrial IoT Devices
 de-en-dev-ccommercial,Commercial IoT,de-en-dev,teal,aomo-ao-apm-fsd,F&S Data Collector,aomo-ao-apm,lightyellow,,,,,,,,,,Commercial IoT
 de-en-dev-ciot,Consumer IoT Devices,de-en-dev,teal,de-int-int-mi-fas,External - Forecasting Agencies Systems,de-int-int-mi,lightyellow,,,,,,,,,,Consumer IoT Devices
-de-en-cn,Comms Network,de-en,olivedrab,aomo-aop-zee,Zenon Energy Edition Server,aomo-aop-osem,lightyellow,,,,,,,,,,Comms Network
-de-en-cn-wnc,Wireless Network Comms,de-en-cn,teal,,,,,,,,,,,,,,Wireless Network Comms
-de-en-cn-knc,Wired Network Comms,de-en-cn,teal,,,,,,,,,,,,,,Wired Network Comms
-de-en-cn-rnc,Routing and Switching,de-en-cn,teal,,,,,,,,,,,,,,Routing and Switching
-de-en-cn-ndm,Network Device Management,de-en-cn,teal,,,,,,,,,,,,,,Network Device Management
+de-en-cn,Comms Network,de-en,olivedrab,aomo-aop-osem-zee,Zenon Energy Edition Server,aomo-aop-osem,lightyellow,,,,,,,,,,Comms Network
+de-en-cn-wnc,Wireless Network Comms,de-en-cn,teal,aomo-aop-ics-sip,Solar Invertor PLC,aomo-aop-ics,silver,,,,,,,,,,Wireless Network Comms
+de-en-cn-knc,Wired Network Comms,de-en-cn,teal,aomo-ao-apm-ldd,Lidar Data Downloader,aomo-ao-apm,lightyellow,,,,,,,,,Console Application - Download the data from Lidar log and stored into FTP,Wired Network Comms
+de-en-cn-rnc,Routing and Switching,de-en-cn,teal,aomo-ao-apm-lda,Lidar Data Aggregation,aomo-ao-apm,lightyellow,,,,,,,,,Windows Application - Derive 10 min aggregated date from 1 sec Lidar data,Routing and Switching
+de-en-cn-ndm,Network Device Management,de-en-cn,teal,aomo-ao-apm-lis,LiDAR Sensor,aomo-ao-apm,silver,,,,,,,,,,Network Device Management
