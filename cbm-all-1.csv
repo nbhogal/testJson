@@ -57,7 +57,7 @@ aomo-ap-crp,Capacity Resources Planning,aomo-ap,crimson,aomo-aop-ims-cmm,Compact
 aomo-ap-mps,Master Production Scheduling,aomo-ap,crimson,aomo-aop-wms-npr,NPR v. 1.0,aomo-aop-wms,lightyellow,,IT Services Management System 1.0,tomato,56,56,,peru,1,NPR v. 1.0,Master Production Scheduling
 aomo-aop,Asset Operations & Maintenance,aomo,firebrick,aomo-aop-wms-wms,Workforce Management System v. 1.0,aomo-aop-wms,lightyellow,,Global HSE Information System v. 1.0,peru,58,58,,lightslategray,1,"Workforce Management System (WMS) allows for the monitoring, controlling, traceability and accountability of all work activities and management of assets performed by contractors. It incorporates a RFID Key Management Solution (KMS) and GPS Tracker System capable of handling 400 keys and up to 40 Contractor teams",Asset Operations & Maintenance
 aomo-aop-eam,Enterprise Asset Management,aomo-aop,crimson,aomo-aop-psp-vms,Visitor Management System v. 1,aomo-aop-psp,lightyellow,,Customer Utility Billing & Experience Management v. 1.0,royalblue,61,63,Shared DB (SQL),peru,1,Visitor Management System v. 1,Enterprise Asset Management
-aomo-aop-cmms,Computerised Maintenance Management Systems,aomo-aop,crimson,aomo-aop-hs-can,Scannell v. 1.0,aomo-aop-hs,lightyellow,,Board Papers Apps v. 1.0,lightslategray,61,62,Shared DB (SQL),peru,1,Scannell v. 1.0,Computerised Maintenance Management Systems
+aomo-aop-cmms,Computerised Maintenance Management Systems,aomo-aop,crimson,aomo-aop-hs-can,Scannell v. 1.0,aomo-aop-hs,lightyellow,,Board Papers Apps v. 1.0,lightslategray,61,62,Shared DB (SQL),peru,1,Safety Incident Management System,Computerised Maintenance Management Systems
 aomo-aop-slm,Site Logistics Management,aomo-aop,crimson,aomo-ao-apm-msm,AMS Machinery v. 5.7,aomo-ao-apm,lightyellow,,KOLA v. 1.0,brown,2,7,Custom Connector,crimson,1,AMS Machinery v. 5.7: Integrates multiple predictive maintenance techniques with comprehensive analysis tools to provide easy and accurate assessment of the machinery health across different types of mechanical assets in your facility.,Site Logistics Management
 aomo-aop-rio,Remote / Integrated Operation Center,aomo-aop,crimson,aomo-ao-apm-lgams,LGAMS v. 10.4.5.1,aomo-ao-apm,lightyellow,,Tableau Reporting Dashboard v. 10.3.2,yellow,8,5,,crimson,1,LGAMS v. 10.4.5.1: Plant performance and condition monitoring system,Remote / Integrated Operation Center
 aomo-aop-fft,Field Force Tools & Apps,aomo-aop,crimson,aomo-ao-apm-tdd,Turbine Data Downloader v. 2.0.0,aomo-ao-apm,lightyellow,,Career Centre Admin v. 1.0,peru,6,5,,crimson,1,Turbine Data Downloader v. 2.0.0,Field Force Tools & Apps
@@ -106,7 +106,7 @@ cs-fin,Finance,cs,brown,cs-hr-tm-out,Sembcorp OTUJ v. 1.3,cs-hr-tm,lightyellow,,
 The mobile application consists for following modules - Overtime, Urgent Jobs
 The application shows the above functional modules in different tabs. Only applicable user roles (Engineer, HOS and HOD) can view both the tabs. The Technician only view Overtime related functionality. The SVP & Head only view Urgent Jobs related functionality",Finance
 cs-fin-fin,Finance,cs-fin,peru,cs-hr-tm-efor,Time Off eform v. 1.0,cs-hr-tm,lightyellow,,Workforce Management System v. 1.0,crimson,9,91,Shared DB (SQL),peru,1,Time Off eform v. 1.0: A system to record time off for Digital & Technology Department,Finance
-cs-fin-ia,Invoice Automation (AP),cs-fin,peru,cs-hr-tm-ts,Timesheets v. 1.0,cs-hr-tm,lightyellow,,AMS Machinery v. 5.7,crimson,92,92,,lightslategray,1,Timesheets v. 1.0,Invoice Automation (AP)
+cs-fin-ia,Invoice Automation (AP),cs-fin,peru,cs-hr-tm-ts,Timesheets v. 1.0,cs-hr-tm,lightyellow,,AMS Machinery v. 5.7,crimson,92,92,,lightslategray,1,Web App for recording time,Invoice Automation (AP)
 cs-fin-bpc,Budget Planning & Consolidation (BPC),cs-fin,peru,cs-hr-tm-tms,TMS (Time Management System) v. 1,cs-hr-tm,lightyellow,,Salesforce v. 1,royalblue,93,35,Custom Connector,lightslategray,1,"Time Management System: TMS is used by SembWaste’s HR to maintain shift group , attendance code and payment instruction for Over-Time work schedule for its Direct Labour staff and to generate Over-Time schedule to be exported to SAP",Budget Planning & Consolidation (BPC)
 cs-fin-ar,AR Decoupling (Revenue Portal),cs-fin,peru,cs-tms-apa,SAP ASP v. 1.0,cs-tms,lightyellow,,Salesforce-TIRS  Intergration Webservices v. 1.0,royalblue,94,94,,peru,1,SAP ASP v. 1.0,AR Decoupling (Revenue Portal)
 cs-fin-epm,Enterprise Performance Management (EPM),cs-fin,peru,cs-tms-sap,SAP GSP v. 1.0,cs-tms,lightyellow,,Visitor Management System v. 1,crimson,42,43,Shared DB,peru,1,SAP GSP v. 1.0,Enterprise Performance Management (EPM)
@@ -126,7 +126,7 @@ cs-psc,Procurement and Supply Chain,cs,brown,cs-psc-sm-sap,SAP Ariba v. 14s,cs-p
 cs-psc-ss,Strategic Sourcing,cs-psc,peru,cs-psc-scm-car,PCard v. 1.0,cs-psc-scm,lightyellow,,Customer Management System FTP Server,teal,99,34,API / WS (XML),crimson,1,PCard v. 1.0,Strategic Sourcing
 cs-psc-cm,Contract Management,cs-psc,peru,cs-psc-scm-sap,SAP MM v. SAP ERP 6.0 EhP8,cs-psc-scm,lightyellow,,AMS Vibration Analyser CSI 2140,crimson,34,80,API,crimson,1,"SAP MM v. SAP ERP 6.0 EhP8: MM is the Material Management module.It includes the following functions - Purchasing, Inventory Management, Invoice Verification, Physical Inventory",Contract Management
 cs-psc-sm,Supplier Management,cs-psc,peru,es-pmds-jira,Jira Software v. 1,es-pmds,lightyellow,,F&S Data Collector,crimson,101,102,WS (JSON),royalblue,1,Jira Software v. 1: Issue Tracking & Project Management Software,Supplier Management
-cs-psc-scm,Supply Chain Management,cs-psc,peru,es-intranet-hom,Home v. 1.0,es-intranet,lightyellow,,External - Forecasting Agencies Systems,teal,102,0,WS (JSON),royalblue,1,Home v. 1.0,Supply Chain Management
+cs-psc-scm,Supply Chain Management,cs-psc,peru,es-intranet-hom,Home v. 1.0,es-intranet,lightyellow,,External - Forecasting Agencies Systems,teal,102,0,WS (JSON),royalblue,1,Intranet Home Page (UK),Supply Chain Management
 es,Enterprise Services,,darkslategray,es-intranet-semb,Sembcorp Portal v. SharePoint 2013,es-intranet,lightyellow,,Solar Invertor PLC,crimson,30,0,Shared DB (SQL),wheat,1,Sembcorp Portal v. SharePoint 2013: Sharepoint Portal for internal staffs,Enterprise Services
 es-pmds,Project Management & Delivery Systems,es,lightslategray,es-ecm-bpa,Board Papers Apps v. 1.0,es-ecm,lightyellow,,Zenon Energy Edition Server,crimson,30,20,Shared DB (SQL),wheat,1,Board Papers Apps v. 1.0: A system to allow sharing of confidential commitee meeting papers,Project Management & Delivery Systems
 es-intranet,Intranet,es,lightslategray,es-ecm-dpi,Department Portal (Intranet) v. SharePoint 2013,es-ecm,lightyellow,,Lidar Data Downloader,crimson,30,21,Shared DB (SQL),wheat,1,Department Portal (Intranet) v. SharePoint 2013: Sharepoint portal for department,Intranet
@@ -150,7 +150,7 @@ iis-infra-cm,Cloud Management,iis-infra,coral,es-wia-rpa,Robotic Process Automat
 iis-infra-bh,Blockchain,iis-infra,coral,de-int-int-api-db,Dell Boomi,de-int-int-api,indigo,,Turbine Data Downloader v. 2.0.0,crimson,43,41,Shared DB (JSON),peru,1,Dell Boomi: Integration platform for applications,Blockchain
 iis-infra-dco,Data Center Operations,iis-infra,coral,de-int-int-api-wk,Workato,de-int-int-api,indigo,,Wind Turbine PLC Regen,crimson,13,57,"WS (SOAP, XML)",peru,1,Workato: Workflow Automation for Slack Integration,Data Center Operations
 iis-infra-inc,Inter-network Connections,iis-infra,coral,aomo-aop-hist-wh,Wonderware Historian,aomo-aop-hist,lightyellow,,,,16,17,Manual,teal,1,Wonderware Historian,Inter-network Connections
-iis-infra-vpn,VPN,iis-infra,coral,aomo-aop-hist-um,UMIS 1.0,aomo-aop-hist,lightyellow,,,,13,83,WS,peru,1,UMIS 1.0,VPN
+iis-infra-vpn,VPN,iis-infra,coral,aomo-aop-hist-um,UMIS 1.0,aomo-aop-hist,lightyellow,,,,13,83,WS,peru,1,Web App for plant info,VPN
 de,Digital Enablers,,darkgreen,aomo-ao-apm-eta,ETAPRO,aomo-ao-apm,lightyellow,,,,13,10,,peru,1,ETAPRO,Digital Enablers
 de-an,Analytics (System of Insights),de,seagreen,de-an-vi-de-dl,Data Lake,de-an-vi-de,lightyellow,,,,13,81,Flat File,peru,1,Data Lake,Analytics (System of Insights)
 de-an-vi,Visualisation and Insights,de-an,olivedrab,de-int-int-api-cfu,Citibank File Uploader (External),de-int-int-api,lightyellow,,,,13,80,API,peru,1,Citibank File Uploader (External),Visualisation and Insights
@@ -178,7 +178,7 @@ de-cs-ci- ics,Industrial Control System (ICS) Security,de-cs-ci,teal,iis-infra-c
 de-cs-ci-fw,Firewall,de-cs-ci,teal,de-an-dm-vvisual-ts,Tableau Server 10.3,de-an-dm-vvisual,indigo,,,,116,20,MQ,teal,1,,Firewall
 de-cs-ci-vm,Vulnerability Management,de-cs-ci,teal,de-cs-ci-soc-qr,Qradar,de-cs-ci-soc,indigo,,,,109,30,WS (SOAP),teal,1,,Vulnerability Management
 de-cs-ci-tps,Third Party Security,de-cs-ci,teal,de-cs-di-dpdp-dlp,Forcepoint Data Loss Protection (DLP) 8.5.1.66,de-cs-di-dpdp,indigo,,,,30,109,WS (SOAP),wheat,1,,Third Party Security
-de-cs-di,Digital Identity,de-cs,olivedrab,de-cs-ci-fw-cfa,Checkpoint Firewall Appliance,de-cs-ci-fw,indigo,,,,23,24,WS (XML),royalblue,1,,Digital Identity
+de-cs-di,Digital Identity,de-cs,olivedrab,de-cs-ci-fw-cfa,Checkpoint Firewall Appliance,de-cs-ci-fw,indigo,,,,23,24,WS (XML),royalblue,1,Company Firewall,Digital Identity
 de-cs-di-casb,Cloud Access Security Broker (CASB),de-cs-di,teal,de-cs-ci-fw-fsm,Firemon Security Manager,de-cs-ci-fw,indigo,,,,118,100,TCP/IP,crimson,1,,Cloud Access Security Broker (CASB)
 de-cs-di-ueba,User Entity Behaviour Analytics,de-cs-di,teal,de-cs-ci-fw-fm,Fortimanager,de-cs-ci-fw,indigo,,,,18,17,CSV,blue,1,,User Entity Behaviour Analytics
 de-cs-di-iam,Identity Access Management (IAM),de-cs-di,teal,de-cs-ci-fw-fa,FortiAnalyzer,de-cs-ci-fw,indigo,,,,120,119,"FTP, e-mail (CSV)",teal,1,,Identity Access Management (IAM)
@@ -221,3 +221,7 @@ Download the data from inverter log and stored into site server automatically fo
 ,,,,de-int-int-mi-amex,AMEX - UK,de-int-int-mi,lightyellow,,,,,,,,,,
 ,,,,aomo-aop-eam-gho,Gasboy Head Office 6.4.413.007,aomo-aop-eam,lightyellow,,,,,,,,,Head office application for fleet and fuel management.,
 ,,,,aomo-aop-ics-wtp,Wind Turbine PLC Regen,aomo-aop-ics,silver,,,,,,,,,,
+,,,,aomo-aop-wms,ANPR 1.0,aomo-aop-wms,lightyellow,,,,,,,,,Automated Name Plate Recognition,
+,,,,aomo-aop-eam-max,Maximo ,aomo-aop-eam,lightyellow,,,,,,,,,Purchasing and Maintenance tool,
+,,,,de-cs-di-casb-casb,Cloud Application Security Broker,de-cs-di-casb,indigo,,,,,,,,,Visibility and Control on SaaS,
+,,,,de-cs-di-iam-cark,CyberArk 10.0,de-cs-di-iam,indigo,,,,,,,,,Priviliged password management solution,
