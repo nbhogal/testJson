@@ -219,5 +219,5 @@ Download the data from inverter log and stored into site server automatically fo
 ,,,,cs-psc-scm-wms,Warehouse Management System,cs-psc-scm,lightyellow,,,,,,,,,,
 ,,,,de-int-int-mi-eew,EE Website,de-int-int-mi,lightyellow,,,,,,,,,,
 ,,,,de-int-int-mi-amex,AMEX - UK,de-int-int-mi,lightyellow,,,,,,,,,,
-,,,,aomo-aop-eam,Gasboy Head Office 6.4.413.007,aomo-aop-eam,lightyellow,,,,,,,,,Head office application for fleet and fuel management.,
+,,,,aomo-aop-eam-gho,Gasboy Head Office 6.4.413.007,aomo-aop-eam,lightyellow,,,,,,,,,Head office application for fleet and fuel management.,
 ,,,,aomo-aop-ics-wtp,Wind Turbine PLC Regen,aomo-aop-ics,silver,,,,,,,,,,
