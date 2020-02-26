@@ -149,22 +149,22 @@ iis-infra,IT Infrastructure,iis,tomato,es-wia-ea,Event Attendance (Power Apps) v
 iis-infra-cm,Cloud Management,iis-infra,coral,es-wia-rpa,Robotic Process Automation v. 1,es-wia,lightyellow,,Gasboy Head Office 6.4.413.007,crimson,47,43,API,orchid,1,Robotic Process Automation v. 1: Robots Built - DOF Billing & Cash Projection,Cloud Management
 iis-infra-bh,Blockchain,iis-infra,coral,de-int-int-api-db,Dell Boomi,de-int-int-api,indigo,,Turbine Data Downloader v. 2.0.0,crimson,43,41,Shared DB (JSON),peru,1,Dell Boomi: Integration platform for applications,Blockchain
 iis-infra-dco,Data Center Operations,iis-infra,coral,de-int-int-api-wk,Workato,de-int-int-api,indigo,,Wind Turbine PLC Regen,crimson,13,57,"WS (SOAP, XML)",peru,1,Workato: Workflow Automation for Slack Integration,Data Center Operations
-iis-infra-inc,Inter-network Connections,iis-infra,coral,aomo-aop-hist-wh,Wonderware Historian,aomo-aop-hist,lightyellow,,,,16,17,Manual,teal,1,Wonderware Historian,Inter-network Connections
+iis-infra-inc,Inter-network Connections,iis-infra,coral,aomo-aop-hist-wh,Wonderware Historian,aomo-aop-hist,lightyellow,,SAP Manufacturing Integration and Intelligence,teal,16,17,Manual,teal,1,Wonderware Historian,Inter-network Connections
 iis-infra-vpn,VPN,iis-infra,coral,aomo-aop-hist-um,UMIS 1.0,aomo-aop-hist,lightyellow,,,,13,83,WS,peru,1,Web App for plant info,VPN
 de,Digital Enablers,,darkgreen,aomo-ao-apm-eta,ETAPRO,aomo-ao-apm,lightyellow,,,,13,10,,peru,1,ETAPRO,Digital Enablers
 de-an,Analytics (System of Insights),de,seagreen,de-an-vi-de-dl,Data Lake,de-an-vi-de,lightyellow,,,,13,81,Flat File,peru,1,Data Lake,Analytics (System of Insights)
-de-an-vi,Visualisation and Insights,de-an,olivedrab,de-int-int-api-cfu,Citibank File Uploader (External),de-int-int-api,lightyellow,,,,13,80,API,peru,1,Citibank File Uploader (External),Visualisation and Insights
+de-an-vi,Visualisation and Insights,de-an,olivedrab,de-int-int-api-cfu,Citibank File Uploader (External),de-int-int-mi,lightyellow,,,,13,80,API,peru,1,Citibank File Uploader (External),Visualisation and Insights
 de-an-vi-mcf,Market and Commodity Forcasting,de-an-vi,teal,de-int-int-batch-gyro,Giro,de-int-int-batch,lightyellow,,,,13,73,Shared DB (SQL),peru,1,Giro,Market and Commodity Forcasting
-de-an-vi-od,Optimised Dispatch,de-an-vi,teal,de-int-int-api-axs,External - AXS 1.0,de-int-int-api,lightyellow,,,,13,74,Shared DB (SQL),peru,1,External - AXS 1.0,Optimised Dispatch
+de-an-vi-od,Optimised Dispatch,de-an-vi,teal,de-int-int-api-axs,External - AXS 1.0,de-int-int-mi,lightyellow,,,,13,74,Shared DB (SQL),peru,1,External - AXS 1.0,Optimised Dispatch
 de-an-vi-pods,Plant Ops and Design Optimisation,de-an-vi,teal,de-an-vi-aso-vbr,VBR,de-an-vi-aso,lightyellow,,,,13,87,Shared DB (SQL),peru,1,VBR,Plant Ops and Design Optimisation
 de-an-vi-pve,Predictive Maintenance,de-an-vi,teal,aomo-aop-eam-wis,Weighbridge Information System,aomo-aop-eam,lightyellow,,,,35,93,Custom Connector,teal,1,"Weighbridge Information System: WIS provides the Woodchip Boiler Plant engineers with woodchip steam production analysis reports. In addition, it facilitates billing verification between Sembcorp Cogen and SembEnviro",Predictive Maintenance
 de-an-vi-aso,Asset Performance Optimisation,de-an-vi,teal,aomo-aop-eam-st,Storage & Terminalling,aomo-aop-eam,lightyellow,,,,57,20,"WS (REST), SQL, File Share",royalblue,1,"Storage & Terminalling: A system for Storage & Terminalling team to manage Eastman work orders for isotank, drumming, stuffing and vessel loading jobs",Asset Performance Optimisation
 de-an-vi-gp,Global Ops ,de-an-vi,teal,aomo-aop-eam-lims,Laboratory Information Management System,aomo-aop-eam,lightyellow,,,,109,57,WS (SOAP),teal,1,Laboratory Information Management System: To maintain the optimal operating conditions and give the water operations early warning to treatment process potential upset,Global Ops 
 de-an-vi-de,Data Lake,de-an-vi,teal,aomo-aop-eam-geo,GEO Information System,aomo-aop-eam,lightyellow,,,,57,110,"WS (REST), FTP",royalblue,1,GEO Information System: A system to maintain pipeline and associated assets information in Jurong Island used for monitoring capex and space utilization tracking and generate commercial proposals,Data Lake
-de-an-dm,Data Modelling,de-an,olivedrab,de-int-int-api-sgx,SGX Live Feed,de-int-int-api,lightyellow,,,,110,57,"WS (REST), FTP",teal,1,SGX Live Feed,Data Modelling
+de-an-dm,Data Modelling,de-an,olivedrab,de-int-int-api-sgx,SGX Live Feed,de-int-int-mi,lightyellow,,,,110,57,"WS (REST), FTP",teal,1,SGX Live Feed,Data Modelling
 de-an-dm-bda,Big Data Analytics,de-an-dm,teal,aomo-aop-hs-ims,Incident Management System,aomo-aop-hs,lightyellow,,,,57,18,Manual,royalblue,1,Incident Management System: A system to manage IT related calls and incidents raised by users,Big Data Analytics
 de-an-dm-vvisual,Visual Analytics,de-an-dm,teal,iis-isd-itsm-itsm,IT Services Management System 1.0,iis-isd-itsm,lightyellow,,,,57,111,Manual,royalblue,1,IT Services Management System 1.0: A system to manage IT related requests raised by users.,Visual Analytics
-de-an-dm-omi,Optimisation,de-an-dm,teal,de-int-int-api-bank,Bank (External),de-int-int-api,lightyellow,,,,19,57,SFTP,teal,1,Bank (External),Optimisation
+de-an-dm-omi,Optimisation,de-an-dm,teal,de-int-int-api-bank,Bank (External),de-int-int-mi,lightyellow,,,,19,57,SFTP,teal,1,Bank (External),Optimisation
 de-an-dm-aartifi,Artificial Intelligence,de-an-dm,teal,de-an-dm-bda-db,DataBricks,de-an-dm-bda,lightyellow,,,,112,57,Manual,teal,1,DataBricks,Artificial Intelligence
 de-an-dm-mmachin,Machine Learning,de-an-dm,teal,de-an-dm-bda-dw,Data Warehouse,de-an-dm-bda,lightyellow,,,,24,25,Manual,crimson,1,Data Warehouse,Machine Learning
 de-an-dm-sstatis,Statistical Modelling,de-an-dm,teal,de-cs-di-iam-aad,Azure AD,de-cs-di-iam,indigo,,,,17,0,SQL,royalblue,1,,Statistical Modelling
@@ -177,51 +177,54 @@ de-cs-ci-mm,Malware Management,de-cs-ci,teal,iis-isd-euc-fup,Follow you printing
 de-cs-ci- ics,Industrial Control System (ICS) Security,de-cs-ci,teal,iis-infra-cm-vsp,vSphere 6.5,iis-infra-cm,indigo,,,,20,116,MQ,sandybrown,1,,Industrial Control System (ICS) Security
 de-cs-ci-fw,Firewall,de-cs-ci,teal,de-an-dm-vvisual-ts,Tableau Server 10.3,de-an-dm-vvisual,indigo,,,,116,20,MQ,teal,1,,Firewall
 de-cs-ci-vm,Vulnerability Management,de-cs-ci,teal,de-cs-ci-soc-qr,Qradar,de-cs-ci-soc,indigo,,,,109,30,WS (SOAP),teal,1,,Vulnerability Management
-de-cs-ci-tps,Third Party Security,de-cs-ci,teal,de-cs-di-dpdp-dlp,Forcepoint Data Loss Protection (DLP) 8.5.1.66,de-cs-di-dpdp,indigo,,,,30,109,WS (SOAP),wheat,1,,Third Party Security
+de-cs-ci-tps,Third Party Security,de-cs-ci,teal,de-cs-di-dpdp-dlp,Forcepoint Data Loss Protection (DLP) 8.5.1.66,de-cs-di-dpdp,indigo,,,,30,109,WS (SOAP),wheat,1,On-Prem Data Loss Protection Platform,Third Party Security
 de-cs-di,Digital Identity,de-cs,olivedrab,de-cs-ci-fw-cfa,Checkpoint Firewall Appliance,de-cs-ci-fw,indigo,,,,23,24,WS (XML),royalblue,1,Company Firewall,Digital Identity
-de-cs-di-casb,Cloud Access Security Broker (CASB),de-cs-di,teal,de-cs-ci-fw-fsm,Firemon Security Manager,de-cs-ci-fw,indigo,,,,118,100,TCP/IP,crimson,1,,Cloud Access Security Broker (CASB)
-de-cs-di-ueba,User Entity Behaviour Analytics,de-cs-di,teal,de-cs-ci-fw-fm,Fortimanager,de-cs-ci-fw,indigo,,,,18,17,CSV,blue,1,,User Entity Behaviour Analytics
-de-cs-di-iam,Identity Access Management (IAM),de-cs-di,teal,de-cs-ci-fw-fa,FortiAnalyzer,de-cs-ci-fw,indigo,,,,120,119,"FTP, e-mail (CSV)",teal,1,,Identity Access Management (IAM)
-de-cs-di-dpdp,Data Protection and Data Privacy,de-cs-di,teal,de-cs-ci-mm-sep,Symantec Endpoint Protection,de-cs-ci-mm,indigo,,,,119,22,API (CSV),teal,1,,Data Protection and Data Privacy
-de-cs-di-pki,Public Key Infrastructure (PKI) Services,de-cs-di,teal,de-cs-di-pki-atf,Axway Trusted File,de-cs-di-pki,indigo,,,,121,122,API (realtime),crimson,1,,Public Key Infrastructure (PKI) Services
-de-cs-di-cs,Cryptography Services,de-cs-di,teal,de-cs-ci-soc-aa,Arcsight Appliance,de-cs-ci-soc,indigo,,,,123,124,API (CSV),crimson,1,,Cryptography Services
-de-int,Integration,de,seagreen,de-cs-ci-vm-ten,Tenable,de-cs-ci-vm,indigo,,,,125,123,API (CSV),crimson,1,,Integration
-de-int-int,Interfaces,de-int,olivedrab,de-en-cn-ndm-aw,Airwave,de-en-cn-ndm,indigo,,,,126,22,API (CSV),crimson,1,,Interfaces
-de-int-int-api,API Gateway & Management,de-int-int,teal,de-en-cn-rnc-cw,Catalyst Switch,de-en-cn-rnc,indigo,,,,43,127,Shared DB,peru,1,,API Gateway & Management
-de-int-int-esb,Enterprise Service Bus,de-int-int,teal,de-en-cn-rnc-ciw,Cisco Switch,de-en-cn-rnc,indigo,,,,127,43,Shared DB,peru,1,,Enterprise Service Bus
-de-int-int-batch,Batch / ETL Processing,de-int-int,teal,de-en-cn-rnc-nw,Nexus Switch,de-en-cn-rnc,indigo,,,,15,13,Flat File,royalblue,1,,Batch / ETL Processing
-de-int-int-edi,Electronic Data Interchange (EDI),de-int-int,teal,es-ecm-eg,e-Greeting,es-ecm,lightyellow,,,,20,15,Shared DB (SQL),sandybrown,1,,Electronic Data Interchange (EDI)
-de-int-int-sftp,SFTP,de-int-int,teal,cs-lcs-wbp,Whistle Blowing Portal,cs-lcs,lightyellow,,,,30,128,WS (XML),crimson,1,,SFTP
-de-int-int-mi,Market Interfaces,de-int-int,teal,cs-lcs-wbcm,Whistle Blowing Case Management,cs-lcs,lightyellow,,,,19,15,FTP (CSV),teal,1,,Market Interfaces
-de-int-int-pi,Plant (Asset) Interfaces,de-int-int,teal,iis-isd-itsm-spr,SAP Password Reset,iis-isd-itsm,lightyellow,,,,15,16,Manual (CSV),teal,1,,Plant (Asset) Interfaces
-de-int-iot,IoT,de-int,olivedrab,de-int-int-sftp-cms,Customer Management System FTP Server,de-int-int-sftp,lightyellow,,,,16,15,email,teal,1,,IoT
-de-int-iot-dg,IoT / Device Gateway,de-int-iot,teal,de-int-int-mi-emc,EMC (External),de-int-int-mi,lightyellow,,,,130,129,Custom Connector (Batch),crimson,1,,IoT / Device Gateway
-de-int-iot-ec,Edge Controller,de-int-iot,teal,de-int-int-mi-kf,KrisFlyer,de-int-int-mi,lightyellow,,,,131,129,,crimson,1,,Edge Controller
-de-int-iot-dm,Device Management,de-int-iot,teal,de-int-int-mi-pg,Payment Gateway (Ext),de-int-int-mi,lightyellow,,,,132,129,,crimson,1,,Device Management
-de-int-iot-cep,Complex Event Processing (Device Data),de-int-iot,teal,de-int-int-mi-sp,Singpost,de-int-int-mi,lightyellow,,,,129,14,,crimson,1,,Complex Event Processing (Device Data)
-de-en,Enterprise Network,de,seagreen,mer-bo-ss-pss,Power Settlement System,mer-bo-ss,lightyellow,,,,13,88,API / WS,peru,1,,Enterprise Network
-de-en-dev,Device,de-en,olivedrab,mer-bo-ers-sbf,SUT Billing File,mer-bo-ers,lightyellow,,,,133,12,API / WS,teal,1,,Device
-de-en-dev-dm,"Digital Meters (AMR, Smart)",de-en-dev,teal,de-int-int-mi-sps,SP Systems Interfact,de-int-int-mi,lightyellow,,,,133,88,API / WS,teal,1,,"Digital Meters (AMR, Smart)"
-de-en-dev-iiot,Industrial IoT Devices,de-en-dev,teal,aomo-ao-apm-ava,AMS Vibration Analyser CSI 2140,aomo-ao-apm,silver,,,,12,133,API / WS,brown,1,,Industrial IoT Devices
-de-en-dev-ccommercial,Commercial IoT,de-en-dev,teal,aomo-ao-apm-fsd,F&S Data Collector,aomo-ao-apm,lightyellow,,,,88,133,API / WS,brown,1,,Commercial IoT
-de-en-dev-ciot,Consumer IoT Devices,de-en-dev,teal,de-int-int-mi-fas,External - Forecasting Agencies Systems,de-int-int-mi,lightyellow,,,,43,134,API / WS (JSON),peru,1,,Consumer IoT Devices
-de-en-cn,Comms Network,de-en,olivedrab,aomo-aop-osem-zee,Zenon Energy Edition Server,aomo-aop-osem,lightyellow,,,,134,43,API / WS (JSON),peru,1,,Comms Network
-de-en-cn-wnc,Wireless Network Comms,de-en-cn,teal,aomo-aop-ics-sip,Solar Invertor PLC,aomo-aop-ics,silver,,,,135,136,Shared DB (SQL),brown,1,,Wireless Network Comms
-de-en-cn-knc,Wired Network Comms,de-en-cn,teal,aomo-ao-apm-ldd,Lidar Data Downloader,aomo-ao-apm,lightyellow,,,,137,138,Manual (CSV),teal,1,Console Application - Download the data from Lidar log and stored into FTP,Wired Network Comms
-de-en-cn-rnc,Routing and Switching,de-en-cn,teal,aomo-ao-apm-lda,Lidar Data Aggregation,aomo-ao-apm,lightyellow,,,,82,139,XML,teal,1,Windows Application - Derive 10 min aggregated date from 1 sec Lidar data,Routing and Switching
-de-en-cn-ndm,Network Device Management,de-en-cn,teal,aomo-ao-apm-lis,LiDAR Sensor,aomo-ao-apm,silver,,,,140,43,Flat File (Batch),crimson,1,LiDAR Sensor,Network Device Management
-,,,,aomo-ao-apm-ida,Inverter Data Auto Downloader,aomo-ao-apm,lightyellow,,,,141,22,API / WS,crimson,,"Console Application - Download data from Solar Panels. 
-Download the data from inverter log and stored into site server automatically for all Solar sites (BAP&MERVADAR)",
-,,,,cs-hr-hcm-snet,SAP ESS/MSS SAP NetWeaver 7.5,cs-hr-hcm,lightyellow,,,,142,141,API / WS,crimson,,"SAP ESS/MSS is Employee Self Service and Manager Self Service, which is the web enabled tool used by employees.",
-,,,,aomo-aop-dcs-coweb,Cogenweb,aomo-aop-dcs,lightyellow,,,,142,122,TCP/IP,crimson,,"Hosts Cogen apps like plant statistics, EMC data to blackberry",
-,,,,aomo-aop-osem-sch,Schneider PACiS SCADA 4.8.17 PP3,aomo-aop-osem,lightyellow,,,,,,,,,"For Switchyard automation, control and monitoring from local/remote",
-,,,,de-int-int-mi-gst,Goods Service Tax Network,de-int-int-mi,lightyellow,,,,,,,,,India's GST Network,
+de-cs-di-casb,Cloud Access Security Broker (CASB),de-cs-di,teal,de-cs-ci-fw-fsm,Firemon Security Manager 8.24.9,de-cs-ci-fw,indigo,,,,118,100,TCP/IP,crimson,1,"Security Manager provides real-time visibility, control, and management for network security devices across hybrid cloud environments from a single pane of glass.",Cloud Access Security Broker (CASB)
+de-cs-di-ueba,User Entity Behaviour Analytics,de-cs-di,teal,de-cs-ci-fw-fm,Fortigate Firewall Appliance,de-cs-ci-fw,indigo,,,,18,17,CSV,blue,1,Firewall Appliance,User Entity Behaviour Analytics
+de-cs-di-iam,Identity Access Management (IAM),de-cs-di,teal,de-cs-ci-mm-sep,Symantec Endpoint Protection,de-cs-ci-mm,indigo,,,,120,119,"FTP, e-mail (CSV)",teal,1,Anti-virus & Antimalware solution for VBR,Identity Access Management (IAM)
+de-cs-di-dpdp,Data Protection and Data Privacy,de-cs-di,teal,de-cs-di-pki-atf,Axway Trusted File,de-cs-di-pki,indigo,,,,119,22,API (CSV),teal,1,,Data Protection and Data Privacy
+de-cs-di-pki,Public Key Infrastructure (PKI) Services,de-cs-di,teal,de-cs-ci-soc-aa,Arcsight Appliance,de-cs-ci-soc,indigo,,,,121,122,API (realtime),crimson,1,,Public Key Infrastructure (PKI) Services
+de-cs-di-cs,Cryptography Services,de-cs-di,teal,de-cs-ci-vm-ten,Tenable,de-cs-ci-vm,indigo,,,,123,124,API (CSV),crimson,1,Vulnerability Assessment Tool,Cryptography Services
+de-int,Integration,de,seagreen,de-en-cn-ndm-aw,Airwave,de-en-cn-ndm,indigo,,,,125,123,API (CSV),crimson,1,,Integration
+de-int-int,Interfaces,de-int,olivedrab,de-en-cn-rnc-cw,Catalyst Switch,de-en-cn-rnc,indigo,,,,126,22,API (CSV),crimson,1,,Interfaces
+de-int-int-api,API Gateway & Management,de-int-int,teal,de-en-cn-rnc-ciw,Cisco Switch,de-en-cn-rnc,indigo,,,,43,127,Shared DB,peru,1,,API Gateway & Management
+de-int-int-esb,Enterprise Service Bus,de-int-int,teal,de-en-cn-rnc-nw,Nexus Switch,de-en-cn-rnc,indigo,,,,127,43,Shared DB,peru,1,,Enterprise Service Bus
+de-int-int-batch,Batch / ETL Processing,de-int-int,teal,es-ecm-eg,e-Greeting,es-ecm,lightyellow,,,,15,13,Flat File,royalblue,1,,Batch / ETL Processing
+de-int-int-edi,Electronic Data Interchange (EDI),de-int-int,teal,cs-lcs-wbp,Whistle Blowing Portal,cs-lcs,lightyellow,,,,20,15,Shared DB (SQL),sandybrown,1,,Electronic Data Interchange (EDI)
+de-int-int-sftp,SFTP,de-int-int,teal,cs-lcs-wbcm,Whistle Blowing Case Management,cs-lcs,lightyellow,,,,30,128,WS (XML),crimson,1,,SFTP
+de-int-int-mi,Market Interfaces,de-int-int,teal,iis-isd-itsm-spr,SAP Password Reset,iis-isd-itsm,lightyellow,,,,19,15,FTP (CSV),teal,1,,Market Interfaces
+de-int-int-pi,Plant (Asset) Interfaces,de-int-int,teal,de-int-int-sftp-cms,Customer Management System FTP Server,de-int-int-sftp,lightyellow,,,,15,16,Manual (CSV),teal,1,,Plant (Asset) Interfaces
+de-int-iot,IoT,de-int,olivedrab,de-int-int-mi-emc,EMC (External),de-int-int-mi,lightyellow,,,,16,15,email,teal,1,,IoT
+de-int-iot-dg,IoT / Device Gateway,de-int-iot,teal,de-int-int-mi-kf,KrisFlyer,de-int-int-mi,lightyellow,,,,130,129,Custom Connector (Batch),crimson,1,,IoT / Device Gateway
+de-int-iot-ec,Edge Controller,de-int-iot,teal,de-int-int-mi-pg,Payment Gateway (Ext),de-int-int-mi,lightyellow,,,,131,129,,crimson,1,,Edge Controller
+de-int-iot-dm,Device Management,de-int-iot,teal,de-int-int-mi-sp,Singpost,de-int-int-mi,lightyellow,,,,132,129,,crimson,1,,Device Management
+de-int-iot-cep,Complex Event Processing (Device Data),de-int-iot,teal,mer-bo-ss-pss,Power Settlement System,mer-bo-ss,lightyellow,,,,129,14,,crimson,1,,Complex Event Processing (Device Data)
+de-en,Enterprise Network,de,seagreen,mer-bo-ers-sbf,SUT Billing File,mer-bo-ers,lightyellow,,,,13,88,API / WS,peru,1,,Enterprise Network
+de-en-dev,Device,de-en,olivedrab,de-int-int-mi-sps,SP Systems Interfact,de-int-int-mi,lightyellow,,,,133,12,API / WS,teal,1,,Device
+de-en-dev-dm,"Digital Meters (AMR, Smart)",de-en-dev,teal,aomo-ao-apm-ava,AMS Vibration Analyser CSI 2140,aomo-ao-apm,silver,,,,133,88,API / WS,teal,1,,"Digital Meters (AMR, Smart)"
+de-en-dev-iiot,Industrial IoT Devices,de-en-dev,teal,aomo-ao-apm-fsd,F&S Data Collector,aomo-ao-apm,lightyellow,,,,12,133,API / WS,brown,1,,Industrial IoT Devices
+de-en-dev-ccommercial,Commercial IoT,de-en-dev,teal,de-int-int-mi-fas,External - Forecasting Agencies Systems,de-int-int-mi,lightyellow,,,,88,133,API / WS,brown,1,,Commercial IoT
+de-en-dev-ciot,Consumer IoT Devices,de-en-dev,teal,aomo-aop-osem-zee,Zenon Energy Edition Server,aomo-aop-osem,lightyellow,,,,43,134,API / WS (JSON),peru,1,,Consumer IoT Devices
+de-en-cn,Comms Network,de-en,olivedrab,aomo-aop-ics-sip,Solar Invertor PLC,aomo-aop-ics,silver,,,,134,43,API / WS (JSON),peru,1,,Comms Network
+de-en-cn-wnc,Wireless Network Comms,de-en-cn,teal,aomo-ao-apm-ldd,Lidar Data Downloader,aomo-ao-apm,lightyellow,,,,135,136,Shared DB (SQL),brown,1,Console Application - Download the data from Lidar log and stored into FTP,Wireless Network Comms
+de-en-cn-knc,Wired Network Comms,de-en-cn,teal,aomo-ao-apm-lda,Lidar Data Aggregation,aomo-ao-apm,lightyellow,,,,137,138,Manual (CSV),teal,1,Windows Application - Derive 10 min aggregated date from 1 sec Lidar data,Wired Network Comms
+de-en-cn-rnc,Routing and Switching,de-en-cn,teal,aomo-ao-apm-lis,LiDAR Sensor,aomo-ao-apm,silver,,,,82,139,XML,teal,1,LiDAR Sensor,Routing and Switching
+de-en-cn-ndm,Network Device Management,de-en-cn,teal,aomo-ao-apm-ida,Inverter Data Auto Downloader,aomo-ao-apm,lightyellow,,,,140,43,Flat File (Batch),crimson,1,"Console Application - Download data from Solar Panels. 
+Download the data from inverter log and stored into site server automatically for all Solar sites (BAP&MERVADAR)",Network Device Management
+,,,,cs-hr-hcm-snet,SAP ESS/MSS SAP NetWeaver 7.5,cs-hr-hcm,lightyellow,,,,141,22,API / WS,crimson,,"SAP ESS/MSS is Employee Self Service and Manager Self Service, which is the web enabled tool used by employees.",
+,,,,aomo-aop-dcs-coweb,Cogenweb,aomo-aop-dcs,lightyellow,,,,142,141,API / WS,crimson,,"Hosts Cogen apps like plant statistics, EMC data to blackberry",
+,,,,aomo-aop-osem-sch,Schneider PACiS SCADA 4.8.17 PP3,aomo-aop-osem,lightyellow,,,,142,122,TCP/IP,crimson,,"For Switchyard automation, control and monitoring from local/remote",
+,,,,de-int-int-mi-gst,Goods Service Tax Network,de-int-int-mi,lightyellow,,,,143,34,API / WS,teal,,India's GST Network,
 ,,,,cs-psc-scm-wms,Warehouse Management System,cs-psc-scm,lightyellow,,,,,,,,,,
 ,,,,de-int-int-mi-eew,EE Website,de-int-int-mi,lightyellow,,,,,,,,,,
 ,,,,de-int-int-mi-amex,AMEX - UK,de-int-int-mi,lightyellow,,,,,,,,,,
 ,,,,aomo-aop-eam-gho,Gasboy Head Office 6.4.413.007,aomo-aop-eam,lightyellow,,,,,,,,,Head office application for fleet and fuel management.,
 ,,,,aomo-aop-ics-wtp,Wind Turbine PLC Regen,aomo-aop-ics,silver,,,,,,,,,,
-,,,,aomo-aop-wms,ANPR 1.0,aomo-aop-wms,lightyellow,,,,,,,,,Automated Name Plate Recognition,
+,,,,aomo-aop-wms-anpr,ANPR 1.0,aomo-aop-wms,lightyellow,,,,,,,,,Automated Name Plate Recognition,
 ,,,,aomo-aop-eam-max,Maximo ,aomo-aop-eam,lightyellow,,,,,,,,,Purchasing and Maintenance tool,
 ,,,,de-cs-di-casb-casb,Cloud Application Security Broker,de-cs-di-casb,indigo,,,,,,,,,Visibility and Control on SaaS,
 ,,,,de-cs-di-iam-cark,CyberArk 10.0,de-cs-di-iam,indigo,,,,,,,,,Priviliged password management solution,
+,,,,de-cs-di-dpdp-fwf,Forcepoint Web Filtering,de-cs-di-dpdp,indigo,,,,,,,,,On-Prem Web Proxy Platform,
+,,,,de-cs-di-dpdp-menlo,Menlo,de-cs-di-dpdp,indigo,,,,,,,,,Cloud based proxy / isolation solution,
+,,,,iis-isd-itmm-twe,TripWire Enterprise,iis-isd-itmm,indigo,,,,,,,,,Tripwire is a security and data integrity tool for monitoring and alerting on specific file change(s) on a range of systems,
+,,,,de-int-int-api-sapmi,SAP Manufacturing Integration and Intelligence,de-int-int-api,lightyellow,,,,,,,,,Manufacturing Integration and Intelligence,
