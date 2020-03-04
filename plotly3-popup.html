@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+
+<head>
+  <style>
+    .right {
+      text-align: right;
+      display: block;
+    }
+  </style>
+  <script src="plotly-latest.min.js"></script>
+  <link
+    href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css"
+    rel="stylesheet"
+  />
+  <!-- jsPanel CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/jspanel4@4.9.4/dist/jspanel.css"
+    rel="stylesheet"
+  />
+  <!-- jsPanel JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/jspanel4@4.9.4/dist/jspanel.js"></script>
+
+  <!-- optional jsPanel extensions -->
+  <script src="https://cdn.jsdelivr.net/npm/jspanel4@4.9.4/dist/extensions/modal/jspanel.modal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jspanel4@4.9.4/dist/extensions/tooltip/jspanel.tooltip.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jspanel4@4.9.4/dist/extensions/hint/jspanel.hint.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jspanel4@4.9.4/dist/extensions/layout/jspanel.layout.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jspanel4@4.9.4/dist/extensions/contextmenu/jspanel.contextmenu.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jspanel4@4.9.4/dist/extensions/dock/jspanel.dock.js"></script>
+</head>
+<body>
+  <div id="radios">
+    <div class="pretty p-switch">
+      <input
+        type="radio"
+        id="popupbox"
+        name="switch1"
+        value="0"
+        onclick="getCheckedValue()"
+      />
+      <div class="state p-success">
+        <label>Enable All Popup</label>
+      </div>
+    </div>
+
+    <div class="pretty p-switch">
+      <input
+        type="radio"
+        id="popupbox"
+        name="switch1"
+        value="1"
+        onclick="getCheckedValue()"
+      />
+      <div class="state p-success">
+        <label>Enable App Popup</label>
+      </div>
+    </div>
+
+    <div class="pretty p-switch">
+      <input
+        type="radio"
+        id="popupbox"
+        name="switch1"
+        checked
+        value="2"
+        onclick="getCheckedValue()"
+      />
+      <div class="state p-success">
+        <label>Disable Popup</label>
+      </div>
+    </div>
+  </div>
+
+  <div id="myDiv1" style="width:1400px;height:650px;"></div>
+  <div id="myDiv2" style="width:1400px;height:1200px;"></div>
+
+  <script>
+    var boxstatus = 2; // Function to check of the popup box is checked
+    function getCheckedValue() {
+      //    var radioValue = document.getElementById("radios");
+      //  console.log("RADIO Value", radioValue);
+      var checkbox = document.getElementsByName("switch1");
+      for (var i = 0; i < checkbox.length; i++) {
+        if (checkbox[i].checked) {
+          boxstatus = checkbox[i].value;
+        }
+      }
+      console.log("STATUS:", boxstatus);
+    }
+  </script>
+
+  <script>
+    Plotly.d3.csv(
+      "https://raw.githubusercontent.com/nbhogal/testJson/master/cbm-all-1.csv",
+      function(err, rows) {
+        function unpack(rows, key) {
+          return rows.map(function(row) {
+            return row[key];
+          });
+        }
+        var app_ids = unpack(rows, "app_ids"); // Get application id's
+        app_ids = app_ids.filter(function(el) {
+          return el != null && el != "";
+        });
+        var ids = unpack(rows, "ids"); // Get id's of components
+        var all_ids = ids.concat(app_ids);
+
+        var app_labels = unpack(rows, "app_labels"); // Get Application names
+        app_labels = app_labels.filter(function(el) {
+          return el != null && el != "";
+        });
+        var labels = unpack(rows, "labels"); // Get Component names
+        var all_labels = labels.concat(app_labels);
+
+        var app_parents = unpack(rows, "app_parents"); // Get the parent component of the application
+        app_parents = app_parents.filter(function(el) {
+          return el != null && el != "";
+        });
+        var parents = unpack(rows, "parents"); // get the parent component. For root components it returns and empty string
+        var all_parents = parents.concat(app_parents);
+
+        var app_colors = unpack(rows, "app_color"); // Get the colors for the apps
+        app_colors = app_colors.filter(function(el) {
+          return el != null && el != "";
+        });
+        var colors = unpack(rows, "sector_color"); // get colors for the components
+        var all_colors = colors.concat(app_colors);
+
+        var app_description = unpack(rows, "app_description"); // get application description
+        app_description = app_description.filter(function(el) {
+          return el != null && el != "";
+        });
+        var description = unpack(rows, "sector_description"); // get component description
+        var all_description = description.concat(app_description);
+        //     console.log(all_description);
+
+        var node_label = unpack(rows, "node_label"); // get node name
+        node_label = node_label.filter(function(el) {
+          return el != null && el != "";
+        });
+
+        var node_color = unpack(rows, "node_color"); // get node color
+        node_color = node_color.filter(function(el) {
+          return el != null && el != "";
+        });
+
+        var link_source = unpack(rows, "link_source"); // get source link
+        link_source = link_source.filter(function(el) {
+          return el != null && el != "";
+        });
+
+        var link_target = unpack(rows, "link_target"); // get target link
+        link_target = link_target.filter(function(el) {
+          return el != null && el != "";
+        });
+
+        var link_color = unpack(rows, "link_color"); // get link color
+        link_color = link_color.filter(function(el) {
+          return el != null && el != "";
+        });
+
+        var link_value = unpack(rows, "value"); // get link value
+        link_value = link_value.filter(function(el) {
+          return el != null && el != "";
+        });
+
+        var link_label = unpack(rows, "link_label"); // get link value
+        //  link_label = link_label.filter(function(el) {
+        //  return el != null && el != "";
+        //  });
+        //Build tree map
+        var data = [
+          {
+            type: "treemap",
+            ids: all_ids,
+            labels: all_labels,
+            parents: all_parents,
+            marker: {
+              colors: all_colors
+            },
+
+            textposition: "middle center",
+            hovertext: all_description,
+            hoverinfo: "text",
+            hoverlabel: {
+              align: "left"
+            },
+            pathbar: {
+              textfont: {
+                size: 14
+              }
+            },
+            tiling: {
+              packing: "binary"
+            }
+          }
+        ];
+        var layout = {
+          font: { size: 14 }
+        };
+        // Build Sankey
+        // console.log(data);
+        //Set configuration parameters for data
+        var data1 = {
+          type: "sankey",
+          orientation: "h",
+          arrangement: "freeform",
+          valueFormat: "0.2g",
+
+          domain: {
+            x: [0, 0],
+            y: [0, 0]
+          },
+          node: {
+            pad: 15,
+            thickness: 15,
+            line: {
+              color: "black",
+              width: 0.5
+            },
+            label: node_label,
+            color: node_color
+          },
+          textfont: {
+            family: "Times New Roman",
+            size: 12
+          },
+          link: {
+            source: link_source,
+            target: link_target,
+            value: link_value,
+            color: link_color,
+            label: link_label
+          }
+        };
+        var data1 = [data1];
+
+        var layout1 = {
+          font: {
+            size: 10
+          }
+        };
+
+        var myPlot = document.getElementById("myDiv1");
+        Plotly.newPlot("myDiv2", data1, layout1); //Plot the integrations
+        Plotly.newPlot("myDiv1", data); // Plot the CBM
+
+        //Capture name of clicked component
+        myPlot.on("plotly_treemapclick", function(data) {
+          for (var i = 0; i < data.points.length; i++) {
+            if (typeof data.points[i].pointNumber === "undefined") {
+              data1[0].link.source = link_source; // get the sources for the integrations
+              data1[0].link.target = link_target; // get the target for the integrations
+              data1[0].link.color = link_color; // get the link colors
+              data1[0].link.value = link_value; // get link values
+              data1[0].link.label = link_label; // get link labels
+
+              Plotly.newPlot("myDiv2", data1, layout1); // Plot the Integration map
+            } else {
+              pn = data.points[i].pointNumber;
+              tn = data.points[i].curveNumber;
+              selected_id = data.points[i].data.ids[pn]; // Get id of sector clicked on by user
+              //  console.log("selected_id", selected_id);
+              var selected_ids = new Array(); // holds id's of all the apps in the selected sector
+              var selected_apps = new Array(); // holds app names of the apps in the selected sector
+              var selected_app_index = new Array(); // holds indexes of the selected apps (required for creating the linkages)
+              var selected_app_link_source = new Array(); // holds source index
+              var selected_app_link_destination = new Array(); // holds destination index
+              var selected_link_color = new Array(); // The color of the selected link
+              var selected_link_value = new Array(); // The value of the selected link
+              var selected_link_label = new Array();
+              var count = 0;
+              var appLevel = 0;
+              //get list of all related id's .. loop through the id's and get all that begin with the selected id
+              for (var x = parseInt(pn); x < ids.length; x++) {
+                if (ids[x].startsWith(selected_id)) {
+                  selected_ids[count] = ids[x];
+                  count += 1;
+                }
+              }
+
+              count = 0;
+
+              if (!selected_ids.length) {
+                // This happens with you are at the bottom of the tree and only the app is selected.
+                //Get a list of all the names of the apps under the selected id's. Find a match between the seleectd id's and parents.
+                //This gets stored in the selected_apps variable
+
+                appLevel = 1; // variable set when the app is selected.
+                for (var x = 0; x < app_ids.length; x++) {
+                  if (app_ids[x].startsWith(selected_id)) {
+                    selected_ids[count] = app_ids[x]; //Id of the app
+                    selected_apps[count] = app_labels[x]; //Name of the app
+                    count += 1;
+                  }
+                }
+              }
+
+              console.log("selected_ids1", selected_ids);
+              // console.log(app_parents.length);
+              /* Get a list of all the names of the apps under the selected id's. Find a match between the seleectd id's and parents.
+                  This gets stored in the selected_apps variable*/
+              count = 0;
+
+              // Check if the selection is the app. If not, loop through and get the relaated apps
+              // At the bottom of the tree and only the app is selected.
+
+              for (var y = 0; y < selected_ids.length; y++) {
+                for (var z = 0; z < app_parents.length; z++) {
+                  if (selected_ids[y].localeCompare(app_parents[z]) === 0) {
+                    //       console.log(selected_ids[y]);
+                    selected_apps[count] = app_labels[z];
+                    count += 1;
+                  }
+                }
+              }
+
+              //              console.log("selected_apps", selected_apps);
+
+              selected_apps = selected_apps.filter(function(el) {
+                return el != null && el != "";
+              });
+              //    console.log(selected_apps);
+              /*Compare the selected apps with the node label to get the location of the app in the array. This gives us the index
+                  of the location. The index is then used to get the link source, link destination, link value, link color and node color */
+              count = 0;
+              for (var y = 0; y < selected_apps.length; y++) {
+                //   console.log("selected label:", selected_apps[y]);
+                for (var z = 0; z < node_label.length; z++) {
+                  //   console.log("node label", node_label[z]);
+                  if (selected_apps[y].localeCompare(node_label[z]) === 0) {
+                    //   console.log("<<<<<<MATCH>>>>>>>>");
+                    selected_app_index[count] = z;
+                    count += 1;
+                  }
+                }
+              }
+
+              //      console.log("selected_app_index", selected_app_index);
+
+              count = 0;
+              for (var y = 0; y < selected_app_index.length; y++) {
+                //  console.log(selected_app_index[y]);
+                for (var z = 0; z < link_source.length; z++) {
+                  // find matching sources
+
+                  if (selected_app_index[y] == link_source[z]) {
+                    selected_app_link_source[count] = link_source[z];
+                    selected_app_link_destination[count] = link_target[z];
+                    selected_link_color[count] = link_color[z];
+                    selected_link_value[count] = link_value[z];
+                    selected_link_label[count] = link_label[z];
+                    count += 1;
+                  }
+                }
+              }
+
+              for (var y = 0; y < selected_app_index.length; y++) {
+                for (var x = 0; x < link_target.length; x++) {
+                  if (selected_app_index[y] == link_target[x]) {
+                    selected_app_link_source[count] = link_source[x];
+                    selected_app_link_destination[count] = link_target[x];
+                    selected_link_color[count] = link_color[x];
+                    selected_link_value[count] = link_value[x];
+                    selected_link_label[count] = link_label[x];
+                    count += 1;
+                  }
+                }
+              }
+
+              console.log("link source", selected_app_link_source);
+              console.log("link dest", selected_app_link_destination);
+              var duplicate = new Array();
+              for (var x = 0; x < selected_app_link_source.length; x++) {
+                first_element = selected_app_link_source[x];
+                for (var y = x + 1; y < selected_app_link_source.length; y++) {
+                  second_element = selected_app_link_source[y];
+                  if (first_element == second_element) {
+                    if (
+                      selected_app_link_destination[x] ==
+                      selected_app_link_destination[y]
+                    ) {
+                      duplicate.push(y);
+                    }
+                  }
+                }
+              }
+
+              for (var x = 0; x < duplicate.length; x++) {
+                delete selected_app_link_source[duplicate[x]];
+                delete selected_app_link_destination[duplicate[x]];
+                delete selected_link_color[duplicate[x]];
+                delete selected_link_value[duplicate[x]];
+                delete selected_link_label[duplicate[x]];
+              }
+              selected_app_link_source = selected_app_link_source.filter(
+                function(el) {
+                  return el != null && el != "";
+                }
+              );
+              selected_app_link_destination = selected_app_link_destination.filter(
+                function(el) {
+                  return el != null && el != "";
+                }
+              );
+              selected_link_color = selected_link_color.filter(function(el) {
+                return el != null && el != "";
+              });
+              selected_link_value = selected_link_value.filter(function(el) {
+                return el != null && el != "";
+              });
+
+              selected_link_label = selected_link_label.filter(function(el) {
+                return el != null && el != "";
+              });
+
+              data1[0].link.source = selected_app_link_source;
+              data1[0].link.target = selected_app_link_destination;
+              data1[0].link.color = selected_link_color;
+              data1[0].link.value = selected_link_value;
+              data1[0].link.label = selected_link_label;
+
+              var panelCount = document.querySelectorAll(".jsPanel").length;
+              console.log("PANEL COUNT :", panelCount);
+
+              if (boxstatus == 0) {
+                // Check if pop is enabled. If it is, use jpanel to draw a popup
+                var myPanel = jsPanel.create({
+                  headerTitle: "Application Integration",
+                  addCloseControl: 1,
+                  theme: "dark green",
+                  borderRadius: "1rem",
+                  closeOnEscape: true,
+                  animateIn: "jsPanelFadeIn",
+                  animateOut: "jsPanelFadeOut",
+
+                  position: {
+                    my: "right-top",
+                    at: "right-top"
+                  },
+                  panelSize: {
+                    width: "800",
+                    height: "500"
+                  },
+
+                  dragit: {
+                    cursor: "move",
+                    disableOnMaximized: false
+                  },
+
+                  callback: [
+                    function(panel) {
+                      panel.content.innerHTML =
+                        '<div id="div3" style="width:800px;height:500px;"></div>';
+                      Plotly.newPlot("div3", data1); // Plot on Jpanel
+                    }
+                  ]
+                });
+              } else if (boxstatus == 1 && appLevel == 1) {
+                var myPanel = jsPanel.create({
+                  headerTitle: "Application Integration",
+                  addCloseControl: 1,
+                  theme: "dark green",
+                  borderRadius: "1rem",
+                  closeOnEscape: true,
+                  animateIn: "jsPanelFadeIn",
+                  animateOut: "jsPanelFadeOut",
+
+                  position: {
+                    my: "right-top",
+                    at: "right-top"
+                  },
+                  panelSize: {
+                    width: "800",
+                    height: "500"
+                  },
+
+                  dragit: {
+                    cursor: "move",
+                    disableOnMaximized: false
+                  },
+
+                  callback: [
+                    function(panel) {
+                      panel.content.innerHTML =
+                        '<div id="div3" style="width:800px;height:500px;"></div>';
+                      Plotly.newPlot("div3", data1); // Plot on Jpanel
+                    }
+                  ]
+                });
+              } else {
+                //If popup not checked, then draw on main page.
+                Plotly.newPlot("myDiv2", data1, layout1);
+              }
+            }
+          }
+        });
+      }
+    );
+  </script>
+</body>

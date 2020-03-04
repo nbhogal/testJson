@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    th.tablesorter-header.resizable-false {
+      background-color: #e6bf99;
+    }
+    /* ensure box-sizing is set to content-box, if using jQuery versions older than 1.8;
+           this page is using jQuery 1.4 */
+    *,
+    *:before,
+    *:after {
+      -moz-box-sizing: content-box;
+      -webkit-box-sizing: content-box;
+      box-sizing: content-box;
+    }
+    /* overflow table */
+    .wrapper {
+      overflow-x: auto;
+      overflow-y: hidden;
+      width: 450px;
+    }
+    .wrapper table {
+      width: auto;
+      table-layout: fixed;
+    }
+    .wrapper .tablesorter td {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      min-width: 10px;
+    }
+    .wrapper .tablesorter th {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      min-width: 10px;
+    }
+  </style>
+  <script src="plotly-latest.min.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/jquery.tablesorter.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/jquery.tablesorter.widgets.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-build-table.min.js"></script>
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/css/theme.default.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/css/theme.blue.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/css/theme.green.min.css"
+  />
+</head>
+<body>
+  <div id="array2Table"></div>
+
+  <script>
+    $(function() {
+      Plotly.d3.csv(
+        "https://raw.githubusercontent.com/nbhogal/testJson/master/cbm-all-1.csv",
+        function(err, rows) {
+          // console.log(rows);
+          function unpack(rows, key) {
+            return rows.map(function(row) {
+              return row[key];
+            });
+          }
+
+          var app_names = unpack(rows, "node_label"); // Get application id's
+          app_names = app_names.filter(function(el) {
+            return el != null && el != "";
+          });
+
+          var link_source = unpack(rows, "link_source"); // Get application id's
+          link_source = link_source.filter(function(el) {
+            return el != null && el != "";
+          });
+
+          var link_target = unpack(rows, "link_target"); // Get application id's
+          link_target = link_target.filter(function(el) {
+            return el != null && el != "";
+          });
+
+          var link_label = unpack(rows, "link_label");
+          var source_application = [];
+          var destination_application = [];
+          var connection_type = [];
+          var appJson = [];
+          var k = 0;
+          for (var i = 0; i < link_source.length; i++) {
+            source_application[i] = app_names[link_source[i]];
+            //  appJson.SourceApplication = source_application[i];
+            destination_application[i] = app_names[link_target[i]];
+            // appJson.TargetApplication = destination_application[i];
+            connection_type[i] = link_label[i];
+            //  appJson.ConnectionType = connection_type[i];
+            // The below check is to remove systems that do not connect with any other systems. Compare the source and destination
+            // and if they are the same, do not add to the list
+            if (
+              source_application[i]
+                .toString()
+                .localeCompare(destination_application[i])
+                .toString() != 0
+            ) {
+              appJson[k] = [
+                source_application[i],
+                destination_application[i],
+                connection_type[i]
+              ];
+              k += 1;
+            }
+          }
+
+          appJson.unshift([
+            "Source Application",
+            "Target Application",
+            "Interface Type"
+          ]);
+
+          //          console.log(JSON.stringify(appJson));
+
+          //  $(function()
+          $("#array2Table").tablesorter({
+            theme: "green",
+            widgets: ["zebra", "filter", "resizable", "stickyHeaders"],
+            widgetOptions: {
+              // build_type   : 'array', // can sometimes be detected if undefined
+              filter_reset: ".reset",
+              resizable: false,
+              resizable_addLastColumn: true,
+              build_source: appJson,
+              //  resizable_widths: ["20%", "20%", "10%"],
+              build_headers: {
+                rows: 1, // Number of header rows from the csv
+                classes: [], // Header classes to apply to cells
+                text: [], // Header cell text
+                resizable_widths: ["30px", "30px", "10px"] // set header cell widths
+              },
+              build_footers: {
+                rows: 1, // Number of header rows from the csv
+                classes: [], // Footer classes to apply to cells
+                text: [
+                  "Source Application",
+                  "Target Application",
+                  "Interface Type"
+                ] // Footer cell text
+              }
+            }
+          });
+          // });
+        }
+      );
+    });
+  </script>
+  <script>
+    // *** Filter search type function arguments ***
+    // data.filter = filter input value for a column;
+    // data.iFilter = same as filter, except lowercase (if wo.filter_ignoreCase is true)
+    // data.exact = table cell text (or parsed data, if column parser enabled)
+    // data.iExact = same as exact, except lowercase (if wo.filter_ignoreCase is true)
+
+    // search for a match from the beginning of a string
+    // "^l" matches "lion" but not "koala"
+    $.tablesorter.filter.types.start = function(config, data) {
+      if (/^\^/.test(data.iFilter)) {
+        return data.iExact.indexOf(data.iFilter.substring(1)) === 0;
+      }
+      return null;
+    };
+    // search for a match at the end of a string
+    // "a$" matches "Llama" but not "aardvark"
+    $.tablesorter.filter.types.end = function(config, data) {
+      if (/\$$/.test(data.iFilter)) {
+        var filter = data.iFilter,
+          filterLength = filter.length - 1,
+          removedSymbol = filter.substring(0, filterLength),
+          exactLength = data.iExact.length;
+        return (
+          data.iExact.lastIndexOf(removedSymbol) + filterLength === exactLength
+        );
+      }
+      return null;
+    };
+  </script>
+</body>
