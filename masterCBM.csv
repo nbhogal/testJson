@@ -109,7 +109,7 @@ cs-fin-fin,Finance,cs-fin,peru,cs-hr-tm-efor,Time Off eform v. 1.0,cs-hr-tm,ligh
 cs-fin-ia,Invoice Automation (AP),cs-fin,peru,cs-hr-tm-ts,Timesheets v. 1.0,cs-hr-tm,lightyellow,,AMS Machinery v. 5.7,crimson,92,92,,lightslategray,1,Web App for recording time,Invoice Automation (AP)
 cs-fin-bpc,Budget Planning & Consolidation (BPC),cs-fin,peru,cs-hr-tm-tms,TMS (Time Management System) v. 1,cs-hr-tm,lightyellow,,Salesforce v. 1,royalblue,93,35,Custom Connector,lightslategray,1,"Time Management System: TMS is used by SembWaste’s HR to maintain shift group , attendance code and payment instruction for Over-Time work schedule for its Direct Labour staff and to generate Over-Time schedule to be exported to SAP",Budget Planning & Consolidation (BPC)
 cs-fin-ar,AR Decoupling (Revenue Portal),cs-fin,peru,cs-tms-apa,SAP ASP v. 1.0,cs-tms,lightyellow,,Salesforce-TIRS  Intergration Webservices v. 1.0,royalblue,94,94,,peru,1,SAP ASP v. 1.0,AR Decoupling (Revenue Portal)
-cs-fin-epm,Enterprise Performance Management (EPM),cs-fin,peru,cs-tms-sap,SAP GSP v. 1.0,cs-tms,lightyellow,,Visitor Management System v. 1,crimson,42,43,Shared DB,peru,1,SAP GSP v. 1.0,Enterprise Performance Management (EPM)
+cs-fin-epm,Enterprise Performance Management (EPM),cs-fin,peru,cs-tms-sap,SAP GSP v. 1.0,cs-tms,lightyellow,,Visitor Management System v. 1,crimson,42,43,Shared DB (SQL),peru,1,SAP GSP v. 1.0,Enterprise Performance Management (EPM)
 cs-hr,Human Resources,cs,brown,cs-lcs-adf,Annual Declaration Form v. 1.0,cs-lcs,lightyellow,,KABA v. 1.0,peru,43,80,API / WS,peru,1,"Annual Declaration Form v. 1.0: Platform for employee to submit declaration on Conflict of Interest, Code of Business Conducts and IT Security Policies",Human Resources
 cs-hr-hcm,Human Capital Management (HCM),cs-hr,peru,cs-lcs-cps,Company Profile and Shareholding Database System v. 1.0,cs-lcs,lightyellow,,Virtual Brain Water v. 2.0,crimson,43,88,API / WS,peru,1,Company Profile and Shareholding Database System v. 1.0: A platform to update company profiling and shareholding information of all companies under Sembcorp Industries group and to generate shareholding listings and organization charts.,Human Capital Management (HCM)
 cs-hr-te,Travel & Expense,cs-hr,peru,cs-lcs-gem,Gift and Entertainment Management v. 1.0,cs-lcs,lightyellow,,DataBricks,teal,43,12,API / WS,peru,1,Gift and Entertainment Management v. 1.0: An eForm to seek approval for giving and receiving gift/entertainment,Travel & Expense
@@ -150,10 +150,10 @@ iis-infra-cm,Cloud Management,iis-infra,coral,es-wia-rpa,Robotic Process Automat
 iis-infra-bh,Blockchain,iis-infra,coral,de-int-int-api-db,Dell Boomi,de-int-int-api,indigo,,Turbine Data Downloader v. 2.0.0,crimson,43,41,Shared DB (JSON),peru,1,Dell Boomi: Integration platform for applications,Blockchain
 iis-infra-dco,Data Center Operations,iis-infra,coral,de-int-int-api-wk,Workato,de-int-int-api,indigo,,Wind Turbine PLC Regen,crimson,13,57,"WS (SOAP, XML)",peru,1,Workato: Workflow Automation for Slack Integration,Data Center Operations
 iis-infra-inc,Inter-network Connections,iis-infra,coral,aomo-aop-hist-wh,Wonderware Historian,aomo-aop-hist,lightyellow,,SAP Manufacturing Integration and Intelligence,teal,16,17,Manual,teal,1,Wonderware Historian,Inter-network Connections
-iis-infra-vpn,VPN,iis-infra,coral,aomo-aop-hist-um,UMIS 1.0,aomo-aop-hist,lightyellow,,,,13,83,API / WS,peru,1,Web App for plant info,VPN
-de,Digital Enablers,,darkgreen,aomo-ao-apm-eta,ETAPRO,aomo-ao-apm,lightyellow,,,,13,10,,peru,1,ETAPRO,Digital Enablers
-de-an,Analytics (System of Insights),de,seagreen,de-an-vi-de-dl,Data Lake,de-an-vi-de,lightyellow,,,,13,81,Flat File,peru,1,Data Lake,Analytics (System of Insights)
-de-an-vi,Visualisation and Insights,de-an,olivedrab,de-int-int-api-cfu,Citibank File Uploader (External),de-int-int-mi,lightyellow,,,,13,80,API / WS,peru,1,Citibank File Uploader (External),Visualisation and Insights
+iis-infra-vpn,VPN,iis-infra,coral,aomo-aop-hist-um,UMIS 1.0,aomo-aop-hist,lightyellow,,Entrade,sandybrown,13,83,API / WS,peru,1,Web App for plant info,VPN
+de,Digital Enablers,,darkgreen,aomo-ao-apm-eta,ETAPRO,aomo-ao-apm,lightyellow,,Lacima,sandybrown,13,10,,peru,1,ETAPRO,Digital Enablers
+de-an,Analytics (System of Insights),de,seagreen,de-an-vi-de-dl,Data Lake,de-an-vi-de,lightyellow,,Reval,wheat,13,81,Flat File,peru,1,Data Lake,Analytics (System of Insights)
+de-an-vi,Visualisation and Insights,de-an,olivedrab,de-int-int-api-cfu,Citibank File Uploader (External),de-int-int-mi,lightyellow,,Swift,teal,13,80,API / WS,peru,1,Citibank File Uploader (External),Visualisation and Insights
 de-an-vi-mcf,Market and Commodity Forcasting,de-an-vi,teal,de-int-int-batch-gyro,Giro,de-int-int-batch,lightyellow,,,,13,73,Shared DB (SQL),peru,1,Giro,Market and Commodity Forcasting
 de-an-vi-od,Optimised Dispatch,de-an-vi,teal,de-int-int-api-axs,External - AXS 1.0,de-int-int-mi,lightyellow,,,,13,74,Shared DB (SQL),peru,1,External - AXS 1.0,Optimised Dispatch
 de-an-vi-pods,Plant Ops and Design Optimisation,de-an-vi,teal,de-an-vi-aso-vbr,VBR,de-an-vi-aso,lightyellow,,,,13,87,Shared DB (SQL),peru,1,VBR,Plant Ops and Design Optimisation
@@ -214,17 +214,21 @@ Download the data from inverter log and stored into site server automatically fo
 ,,,,cs-hr-hcm-snet,SAP ESS/MSS SAP NetWeaver 7.5,cs-hr-hcm,lightyellow,,,,141,22,API / WS,crimson,1,"SAP ESS/MSS is Employee Self Service and Manager Self Service, which is the web enabled tool used by employees.",
 ,,,,aomo-aop-dcs-coweb,Cogenweb,aomo-aop-dcs,lightyellow,,,,142,141,API / WS,crimson,1,"Hosts Cogen apps like plant statistics, EMC data to blackberry",
 ,,,,aomo-aop-osem-sch,Schneider PACiS SCADA 4.8.17 PP3,aomo-aop-osem,lightyellow,,,,142,122,TCP/IP,crimson,1,"For Switchyard automation, control and monitoring from local/remote",
-,,,,de-int-int-mi-gst,Goods Service Tax Network,de-int-int-mi,lightyellow,,,,,,,,,India's GST Network,
-,,,,cs-psc-scm-wms,Warehouse Management System,cs-psc-scm,lightyellow,,,,,,,,,This application is to digitalize and automate the warehouse’s asset movement and its related processes in Sembcorp’s warehouses.,
-,,,,de-int-int-mi-eew,EE Website,de-int-int-mi,lightyellow,,,,,,,,,UK Telco Provider,
-,,,,de-int-int-mi-amex,AMEX - UK,de-int-int-mi,lightyellow,,,,,,,,,External Interface,
-,,,,aomo-aop-eam-gho,Gasboy Head Office 6.4.413.007,aomo-aop-eam,lightyellow,,,,,,,,,Head office application for fleet and fuel management.,
-,,,,aomo-aop-ics-wtp,Wind Turbine PLC Regen,aomo-aop-ics,silver,,,,,,,,,Wind Turbine PLC,
-,,,,aomo-aop-wms-anpr,ANPR 1.0,aomo-aop-wms,lightyellow,,,,,,,,,Automated Name Plate Recognition,
-,,,,aomo-aop-eam-max,Maximo ,aomo-aop-eam,lightyellow,,,,,,,,,Purchasing and Maintenance tool,
+,,,,de-int-int-mi-gst,Goods Service Tax Network,de-int-int-mi,lightyellow,,,,144,145,,sandybrown,1,India's GST Network,
+,,,,cs-psc-scm-wms,Warehouse Management System,cs-psc-scm,lightyellow,,,,144,146,API / WS,sandybrown,1,This application is to digitalize and automate the warehouse’s asset movement and its related processes in Sembcorp’s warehouses.,
+,,,,de-int-int-mi-eew,EE Website,de-int-int-mi,lightyellow,,,,146,144,API / WS,sandybrown,1,UK Telco Provider,
+,,,,de-int-int-mi-amex,AMEX - UK,de-int-int-mi,lightyellow,,,,0,144,,sandybrown,1,External Interface,
+,,,,aomo-aop-eam-gho,Gasboy Head Office 6.4.413.007,aomo-aop-eam,lightyellow,,,,146,48,API / WS,sandybrown,1,Head office application for fleet and fuel management.,
+,,,,aomo-aop-ics-wtp,Wind Turbine PLC Regen,aomo-aop-ics,silver,,,,48,146,API / WS,teal,1,Wind Turbine PLC,
+,,,,aomo-aop-wms-anpr,ANPR 1.0,aomo-aop-wms,lightyellow,,,,48,147,API / WS,teal,1,Automated Name Plate Recognition,
+,,,,aomo-aop-eam-max,Maximo ,aomo-aop-eam,lightyellow,,,,147,48,API / WS,teal,1,Purchasing and Maintenance tool,
 ,,,,de-cs-di-casb-casb,Cloud Application Security Broker,de-cs-di-casb,indigo,,,,,,,,,Visibility and Control on SaaS,
 ,,,,de-cs-di-iam-cark,CyberArk 10.0,de-cs-di-iam,indigo,,,,,,,,,Priviliged password management solution,
 ,,,,de-cs-di-dpdp-fwf,Forcepoint Web Filtering,de-cs-di-dpdp,indigo,,,,,,,,,On-Prem Web Proxy Platform,
 ,,,,de-cs-di-dpdp-menlo,Menlo,de-cs-di-dpdp,indigo,,,,,,,,,Cloud based proxy / isolation solution,
 ,,,,iis-isd-itmm-twe,TripWire Enterprise,iis-isd-itmm,indigo,,,,,,,,,Tripwire is a security and data integrity tool for monitoring and alerting on specific file change(s) on a range of systems,
 ,,,,de-int-int-api-sapmi,SAP Manufacturing Integration and Intelligence,de-int-int-api,lightyellow,,,,,,,,,Manufacturing Integration and Intelligence,
+,,,,mer-fo-etrm-ent,Entrade,mer-fo-etrm,lightyellow,,,,,,,,,,
+,,,,mer-fo-etrm-lac,Lacima,mer-fo-etrm,lightyellow,,,,,,,,,,
+,,,,mer-bo-tms-rev,Reval,mer-bo-tms,lightyellow,,,,,,,,,,
+,,,,de-int-int-mi,Swift,de-int-int-mi,lightyellow,,,,,,,,,,
