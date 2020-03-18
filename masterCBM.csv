@@ -26,7 +26,7 @@ rco-cuo-bi,Billing & Invoicing,rco-cuo,royalblue,mer-mo-cm-ibms,IBMS (Integrated
 rco-cuo-nba,Next Best Action,rco-cuo,royalblue,mer-mo-cm-sf,Salesforce v. 1,mer-mo-cm,lightyellow,,Weighbridge Information System,crimson,10,28,Shared DB (SQL),peru,1,Salesforce v. 1,Next Best Action
 rco-cuo-pc,Payments & Collections,rco-cuo,royalblue,mer-mo-cm-sft,Salesforce-TIRS  Intergration Webservices v. 1.0,mer-mo-cm,lightyellow,,Integrated Waste Information System (IWIS) v. 1,crimson,10,29,API / WS,peru,1,Salesforce-TIRS  Intergration Webservices v. 1.0,Payments & Collections
 rco-cuo-lm,Loyalty Management,rco-cuo,royalblue,mer-mo-cm-tirs,Trade Information Reporting Systems v. 1,mer-mo-cm,lightyellow,,Customer Relations Management (SWM Call Centre) v. 1,skyblue,30,3,,wheat,1,Trade Information Reporting Systems v. 1: An application to allow traders to upload deal tickets information for verification by Finance and to print Settlement and Mark to Mark reports and export trade detail to Infinax,Loyalty Management
-rco-es,Energy Services,rco,mediumblue,mer-bo-ss-mcm,EMC Extract Monitoring System v. 1,mer-bo-ss,lightyellow,,Compactor Management Mobile App v. 1,crimson,31,2,WS (XML),crimson,1,"EMC Extract Monitoring System v. 1: An application to allow users to create new reports, and Invoice task and schedule it. It also allow user to monitor the schedule task status.",Energy Services
+rco-es,Energy Services,rco,mediumblue,mer-bo-ss-mcm,EMC Extract Monitoring System v. 1,mer-bo-ers,lightyellow,,Compactor Management Mobile App v. 1,crimson,31,2,WS (XML),crimson,1,"EMC Extract Monitoring System v. 1: An application to allow users to create new reports, and Invoice task and schedule it. It also allow user to monitor the schedule task status.",Energy Services
 rco-es-pc,Price Comparison,rco-es,royalblue,mer-bo-trc-tirs,Trade Information Reporting Systems v. 1,mer-bo-trc,lightyellow,,TMS (Time Management System) v. 1,peru,32,2,API / WS,crimson,1,Trade Information Reporting Systems v. 1: An application to allow traders to upload deal tickets information for verification by Finance and to print Settlement and Mark to Mark reports and export trade detail to Infinax,Price Comparison
 rco-es-edh,Energy Data Hub,rco-es,royalblue,mer-bo-ers-ebt,Electronic Business Transaction v. 1,mer-bo-ers,lightyellow,,HR Self-service Kiosk v. 1,peru,33,34,API / WS (XML),crimson,1,Electronic Business Transaction v. 1: To send and receive MSSL message via SONIC MQ Broker,Energy Data Hub
 rco-es-mp,Market Place Peer to Peer,rco-es,royalblue,mer-bo-ers-settle,Settlement v. 1,mer-bo-ers,lightyellow,,EMC Extract Monitoring System v. 1,wheat,36,35,API / WS (JSON),lightslategray,1,"Settlement v. 1: PSS is used by the Settlement team to verify the monthly usages and charges of EMC, MSSL and Sembcorp Cogen. The team reviews and performs necessary follow-up on variances from Settlement reports generated",Market Place Peer to Peer
@@ -150,9 +150,9 @@ iis-infra-cm,Cloud Management,iis-infra,coral,es-wia-rpa,Robotic Process Automat
 iis-infra-bh,Blockchain,iis-infra,coral,de-int-int-api-db,Dell Boomi,de-int-int-api,indigo,,Turbine Data Downloader v. 2.0.0,crimson,43,41,Shared DB (JSON),peru,1,Dell Boomi: Integration platform for applications,Blockchain
 iis-infra-dco,Data Center Operations,iis-infra,coral,de-int-int-api-wk,Workato,de-int-int-api,indigo,,Wind Turbine PLC Regen,crimson,13,57,"WS (SOAP, XML)",peru,1,Workato: Workflow Automation for Slack Integration,Data Center Operations
 iis-infra-inc,Inter-network Connections,iis-infra,coral,aomo-aop-hist-wh,Wonderware Historian,aomo-aop-hist,lightyellow,,SAP Manufacturing Integration and Intelligence,teal,16,17,Manual,teal,1,Wonderware Historian,Inter-network Connections
-iis-infra-vpn,VPN,iis-infra,coral,aomo-aop-hist-um,UMIS 1.0,aomo-aop-hist,lightyellow,,Entrade,sandybrown,13,83,API / WS,peru,1,Web App for plant info,VPN
-de,Digital Enablers,,darkgreen,aomo-ao-apm-eta,ETAPRO,aomo-ao-apm,lightyellow,,Lacima,sandybrown,13,10,,peru,1,ETAPRO,Digital Enablers
-de-an,Analytics (System of Insights),de,seagreen,de-an-vi-de-dl,Data Lake,de-an-vi-de,lightyellow,,Reval,wheat,13,81,Flat File,peru,1,Data Lake,Analytics (System of Insights)
+iis-infra-vpn,VPN,iis-infra,coral,aomo-aop-hist-um,UMIS 1.0,aomo-aop-hist,lightyellow,,Entrade,lightsalmon,13,83,API / WS,peru,1,Web App for plant info,VPN
+de,Digital Enablers,,darkgreen,aomo-ao-apm-eta,ETAPRO,aomo-ao-apm,lightyellow,,Lacima,lightsalmon,13,10,,peru,1,ETAPRO,Digital Enablers
+de-an,Analytics (System of Insights),de,seagreen,de-an-vi-de-dl,Data Lake,de-an-vi-de,lightyellow,,Reval,lightsalmon,13,81,Flat File,peru,1,Data Lake,Analytics (System of Insights)
 de-an-vi,Visualisation and Insights,de-an,olivedrab,de-int-int-api-cfu,Citibank File Uploader (External),de-int-int-mi,lightyellow,,Swift,teal,13,80,API / WS,peru,1,Citibank File Uploader (External),Visualisation and Insights
 de-an-vi-mcf,Market and Commodity Forcasting,de-an-vi,teal,de-int-int-batch-gyro,Giro,de-int-int-batch,lightyellow,,,,13,73,Shared DB (SQL),peru,1,Giro,Market and Commodity Forcasting
 de-an-vi-od,Optimised Dispatch,de-an-vi,teal,de-int-int-api-axs,External - AXS 1.0,de-int-int-mi,lightyellow,,,,13,74,Shared DB (SQL),peru,1,External - AXS 1.0,Optimised Dispatch
@@ -198,7 +198,7 @@ de-int-iot,IoT,de-int,olivedrab,de-int-int-mi-emc,EMC (External),de-int-int-mi,l
 de-int-iot-dg,IoT / Device Gateway,de-int-iot,teal,de-int-int-mi-kf,KrisFlyer,de-int-int-mi,lightyellow,,,,130,129,Custom Connector (Batch),crimson,1,External Interface,IoT / Device Gateway
 de-int-iot-ec,Edge Controller,de-int-iot,teal,de-int-int-mi-pg,Payment Gateway (Ext),de-int-int-mi,lightyellow,,,,131,129,,crimson,1,External Interface,Edge Controller
 de-int-iot-dm,Device Management,de-int-iot,teal,de-int-int-mi-sp,Singpost,de-int-int-mi,lightyellow,,,,132,129,,crimson,1,External Interface,Device Management
-de-int-iot-cep,Complex Event Processing (Device Data),de-int-iot,teal,mer-bo-ss-pss,Power Settlement System,mer-bo-ss,lightyellow,,,,129,14,,crimson,1,Power Settlement System,Complex Event Processing (Device Data)
+de-int-iot-cep,Complex Event Processing (Device Data),de-int-iot,teal,mer-bo-ss-pss,Power Settlement System,mer-bo-ers,lightyellow,,,,129,14,,crimson,1,Power Settlement System,Complex Event Processing (Device Data)
 de-en,Enterprise Network,de,seagreen,mer-bo-ers-sbf,SUT Billing File,mer-bo-ers,lightyellow,,,,13,88,API / WS,peru,1,SUT Billing File,Enterprise Network
 de-en-dev,Device,de-en,olivedrab,de-int-int-mi-sps,SP Systems Interface,de-int-int-mi,lightyellow,,,,133,12,API / WS,teal,1,SP Systems Interface,Device
 de-en-dev-dm,"Digital Meters (AMR, Smart)",de-en-dev,teal,aomo-ao-apm-ava,AMS Vibration Analyser CSI 2140,aomo-ao-apm,silver,,,,133,88,API / WS,teal,1,Physical device to monitor vibration of machines,"Digital Meters (AMR, Smart)"
@@ -228,7 +228,9 @@ Download the data from inverter log and stored into site server automatically fo
 ,,,,de-cs-di-dpdp-menlo,Menlo,de-cs-di-dpdp,indigo,,,,,,,,,Cloud based proxy / isolation solution,
 ,,,,iis-isd-itmm-twe,TripWire Enterprise,iis-isd-itmm,indigo,,,,,,,,,Tripwire is a security and data integrity tool for monitoring and alerting on specific file change(s) on a range of systems,
 ,,,,de-int-int-api-sapmi,SAP Manufacturing Integration and Intelligence,de-int-int-api,lightyellow,,,,,,,,,Manufacturing Integration and Intelligence,
-,,,,mer-fo-etrm-ent,Entrade,mer-fo-etrm,lightyellow,,,,,,,,,,
-,,,,mer-fo-etrm-lac,Lacima,mer-fo-etrm,lightyellow,,,,,,,,,,
-,,,,mer-bo-tms-rev,Reval,mer-bo-tms,lightyellow,,,,,,,,,,
+,,,,mer-fo-etrm-ent,Entrade,mer-fo-etrm,lightsalmon,,,,,,,,,,
+,,,,mer-fo-etrm-lac,Lacima,mer-fo-etrm,lightsalmon,,,,,,,,,,
+,,,,mer-bo-tms-rev,Reval,mer-bo-tms,lightsalmon,,,,,,,,,,
 ,,,,de-int-int-mi-swt,Swift,de-int-int-mi,lightyellow,,,,,,,,,,
+,,,,mer-mo-pm-ent,Entrade,mer-mo-pm,lightsalmon,,,,,,,,,,
+,,,,mer-bo-ers-ent,Entrade,mer-bo-ers,,,,,,,,,,,
