@@ -157,7 +157,7 @@ de-an-vi,Visualisation and Insights,de-an,olivedrab,de-int-int-api-cfu,Citibank 
 de-an-vi-mcf,Market and Commodity Forcasting,de-an-vi,teal,de-int-int-batch-gyro,Giro,de-int-int-batch,lightyellow,,360T,lightsalmon,13,73,Shared DB (SQL),peru,1,Giro,Market and Commodity Forcasting
 de-an-vi-od,Optimised Dispatch,de-an-vi,teal,de-int-int-api-axs,External - AXS 1.0,de-int-int-mi,lightyellow,,Position View,lightsalmon,13,74,Shared DB (SQL),peru,1,External - AXS 1.0,Optimised Dispatch
 de-an-vi-pods,Plant Ops and Design Optimisation,de-an-vi,teal,de-an-vi-aso-vbr,VBR,de-an-vi-aso,lightyellow,,Contigo,wheat,13,87,Shared DB (SQL),peru,1,VBR,Plant Ops and Design Optimisation
-de-an-vi-pve,Predictive Maintenance,de-an-vi,teal,aomo-aop-eam-wis,Weighbridge Information System,aomo-aop-eam,lightyellow,,ICE,team,35,93,Custom Connector,teal,1,"Weighbridge Information System: WIS provides the Woodchip Boiler Plant engineers with woodchip steam production analysis reports. In addition, it facilitates billing verification between Sembcorp Cogen and SembEnviro",Predictive Maintenance
+de-an-vi-pve,Predictive Maintenance,de-an-vi,teal,aomo-aop-eam-wis,Weighbridge Information System,aomo-aop-eam,lightyellow,,ICE,teal,35,93,Custom Connector,teal,1,"Weighbridge Information System: WIS provides the Woodchip Boiler Plant engineers with woodchip steam production analysis reports. In addition, it facilitates billing verification between Sembcorp Cogen and SembEnviro",Predictive Maintenance
 de-an-vi-aso,Asset Performance Optimisation,de-an-vi,teal,aomo-aop-eam-st,Storage & Terminalling,aomo-aop-eam,lightyellow,,,,57,20,"WS (REST), SQL, File Share",royalblue,1,"Storage & Terminalling: A system for Storage & Terminalling team to manage Eastman work orders for isotank, drumming, stuffing and vessel loading jobs",Asset Performance Optimisation
 de-an-vi-gp,Global Ops ,de-an-vi,teal,aomo-aop-eam-lims,Laboratory Information Management System,aomo-aop-eam,lightyellow,,,,109,57,WS (SOAP),teal,1,Laboratory Information Management System: To maintain the optimal operating conditions and give the water operations early warning to treatment process potential upset,Global Ops 
 de-an-vi-de,Data Lake,de-an-vi,teal,aomo-aop-eam-geo,GEO Information System,aomo-aop-eam,lightyellow,,,,57,110,"WS (REST), FTP",royalblue,1,GEO Information System: A system to maintain pipeline and associated assets information in Jurong Island used for monitoring capex and space utilization tracking and generate commercial proposals,Data Lake
@@ -226,9 +226,9 @@ Download the data from inverter log and stored into site server automatically fo
 ,,,,de-cs-di-iam-cark,CyberArk 10.0,de-cs-di-iam,indigo,,,,13,144,API / WS,lightsalmon,1,Priviliged password management solution,
 ,,,,de-cs-di-dpdp-fwf,Forcepoint Web Filtering,de-cs-di-dpdp,indigo,,,,37,144,API / WS,lightsalmon,1,On-Prem Web Proxy Platform,
 ,,,,de-cs-di-dpdp-menlo,Menlo,de-cs-di-dpdp,indigo,,,,107,144,Shared DB (SQL),lightsalmon,1,Cloud based proxy / isolation solution,
-,,,,iis-isd-itmm-twe,TripWire Enterprise,iis-isd-itmm,indigo,,,,147,146,API / WS,lightsalmon,1,Tripwire is a security and data integrity tool for monitoring and alerting on specific file change(s) on a range of systems,
-,,,,de-int-int-api-sapmi,SAP Manufacturing Integration and Intelligence,de-int-int-api,lightyellow,,,,148,145,API / WS,lightsalmon,1,Manufacturing Integration and Intelligence,
-,,,,mer-fo-etrm-ent,Entrade,mer-fo-etrm,lightsalmon,,,,149,145,API / WS,lightsalmon,1,,
+,,,,iis-isd-itmm-twe,TripWire Enterprise,iis-isd-itmm,indigo,,,,148,146,API / WS,lightsalmon,1,Tripwire is a security and data integrity tool for monitoring and alerting on specific file change(s) on a range of systems,
+,,,,de-int-int-api-sapmi,SAP Manufacturing Integration and Intelligence,de-int-int-api,lightyellow,,,,149,145,API / WS,lightsalmon,1,Manufacturing Integration and Intelligence,
+,,,,mer-fo-etrm-ent,Entrade,mer-fo-etrm,lightsalmon,,,,150,145,API / WS,lightsalmon,1,,
 ,,,,mer-fo-etrm-lac,Lacima,mer-mo-rm,lightsalmon,,,,,,,,,,
 ,,,,mer-bo-tms-rev,Reval,mer-bo-tms,lightsalmon,,,,,,,,,,
 ,,,,de-int-int-mi-swt,Swift,de-int-int-mi,lightyellow,,,,,,,,,,
