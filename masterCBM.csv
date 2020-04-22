@@ -211,7 +211,7 @@ de-en-cn-knc,Wired Network Comms,de-en-cn,teal,aomo-ao-apm-lda,Lidar Data Aggreg
 de-en-cn-rnc,Routing and Switching,de-en-cn,teal,aomo-ao-apm-lis,LiDAR Sensor,aomo-ao-apm,silver,India,,,140,43,Flat File (Batch),crimson,1,LiDAR Sensor,Routing and Switching
 de-en-cn-ndm,Network Device Management,de-en-cn,teal,aomo-ao-apm-ida,Inverter Data Auto Downloader,aomo-ao-apm,lightyellow,India,,,141,152,API / WS,crimson,1,"Console Application - Download data from Solar Panels. 
 Download the data from inverter log and stored into site server automatically for all Solar sites (BAP&MERVADAR)",Network Device Management
-,,,,cs-hr-hcm-snet,SAP ESS/MSS SAP NetWeaver 7.5,cs-hr-hcm,lightyellow,Corporate,,,142,141,API / WS,crimson,1,"SAP ESS/MSS is Employee Self Service and Manager Self Service, which is the web enabled tool used by employees.",
+de-an-bi,Business Intelligence,de-an,teal,cs-hr-hcm-snet,SAP ESS/MSS SAP NetWeaver 7.5,cs-hr-hcm,lightyellow,Corporate,,,142,141,API / WS,crimson,1,"SAP ESS/MSS is Employee Self Service and Manager Self Service, which is the web enabled tool used by employees.",
 ,,,,aomo-aop-dcs-coweb,Cogenweb,aomo-aop-dcs,lightyellow,Singapore,,,142,122,TCP/IP,crimson,1,"Hosts Cogen apps like plant statistics, EMC data to blackberry",
 ,,,,aomo-aop-osem-sch,Schneider PACiS SCADA 4.8.17 PP3,aomo-aop-osem,lightyellow,India,,,144,145,,lightsalmon,1,"For Switchyard automation, control and monitoring from local/remote",
 ,,,,de-int-int-mi-gst,Goods Service Tax Network,de-int-int-mi,lightyellow,India,,,144,146,API / WS,lightsalmon,1,India's GST Network,
@@ -252,5 +252,6 @@ Download the data from inverter log and stored into site server automatically fo
 ,,,,aomo-aop-psp-svms,Solus Visitor Management System v. 1,aomo-aop-psp,lightyellow,India,,,,,,,,For recording and tracking of Visitor details entering into plant premises ,
 ,,,,aomo-ao-apm-vbr,VBR Performance Monitoring Apps,aomo-ao-apm,lightyellow,India,,,,,,,,"Breakdown & EBA Monitor, Turbine Health with FDS (Fault Diagnostic System), Scheduling Monitoring, Buffer Analyser",
 ,,,,de-an-dm-bda-vbr,VBR Central Database,de-an-dm-bda,lightyellow,India,,,,,,,,Virtual Brain Central Database ,
-,,,,de-en-cn-wnc,Aruba Airwave,de-en-cn-wnc,indigo,Corporate,,,,,,,,Aruba Wireless Management Plaform,
+,,,,de-en-cn-wnc-aa,Aruba Airwave,de-en-cn-wnc,indigo,Corporate,,,,,,,,Aruba Wireless Management Plaform,
 ,,,,de-cs-di-iam-aadc,Azure AD Connect,de-cs-di-iam,indigo,Corporate,,,,,,,,Dir Sync to Office 365,
+,,,,de-an-bi-bo,Business Objects,de-an-bi,lightyellow,Corporate,,,,,,,,Business Objects,
