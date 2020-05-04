@@ -1,0 +1,293 @@
+app_name,technology,country,end_date,resolution_date,it_owner,func_area,action_plan,critical
+Sembcorp Internet Website/Corporate Website v. 1.0,".NET Framework v. 4.5, Umbraco v. 7.2, Price Feed Program (SCI) v. 1.0, Price Feed Program (SCM) v. 1.0, Internet Information Services v. 8.0, Microsoft Server v. 2012, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,C
+Website Content Management System v. 1.0,"Umbarco v. 7.2, .NET Frameworkv. 4.5, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,C
+Customer Relations Management (SWM Call Centre) v. 1,".NET Framework v. 4.6, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Singapore,,,,,,NC
+Creams v. 3.19.09.26,,China,,,,,,
+Property Management System (Mysoft) v. 3.0.7,"Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",China,,,,finance,,
+Salesforce v. 1,,,,,,,,C
+Sembcorp Internet Website/Corporate Website v. 1.0,,,,,,,,
+Contact Management System v. 1.1,".NET Framework v. 3.5, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server Reporting Services v. 2012, Microsoft SQL Server v. 2012 ",,,,Prasanth Thomas,,,C
+Customer Utility Billing & Experience Management v. 1.0,,,,,,billing,,C
+Customer Management System v. 7.5,".NET Framework v. 3.5, Crystal Reports v. 6.0, Microsoft Server v. 2008 R2, Revenue Manager v. 7.5, Usage Conversion System v. 1.0, Microsoft SQL Server v. 2008 R2",Singapore,"7/12/2011,  05/03/2002, 14/01/2020, 29/12/2017, 31/12/2017",,Kuan Choon Cheit ,billing,"Most of the programs and the web application are dependent on the Revenue Manager application and its API which are running in the .NET 3.5 Framework. 
+ 
+Modernization of these applications are currently in-progress, pending recommendations by an external system architect, and a subsequent server upgrade. ",
+NTUC,,,,,,,,
+IBMS (Integrated Billing Management System) v. 1,".NET Framework v. 4.6, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Singapore,,,Prasanth Thomas,billing,,C
+MIS 2.0  v. 2.0,Microsoft Server v. 2008 R2,China,14/1/2020,Q1 2020,Dong George,billing, FZ has a plan to upgrade SQL server to 2014 while replacement of MIS 2.0 server in 2020 Q1  ,
+MIS 3.0  (Pufeite) v. 3.0,"Microsoft Server v. 2008 R2, Oracle Database v. 10.2.0.1",China,"14/1/2020, 22/2/2009",20-Sep,Dong George,billing," SSW has made a budget to replace it billing system (Pufeite) in 2020.  Oracle 10.2.0.1 and Windows Server will retire once the new system go live. 
+  SSW has made a budget to replace it billing system (Pufeite) in 2020.  Oracle 10.2.0.1 and Windows Server will retire once the new system go live. 
+  SSW has made a budget to replace it billing system (Pufeite) in 2020.  Oracle 10.2.0.1 and Windows Server will retire once the new system go live. 
+  SSW has made a budget to replace it billing system (Pufeite) in 2020.  Oracle 10.2.0.1 and Windows Server will retire once the new system go live. 
+  SSW has made a budget to replace it billing system (Pufeite) in 2020.  Oracle 10.2.0.1 and Windows Server will retire once the new system go live. 
+  SSW has made a budget to replace it billing system (Pufeite) in 2020.  Oracle 10.2.0.1 and Windows Server will retire once the new system go live. 
+ SSW has made a budget to replace it billing system (Pufeite) in 2020.  Oracle 10.2.0.1 and Windows Server will retire once the new system go live. ",
+"Nomination, Allocation Billing System v. 1",".NET Framework v. 4.5, Internet Information Services v. 10.0, Microsoft SQL Server Reporting Services v. 2017, Microsoft Server v. 2016, Microsoft SQL Server v. 2017",Singapore,,,Prasanth Thomas,billing,,C
+Solar Data DB,,,,,,,,
+RISK v. 7.6.0,,,,,,,,
+Salesforce-TIRS  Intergration Webservices v. 1.0,".NET Framework v. 3.5, Microsoft Server v. 2008 R2",Singapore,"7/12/2011,14/1/2020",,Kuan Choon Cheit ,,,
+Trade Information Reporting Systems v. 1,".NET Framework v. 3.5, DotNetNuke v. 7.0, Internet Information Services v. 6.0, Microsoft Server v. 2008 R2, Microsoft SQL Server v. 2012",Singapore," 12/7/2011, 27/11/2015, 14/7/2015, 14/1/2020",19-Dec,Kuan Choon Cheit ,,TIRS server will be upgraded to Windows 2016,C
+EMC Extract Monitoring System v. 1,".NET Framework v. 3.5, Internet Information Services v. 6.0, Microsoft Server v. 2008, Microsoft SQL Server v. 2008 R2",Singapore,"7/12/2011, 14/7/2015",19-Dec,Kuan Choon Cheit ,,EMC server will be upgraded to Windows 2016,NC
+Electronic Business Transaction v. 1,".NET Framework v. 4.5, Internet Information Services v.10.0, Microsoft Server v. 2016, Microsoft SQL Server v.2016",Singapore,,,Prasanth Thomas,,,C
+Settlement v. 1,".NET Framework v. 3.5, Internet Information Services v. 6.0, Crystal Reports Server 2013 v.14.1, Microsoft Server v. 2008, Microsoft SQL Server v. 2008 R2",Singapore,"7/12/2011,  14/1/2020",31-Dec-19,Kuan Choon Cheit ,,Settlement server will be upgraded to Windows 2016.  Settlement Application is no longer in used. Only the report scripts are still in used.,C
+CSLUCAS v. 1,"IBM HTTP Server v. 8.0, IBM WebSphere Application Server v. 8.0, Java Runtime Environment v. 1.6, IBM Data Server Manager v. 2.1, IBM DB2 Express Edition v.10.5",Singapore,"30/4//2018, 30/4/2018, 01/9/2017",,Kuan Choon Cheit ,,CSLUCAS will be replaced by TMS,C
+Non-Audit Services Report Consolidation v. 1.0,".NET Framework v.4.6, Internet Information Services v. 8.5, Microsoft SQL Server Reporting Services v. 2012, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC
+Integrated Waste Information System (IWIS) v. 1,".NET Framework v. 4.6, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012, Microsoft SQL Server Reporting Services v. 2012",Singapore,,,Prasanth Thomas,,,NC
+SAP PM v. SAP ERP 6.0 EhP8,"SAP NetWeaver (ABAP + Java) v. 7.3, SAP NetWeaver (ABAP) v 7.5, SAP Process Integration v. 7.3, SAP Router v. 745, Microsoft Server v. 2008, Micorosoft Server v. 2012 R2, Microsoft SQL Server v. 2008, Microsoft SQL Server v. 2012",Corporate,,,Wong Mel Naa,,,C
+Turbine Data Downloader v. 2.0.0,,Singapore,,,,,,
+Process History Data v. 1.0,".NET Framework v. 2.0, .NET Framework v. 3.5, .NET Framework v. 4.6, Uniformance Process Studio v. 310.1, Uniformance Process Studio v.310.2, Uniformance Process Studio v.322, Microsoft Azure Service Fabric v. 6.4.6, Internet Information Services v. 7.0,Internet Information Services v. 10.0, KEPServerEx v.6.5, Microsoft Server v. 2008, Microsoft Server v. 2012, Microsoft Server v. 2012 R2, Microsoft Server v. 2016, Microsoft SQL Server v. 2012, Uniformance Process History Database (PHD) v. 320",Singapore," 12/7/2011,  12/7/2011, 14/1/2020, 31/12/2018, 31/12/2018,  01/01/2018",20-Apr,Kuan Choon Cheit ,,Server upgrade in progress,C
+Water Plant Management System v. 1.0,"Windows 7 v. Professional, Microsoft Server v 2012 R2, Microsoft SQL Server v. 2012, Internet Information Services v. 8.5",China,14/1//2020,20-Jul,Dong George,,Planned to replace WPMS with a new historian system which will not contain any expired/expiring component in 2020.,
+Banyan CCP3 - DCS v. 1.0,,,,,,,,
+Bayan WWTP - DCS v. NA,,,,,,,,
+EFW - DCS v. NA,,,,,,,,
+NCIP Water - DCS v. XDC800,Windows 7 v. Professional,China,14/1//2020,,Dong George,,Xinhua DCS software is still not compatible with Windows 10.   Once Xinhua publishes its new version supporting windows 10 Windows7 professional will be replaced immediately.  ,
+NSS - DCS v. XDC800,Windows 7 v. Professional,China,14/1/2020,,Dong George,,,
+Sakra Cogen - DCS v. 1.0,,Singapore,,,,,,
+Sakra Demin - DCS v. NA,,Singapore,,,,,,
+Sakra ERP - DCS v. 500,,Singapore,,,,,,
+Sakra IWWT - DCS v. 7,,Singapore,,,,,,
+Sakra SUT - DCS v. TPS3000,,Singapore,,,,,,
+Sakra SVC - DCS v. NA,,Singapore,,,,,,
+Seraya Incineration - DCS v. 6,,Singapore,,,,,,
+Woodchip boiler - DCS v. NA,,Singapore,,,,,,
+ZJG - DCS v. 5.3+sp3,"Windows 10, Microsoft Server v. 2012",China,,,,,,
+Compactor Management Mobile App v. 1,"ASP.NET Core v. 1.0, .NET Framework v. 4.5, Windows 8, Xamarin.Android v. 1.0, Xamarin.iOS v. 1.0",Singapore,27/6/2019,,Kuan Coon Cheit,,To recompile with latest Xamarin version,NC
+NPR v. 1.0,,,,,,,,
+Workforce Management System v. 1.0,".NET Framework v.4.5, Internet Information Services v. 8.5, GoCoder v. 4.7.1, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2016",Corporate,,,Prasanth Thomas,,,NC
+Visitor Management System v. 1,"Microsoft Server v. 2008 R2, Microsoft SQL Server v. 2008 R2, Microsoft Access 2013 v. 15.0",Singapore,14/1/2020,,Kuan Coon Cheit,,Decommission server once Security have moved to new visitor management system.  JI Security is in process of implementing a new system to start in SUT/Cogen at Sakra Ave. They will progressively replace the system. ,NC
+Scannell v. 1.0,,UK,,,Siatrak Mateusz,,,
+AMS Machinery v. 5.7,".NET Framework v. 3.5, AMS Machinery Manager v. 5.7, CSI USB Driver v. 1.0.1.4, Microsoft Report Viewer v. 10.0, Microsoft Server v. 2016",Singapore,12/7/2011,,Kuan Coon Cheit,,,NC
+LGAMS v. 10.4.5.1,"Internet Information Services v. 10.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2014",Corporate,,,,,,
+Virtual Brain Water v. 2.0,"Anjular JS v. 1.0, DBaaS v. 1.0",Corporate,,,Prasanth Thomas,,,C
+Enterprise Architecture Tool v. 1.0,,,,,,,,
+SAP Ariba v. 14s,,India,,,,,,C
+C2SAPLite v. 1.0,"CuteFTP v. 8.3, Microsoft Server v. 2008 R2, Axway Trusted File v. 3.6.0",Corporate,"5/27/2013, 14/1/2020",,Wong Mel Na,finance,Upgrade completed,C
+Cognos Controller v. 10.3.1,"IBM Cognos Configuration v. 11.0, IBM Cognos Controller Configuration, Microsoft Server v. 2016, Microsoft SQL Server v. 2017",Corporate,,,,finance,,C
+Exception Form v. 1.0,,,,,,finance,,
+Faxmaker v. 16.0,"FaxMaker v.16.0, Fluid Monitor v. 2.1, Microsoft Server v. 2016",Corporate,1/10/2014,,Wong Mel Na,finance,Upgrade completed,NC
+Fixed Asset Transfer eform v. 1.0,"K2 Five v. 5.2, Internet Information Services v. 10.0, Microsoft Server v. 2016, Microsoft SQL Server v. 2017",Corporate,,,Prasanth Thomas,finance,,C
+Investment Risk Exposure v. 1.0,"Internet Information Services v. 8.0, .NET Framework v. 3.5 SP1, Microsoft Server v. 2012 R2, Microsoft SQL Reporting Services v. 2012, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,finance,,NC
+Mobile Bills v. 1.0,.NET Framework v. 2.0,uk,12/7/2011,,Siatrak Mateusz,finance,,
+Non-Audit Services Report Consolidation v. 1.0,,,,,,finance,,
+Payment Request eform v. 1.0,"K2 Five v. 5.2, Internet Information Services v. 10.0, Microsoft Server v. 2016, Microsoft SQL Server v. 2017",Corporate,,,Prasanth Thomas,finance,,C
+SAP Business Warehouse  Business Planning and Consolidation v. BPC 810 SP7,Microsoft Server v. 2008 R2,Singapore,1/14/2020,,Partha Dutta,finance,Migrating to cloud hosting,NC
+SAP FICO v. SAP ERP 6.0 EhP8,"SAP NetWeaver (ABAP + Java) v. 7.3, SAP NetWeaver (ABAP) v 7.5, SAP Process Integration v. 7.3, Solution Manager v. 7.1, SAP Router v. 745, Microsoft Server v. 2008, Micorosoft Server v. 2012 R2, Microsoft SQL Server v. 2008, Microsoft SQL Server v. 2012",Corporate,,,Wong Mel Naa,finance,,C
+SAP VIM v. 7.5,"OpenText Imaging Web Viewer v. 10.5, SAP Invoice Capture Center v. 7.5, NetScaler Virtual Applicance v. 450010, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012, OpenText Archive Server v. 10.5",Corporate,31/3/2019,Q3 2020,Wong Mel Naa,finance,Upgrade project to kick-off in Feb 2020.,C
+Career Centre Admin v. 1.0,".NET Framework v 3.5 SP1, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC
+Career Centre Internal v. 1.0,".NET Framework v 3.5 SP1, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC
+Career Centre Public v. 1.0,".NET Framework v 3.5 SP1, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC
+Employee Common Database v. 1.0,,,,,,,,
+Employee Share Plans System v. 1.0,".NET Framework v. 2.0, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server Reporting Services v. 2012, Microsoft SQL Server v. 2012",Corporate,12/7/2011,,Prasanth Thomas,,It will be retired once the new provider/software is selected ,C
+HR Self-service Kiosk v. 1,".NET Framework v. 4.6, WCF Data Services 5.6.0 Runtime v.5.6.0",Corporate,,,Prasanth Thomas,,,NC
+KABA v. 1.0,,China,,,Dong George,,,
+Performance Share Plans System v. 1.0,".NET Framework v. 2.0, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server Reporting Services v. 2012, Microsoft SQL Server v. 2012",Corporate,12/7/2011,,Prasanth Thomas,,It will be retired once the new provider/software is selected ,C
+Resource Tracking System v. 1.0,".NET Framework v.4.6, Internet Information Services v. 8.0, Microsoft SQL Server Reporting Services v. 2012, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC
+Restricted  Share Plans System v. 1.0,".NET Framework v. 4.6, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server Reporting Services v. 2012, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,C
+SAP HCM v. SAP ERP 6.0 EhP8,"SAP NetWeaver (ABAP + Java) v. 7.3, SAP NetWeaver (ABAP) v 7.5, SAP Process Integration v. 7.3, SAP Router v. 745, Microsoft Server v. 2008, Micorosoft Server v. 2012 R2, Microsoft SQL Server v. 2008, Microsoft SQL Server v. 2012",Corporate,,,Wong Mel Naa,,,C
+Scholarship.net v. 1.0,".NET Framework v.4.6, Internet Information Services v. 8.0, Microsoft SQL Server Reporting Services v. 2012, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC
+TMS (Time Management System) v. 1,".NET Framework v 4.6, Internet Information Services v. 8.0, Microsoft SQL Server Reporting Services v. 2012, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,,,,C
+Sembcorp OTUJ - Backend Administrative Portal v. 1.0,".NET Framework v. 4.7, Azure AD Authentication Connected Service v. 14.0, Internet Information Services v. 8.0,  Microsoft Server v. 2016, Microsoft SQL Server v. 2016",Corporate,,,Prasanth Thomas,,,C
+Sembcorp OTUJ v. 1.3,".NET Framework v. 4.7, Google Firebase v. 1.0, Xamarin Forms v. 2016, Azure AD Authentication Connected Service v. 14.0, Internet Information Services v. 8.0, Intune v. 5.0, Microsoft Server v. 2016, Microsoft SQL Server v. 2016",Corporate,,,,,,
+Time Off eform v. 1.0,"K2 v. 4.7, Internet Information Services v. 8.5, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC
+Timesheets v. 1.0,,UK,,,Siatrak Mateusz,,,
+TMS (Time Management System) v. 1,,,,,,,,
+SAP ASP v. 1.0,,India,,,,,,NC
+SAP GSP v. 1.0,,India,,,,,,NC
+Annual Declaration Form v. 1.0,".NET Framework v.4.6, Internet Information Services v. 8.5, Microsoft SQL Server Reporting Services v. 2012, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC
+Company Profile and Shareholding Database System v. 1.0,".NET Framework v.4.6, Internet Information Services v. 8.5, Microsoft SQL Server Reporting Services v. 2012, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC
+Gift and Entertainment Management v. 1.0,"K2 Five v. 5.2, Internet Information Services v. 10.0, Microsoft Server v. 2016, Microsoft SQL Server v. 2017",Corporate,,,Prasanth Thomas,,,NC
+KOLA v. 1.0,"Internet Information Services v. 8.0, Java Runtime Enviroment v. 1.8, Microsoft Server v 2012 R2, Microsoft SQL Server v 2012",Corporate,,,,,,
+Tableau Reporting Dashboard v. 10.3.2,"Desktop (Tableau Desktop) v. 10.3, Server (Tableau Server) v. 10.3, Microsoft Server v 2012 R2",Corporate,"30/11/2019, 30/11/2019",,Prasanth Thomas,,,
+Sustainability Data Management System v. 8.4,Enablon Connect v. 8.4,Singapore,,,,,,NC
+Enterprise Risk and Control Management System v. 5.X,,,,,,,,
+Global HSE Information System v. 1.0,".NET Framework v. 4.5, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server Reporting Services v. 2012, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC
+Sembcorp Secure App - Backend Administrative Portal v. 1.0,".NET Framework v. 4.6, Azure AD Authentication Connected Service v. 14.0, Internet Information Services v. 8.0, Microsoft Server v. 2016, Microsoft SQL Server v. 2016",Singapore,,,,,,
+Sembcorp Secure Mobile App v. 1.3,".NET Framework v. 4.6, Azure AD Authentication Connected Service v. 14.0, Google Firebase v. 1.0, Xamarin Forms v. 2016, Internet Information Services v. 8.0, Intune v. 5.0, Microsoft Server v. 2016, Microsoft SQL Server v. 2016",Singapore,,,Prasanth Thomas,,,NC
+SAP ARIBA Strategic sourcing v. 1.0,,,,,,,,
+PCard v. 1.0,".NET Framework v. 4.5, Internet Information Services v. 8.0, Microsoft Server v. 2012, Microsoft SQL Server v. 2012",UK,,,Siatrak Mateusz,,,
+SAP MM v. SAP ERP 6.0 EhP8,"SAP NetWeaver (ABAP + Java) v. 7.3, SAP NetWeaver (ABAP) v 7.5, SAP Process Integration v. 7.3, SAP GUI for Windows v. 745, SAP Router v. 745, Microsoft Server v. 2008, Micorosoft Server v. 2012 R2, Microsoft SQL Server v. 2008, Microsoft SQL Server v. 2012",Corporate,,,Wong Mel Naa,,,C
+Jira Software v. 1,,,,,Prasanth Thomas,,,NC
+Home v. 1.0,".NET Framework v. 4.5, Internet Information Services v. 8.0, Microsoft Server v. 2012, Microsoft SQL Server v. 2012",UK,,,Siatrak Mateusz,,,
+Sembcorp Portal v. SharePoint 2013,".NET Framework v. 4.6, Microsoft SharePoint Server v. 2013, Internet Information Services v. 8.0,  Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2014, Office WebApps Server v. 2013",Corporate,,,Prasanth Thomas,,,NC
+Board Papers Apps v. 1.0,"Microsoft Sharepoint v. 2013, Pervasent Board Papers v. 2013, Internet Information Services v.8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2014, Office Web Apps Server v. 2013",Corporate,,,Prasanth Thomas,,,C
+Department Portal (Intranet) v. SharePoint 2013,"Microsoft SharePoint Server v. 2013, Internet Information Services v. 8.0,  Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2014, Office WebApps Server v. 2013",Corporate,,,Prasanth Thomas,,,C
+Department Portal (Online) v. SharePoint Online,Microsoft Sharepoint,Corporate,,,Prasanth Thomas,,,C
+Electronic Document Management System v. 1.0,Windchill v. 10.0,Corporate,,,,,,
+Home v. 1.0,,,,,,,,
+Microsoft Stream (Internet-Online) v. Microsoft Stream,Microsoft Stream,Corporate,,,Nigel Watson,,,NC
+Project Portal (Intranet) v. SharePoint 2013,"Microsoft SharePoint Server v. 2013, Internet Information Services v. 8.0,  Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2014, Office WebApps Server v. 2013",Corporate,,,Prasanth Thomas,,,C
+Project Portal (Online) v. SharePoint Online,Microsoft Sharepoint,Corporate,,,Prasanth Thomas,,,C
+Sembcorp Media Gallery v. SharePoint 2013,Microsoft Sharepoint,Corporate,,,Prasanth Thomas,,,NC
+Sembcorp Portal v. SharePoint 2013,,,,,,,,
+Website Content Management System v. 1.0,,,,,,,,
+Department Portal (Intranet) v. SharePoint 2013,,,,,,,,
+Enterprise Video Communications v. 4.4.2,,,,,,,,
+Slack v. Enterprise Grid,Slack,Corporate,,,Prasanth Thomas,,,NC
+ARIS v. 10 Release 8,,,,,,,,
+SAP Approval Mobile App System - Sembcorp Approval 3.0 v. 2.1,".NET Framework v. 4.6, Xamarin Forms v. 2016, Internet Information Services v. 8.0, Intune v. 5.0, Microsoft Server v. 2016",Corporate,,,Prasanth Thomas,,,NC
+"CAPEX Purchase, Fixed Asset Disposal, CAPEX Replacement eform v. 1.0","K2 Five v. 5.2, Internet Information Services v. 10.0, Microsoft Server v. 2016, Microsoft SQL Server v. 2017",Corporate,,,Prasanth Thomas,,,C
+Event Attendance (Power Apps) v. 1.0,"Microsoft PowerApps, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC
+Robotic Process Automation v. 1,"Robots - Cash Projection v. 1.0, Robots - DOF Billing 1.0, .NET Framework v. 4.5, UiPath v. 2018.4, Internet Information Services v. 10.0, Microsoft Server v. 2016, Microsoft SQL Server v. 2016",Corporate,,,Prasanth Thomas,,,NC
+Dell Boomi,"Dell Boomi API Gateway v. 1.0, Microsoft Server v. 2016 Datacenter",Corporate,,,Prasanth Thomas,,,NC
+Workato,Workato On-Prem agent v. 1.1,Corporate,,,Prasanth Thomas,,,NC
+Wonderware Historian,,India,,,,,,
+UMIS 1.0,,UK,,,,,,
+EtaPRO,,Singapore,,,,,,C
+Data Lake,,Corporate,,,Partha Dutta,,,NC
+Citibank File Uploader (External),,,,,,,,
+Giro,,,,,,,,
+External - AXS 1.0,,,,,,,,
+VBR Analytics Apps,,India,,,Jitesh Patel,,,NC
+VBR Central Database,,India,,,Jitesh Patel,,,C
+VBR Performance Monitoring Apps,,India,,,Jitesh Patel,,,C
+Weighbridge Information System,".NET Framework v. 4.5, Internet Information Services v. 7.5 ,Microsoft Server v. 2008 R2, Microsoft SQL Server v. 2008 R2  ",Singapore,"14/1/2020, 14/1/2020",19-Dec,Kuan Choon Cheit ,,Server upgrade (AZSGP-SCUAPP1P) in progress,NC
+Storage & Terminalling,".NET Framework v 2.0 Internet Information Services v. 7.5 ,Microsoft Server v. 2008 R2, Microsoft SQL Server v. 2008 R2",Singapore,"12/7/2011, 14/1/2020, 14/1/2020",19-Dec,Kuan Choon Cheit ,,Server upgrade (AZSGP-SCUAPP1P) in progress,C
+Laboratory Information Management System,".NET Framework v. 3.5, Oracle Database v. 11.2.0.3, Business Flex v. 242, Microsoft Server v. 2012 R2",Singapore,"12/7/2011, 27/8/2015",,Kuan Choon Cheit ,,Will be decommissioned and moved to the Virtual Brain project,C
+GEO Information System,".NET Framework v. 4.0, Python v. 2.7, ArcGIS Enterprise v. 10.4, Internet Information Services v. 8.5, Microsoft Server v. 2012 R2, Micorsoft SQL Server v. 2016",Singapore,"1/12/2016, 01/1/2020",,Kuan Choon Cheit ,,Phase 4 in 2020,NC
+Incident Management System,".NET Framework v. 4.6, Internet Information Services v. 8.0, Microsoft SQL Server Reporting Services v. 2012, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Singapore,,,,,,NC
+IT Services Management System 1.0,".NET Framework v. 4.6, Internet Information Services v. 8.0, Microsoft SQL Server Reporting Services v. 2012, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Nigel Watson,,,NC
+DataBricks,,,,,,,,
+Data Warehouse,,Corporate,,,Partha Dutta,,,NC
+Azure Active Directory,,,,,Nigel Watson,,,C
+Zoom,,,,,Nigel Watson,,,NC
+Skype for Business,,,,,Nigel Watson,,,NC
+Ivanti Endpoint Security,,,,,Nigel Watson,,,NC
+System Center Configuration Manager,,,,,Nigel Watson,,,NC
+WhatsUp Gold,,,,,,,,NC
+Follow you printing system 5.7.34.3271,Equitrac Express,Corporate,,,Nigel Watson,,,NC
+vSphere 6.5,,,,,Nigel Watson,,,NC
+Tableau Server 10.3,,,,,,,,
+Qradar,,,,,Raymond Lee,security,,
+Forcepoint Data Loss Protection (DLP) 8.5.1.66,,,,,Raymond Lee,security,,NC
+Checkpoint Firewall Appliance,,Corporate,,,Raymond Lee,security,,C
+Firemon Security Manager,,Corporate,,,Raymond Lee,security,,
+Fortigate Firewall Appliance,,Corporate,,,Raymond Lee,security,,C
+Symantec Endpoint Protection,,India,,,Rakesh Chandra,security,,
+Axway Trusted File,,,,,,,,
+Arcsight Appliance,,,,,Nigel Watson,,,NC
+Tenable,,Corporate,,,Raymond Lee,security,,NC
+Airwave,,,,,,,,
+Catalyst Switch,,,,,,,,
+Cisco Switch,,,,,,,,
+Nexus Switch,,,,,,,,
+e-Greeting,".NET Framework v. 4.6, Internet Information Services v. 8.5, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC
+Whistle Blowing Portal,".NET Framework v.4.6, Internet Information Services v. 8.0, Microsoft SQL Server Reporting Services v. 2012, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC
+Whistle Blowing Case Management,".NET Framework v.4.6, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC
+SAP Password Reset,".NET Framework v.4.6, Internet Information Services v. 8.5, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC
+Customer Management System FTP Server,"Gpg4win v. 3.0, WinSCP v. 5.13, Microsoft Server v. 2016, PuTTY release 0.71",Singpore,,,,,,NC
+Power Settlement System,,,,,,,,
+SUT Billing File,,,,,,,,
+SP Systems Interface,,,,,,,,
+Schneider PACiS SCADA ,".NET Framework v. 2.0, Microsoft Office v. 11.0 ,Microsoft SQL Server v. 2005, MySQL Server v. 5.0, SQLXML v. 4.0, Windows XP v. 5.0  ",India,"7/12/2011, 27/7/2005, 12/4/2016, 31/12/2011, 12/4/2016, 24/4/2014",,,,,
+Schneider PACiS SCADA OWS,".NET Framework v. 2.0, MySQL Server v. 5.0, SQLXML v. 4.0, Windows XP v. 5.0 ",India,"7/12/2011, 31/12/2011, 12/04/2016, 24/042014",,,,,
+StruxureWare Power Monitorin,".NET Framework v. 4.0, Microsoft Office v. 11.0, StruxureWare Power Monitoring v. 7.0, Windows 7 v. Professional ",India,"1/12/2016, 27/7/2005, 06/9/2015, 14/1/2020",,,,,
+ABB 800XA Base,Windows 7 v. Professional,,14/1/2020,,,,,
+ABB Compact ,"
+Microsoft Office v. 2007 , Windows 7 v. Professional ",India,"1/13/2009,  14/1/2020",,,,,
+ApowerREC,Windows 7 v. Professional,India,14/1/2020,,,,,
+Archestra,".NET Framework v. 4.0 , Microsoft Server v. 2008 R2 ",India,"1/12/2016,  14/1/2020",,,,,
+DS control point 7.4,"Microsoft Office v. 2007 ,Windows 7 v. Professional ",India,"1/13/2009,  14/1/2020",,,,,
+Foxview/ Foxdraw,".NET Framework v. 4.0 , Microsoft Server v. 2008 R2,Windows 7 v. Professional",India,"1/12/2016, 14/1/2020, 14/1/2020",,,,,
+Honeywell Experion HS ,".NET Framework v. 4.0 , Windows 7 v. Professional",India,"1/12/2016, 14/1/2020",,,,,
+HUS Suite MS - Honeywell,".NET Framework v. 4.0, Microsoft Enterprise Library v. 2.0 , Windows 7 v. Professional",India,"1/12/2016, 12/4/2016,  14/1/2020",,,,,
+Proficy HMI SCADA - IfIX,".NET Framework v. 4.0, Windows 7 v. Ultimate , Windows XP v. 5.0",India,"1/12/2016, 14/1/2020, 24/4/2014",,,,,
+Proficy HMI/SCADACimplicity ,".NET Framework v. 4.0 , Windows 7 v. Professional",India,"1/12/2016, 14/1/2020",,,,,
+Proficy Machine Edition,Windows 7 v. Professional,India,14/1/2020,,,,,
+RS Linx classic ,".NET Framework v. 4.0 ,Windows XP v. 5.0",India,"1/12/2016, 24/4/2014",,,,,
+RS view32 ,".NET Framework v. 4.0, Windows XP v. 5.0",India,"12 /1/2016, 24/4/2014",,,,,
+Studio 5000 launcher ,".NET Framework v. 4.0 ,Windows 7 v. Professional  ",India,"1/12/2016, 14/1/2020",,,,,
+Unity Pro XL ,"Microsoft Office Home, Business 2013 v. 15.0, Windows 7 v. Professional",India,"4/14/2015,  14/1/2020",,,,,
+Vijeo citect 2015,"Microsoft Office Home, Business 2013 v. 15.0, Windows 7 v. Professional",India,"4/14/2015,  14/1/2020",,,,,
+WinCC OA ,".NET Framework v. 4.0, Windows 7 v. Professional",India," 12/1/2016,  14/1/2020",,,,,
+Fire Works,Windows 7 v. Professional,India,14/1/2020,,,,,
+Gravostyle,Windows 7 v. Professional,India,14/1/2020,,,,,
+Cogenweb,".NET Framework v. 2.0, Internet Information Services v. 7.0, Microsoft Server v. 2008",Singapore,"7/12/2011, 14/1/2020",19-Dec,Kuan Choon Cheit,,Server Upgrade (SCUPAPP1P) in progress,NC
+Gasboy Head Office,"Java Runtime Environment v. 10.0, Internet Information Services v. 10.0, Microsoft Server v 2016, Microsoft SQL Server v 2016 ",Singapore,1/9/2018,19-Nov,Kuan Choon Cheit,,To upgrade to latest java version during production server patching,NC
+Customer Management System Web,".NET Framework v. 2.0, .NET Framework v. 3.5, Internet Information Services v. 7.5, Microsoft Enterprise Library v. 2.0, Microsoft Server v. 2008 R2  Usage Conversion System v. 1.0, Gpg4Win 3.0, WinSCP v. 5.13, ",Singapore," 12/7/2011, 12/7/2011, 14/1/2020,  12/4/2016, 14/1/2020, 31/12/2017",,Kuan Choon Cheit,,"Modernization of these applications are currently in-progress, pending recommendations by an external system architect, and a subsequent server upgrade. ",
+Sonic MQ Broker,"SonicMQ v. 2015, Java Runtime Environment v. 1.8, Microsoft Server v. 2016",Singapore,30/10/2019,,Kuan Choon Cheit,,Need to check the impact to upgrade,C
+Network Monitoring System,Microsoft Server v. 2008 R2,Corporate,14/1/2020,Q1 2020,Nigel Watson,,To be replaced early 2020 once SolarWinds is implemented,
+Email and Calendaring Platform ,Microsoft Server v. 2008 R2,Corporate,14/1/2020,Q2 2020,Nigel Watson,,"Decommissioning of the legacy Exchange environment to be completed first, planned for end Q2 2020 
+",
+SGI Legacy SAP System,SAP NetWeaver (ABAP) v. 7.01,India,31/12/2017,,Jitesh Patel,,"This is SGI legacy SAP system migrated from SGI ex vendor, and is owned by India Team.  SGP ITSM Infrastructure Support only supports for OS patching and server availability. OS + DB can last until 2022. ",NC
+Lidar Data Downloader,".NET Framework v. 2.0, Windows XP v. 5.0",,"7/12/2011, 24/4/2014",,Jitesh Patel,,,
+Warehouse Management System,Microsoft Visual Studio 2017 v. 15.0 ,Singapore,14/1/2020,,Prasanth Thomas,,,
+Tripwire Enterprise,Tomcat v. 8.0,Corporate,30/6/2018,,Raymond Lee,security,Tripwire is a bundled software. We can’t just upgrade Tomcat. Enquired vendor (support) informed that it is still supported. However they need to escalate to principle vendor – Tripwire for further clarification. Pending reply. ,NC
+SAP Solution Manager,SAP NetWeaver (ABAP + JAVA) v. 7.02,Corporate,31/12/2017,,Wong Mel Naa,,"OS + DB can last until 2022. We don’t use major functionality of Solution Manager such as ITSM, no impact for no functionality patches after major support. New version will be using HANA and it is budgeted together with S4HANA.",
+SAP Plant Connectivity,"SAP Plant Connectivity v. 15.0.6, Microsoft Server v. 2012 R2",Corporate,,,,,,
+SAP ESS/MSS SAP NetWeaver 7.5,"SAP NetWeaver (JAVA) v. 7.5, Solution Manager v. 7.1, SAP Router v. 745, SAP Web Dispatcher v. 7.2, Microsoft Server v. 2008, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Wong Mel Naa,,,NC
+Qualtrics Survey Platform,Qualtrics Survey Platform,Corporate,,,,,,
+Solar System,".NET Framework v. 4.5, Internet Information Services v. 10.0, Microsoft Server v. 2016, Microsoft SQL Server v. 2017",Singapore,,,Prasanth System,,,C
+Inverter Data Auto Downloader,".NET Framework v. 4.5, Windows 10",Corporate,,,,,,
+Account Management 1.0,,UK,,,Siatrak Mateusz,,,
+ANPR 1.0,".NET Framework v. 4.6, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",UK,,,Siatrak Mateusz,,,
+Maximo ,,UK,,,,,,
+Cloud Application Security Broker,,Corporate,,,Raymond Lee,security,,C
+CyberArk 10.5,,Corporate,,,Raymond Lee,security,,C
+Forcepoint Web filtering 8.5.0.62,,Corporate,,,Raymond Lee,security,,NC
+Menlo,,Corporate,,,Raymond Lee,security,,C
+Mobile ATP (SandBlast),,Corporate,,,Raymond Lee,security,,NC
+SAP Manufacturing Integration and Intelligence,"Microsoft Server v. 2012 R2, SUSE Linux Enterprise Server",Corporate,,,Partha Dutta,,,NC
+Compliance Reporting Tool,,India,,,Jitesh Patel,,,C
+Contract Labour Management System,,India,,,Jitesh Patel,,,NC
+Field Data Logging,,India,,,Jitesh Patel,,,NC
+Fly Ash Billing System,,India,,,Jitesh Patel,,,NC
+Gate Pass System,,India,,,Jitesh Patel,,,C
+MIS – Thermal Power billing & Reporting tool,,India,,,Jitesh Patel,,,NC
+MIS Reporting,,India,,,Jitesh Patel,,,C
+MIS-Power Scheduling system,,India,,,Jitesh Patel,,,NC
+PIP portal,,India,,,Jitesh Patel,,,NC
+Quality Module,,India,,,Jitesh Patel,,,NC
+Solus Visitor Management System v. 1,,India,,,Jitesh Patel,,,NC
+Tally,,India,,,Jitesh Patel,,,NC
+Aruba Airwave,,Corporate,,,Nigel Watson,,,NC
+Azure AD Connect,,Corporate,,,Nigel Watson,,,NC
+Business Objects,,Corporate,,,Partha Dutta,,,NC
+"Checkpoint Endpoint (EDR, ATP, AV, media scan, App Control, FW, IPS)",,Corporate,,,Raymond Lee,security,,C
+Checkpoint SSLVPN ,,Corporate,,,Raymond Lee,security,,NC
+Cybergatekeeper,,Corporate,,,Raymond Lee,security,,C
+DNS Server,,Corporate,,,Nigel Watson,,,C
+Exchange Online,,Corporate,,,Nigel Watson,,,NC
+Exchange Server,,Corporate,,,Nigel Watson,,,NC
+File Servers,,Corporate,,,Nigel Watson,,,C
+GAMS Dashboard,,Corporate,,,Partha Dutta,,,NC
+Microsoft Intune,,Corporate,,,Nigel Watson,,,NC
+Mobile ATP (SandBlast),,Corporate,,,Raymond Lee,security,,NC
+MS Azure Platform,,Corporate,,,Nigel Watson,,,NC
+Nessus,,Corporate,,,Raymond Lee,security,,NC
+Office 365,,Corporate,,,Nigel Watson,,,NC
+Proofpoint ,,Corporate,,,Nigel Watson,,,NC
+SMTP Server,,Corporate,,,Nigel Watson,,,NC
+Symantec SEP,,Corporate,,,Raymond Lee,security,,C
+Alarms Service,,UK,,,Mateusz Siatrak,,,C
+ArcGIS,,UK,,,Mateusz Siatrak,,,C
+Automated Reports,,UK,,,Mateusz Siatrak,,,C
+Condeco,,UK,,,Mateusz Siatrak,,,NC
+DataDog,,UK,,,Mateusz Siatrak,,,C
+Fast Reserve Portal,,UK,,,Mateusz Siatrak,,,C
+FieldAware,,UK,,,Mateusz Siatrak,,,C
+Hermes,,UK,,,Mateusz Siatrak,,,C
+History Service,,UK,,,Mateusz Siatrak,,,C
+JCT Contracts,,UK,,,Mateusz Siatrak,,,C
+KepwareServerEx,,UK,,,Mateusz Siatrak,,,C
+LastPass,,UK,,,Mateusz Siatrak,,,C
+Manage Engine ADAudit,,UK,,,Mateusz Siatrak,,,NC
+Manage Engine ADManager,,UK,,,Mateusz Siatrak,,,NC
+Manage Engine Service Desk Plus,,UK,,,Mateusz Siatrak,,,C
+Manage Engine Desktop Central,,UK,,,Mateusz Siatrak,,,C
+Metering Service,,UK,,,Mateusz Siatrak,,,C
+NG PAS V1,,UK,,,Mateusz Siatrak,,,C
+OPCHub,,UK,,,Mateusz Siatrak,,,C
+PaperCut,,UK,,,Mateusz Siatrak,,,NC
+Papertrial,,UK,,,Mateusz Siatrak,,,NC
+RabbitMQ,,UK,,,Mateusz Siatrak,,,C
+Reports Send Service,,UK,,,Mateusz Siatrak,,,C
+Reports Service,,UK,,,Mateusz Siatrak,,,C
+ScreenConnect,,UK,,,Mateusz Siatrak,,,C
+ScrumGenius,,UK,,,Mateusz Siatrak,,,NC
+Sentinel,,UK,,,Mateusz Siatrak,,,C
+Site Gateway,,UK,,,Mateusz Siatrak,,,C
+TomTom,,UK,,,Mateusz Siatrak,,,NC
+TrendMicro,,UK,,,Mateusz Siatrak,,,C
+TRIAD Excel related python scripts,,UK,,,Mateusz Siatrak,,,C
+Twilio SMS Notification,,UK,,,Mateusz Siatrak,,,C
+VPS,,UK,,,Mateusz Siatrak,,,C
+Wintex,,UK,,,Mateusz Siatrak,,,C
