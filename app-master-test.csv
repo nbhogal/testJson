@@ -6,7 +6,7 @@ Creams v. 3.19.09.26,,China,,,Su Lei,,,C,SaaS,COTS,High,High,High,,N,
 Property Management System (Mysoft) v. 3.0.7,"Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",China,,,Su Lei,finance,,C,On-prem,Bespoke,High,High,High,"NJ-Mysoftweb, WIN-0GN26OBLDKU",N,
 Salesforce v. 1,,Corporate,,,Prasanth Thomas,,,C,SaaS,COTS,High,Medium,High,,N,To use by Sales staff to key in contracts and customer to view invoice
 Contact Management System v. 1.1,".NET Framework v. 3.5, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server Reporting Services v. 2012, Microsoft SQL Server v. 2012 ",Singapore,,,Prasanth Thomas,,,C,IaaS,Bespoke,High,High,Medium,"AZSGP-IAWEB1D, AZSGP-IAWEB1P, WEBDEVAPP, WEBDEVDB, WEBDEVRPT,WEBPRDAPP, WEBPRDDB, WEBPRDRPT",N,"To keep track of all information pertaining to investor companies, contacts, correspondence & meeting  and to generate reports and meeting statistics."
-Customer Utility Billing & Experience Management v. 1.0,,Singapore,,,Prasanth Thomas,billing,,C,SaaS,COTS,High,High,High,,N,Customer Management and billing system¬†for Sembcorp OEM Customers [Resi and SME]
+Customer Utility Billing & Experience Management v. 1.0,,Singapore,,,Prasanth Thomas,billing,,C,SaaS,COTS,High,High,High,,N,Customer Management and billing system†for Sembcorp OEM Customers [Resi and SME]
 Customer Management System v. 7.5,".NET Framework v. 3.5, Crystal Reports v. 6.0, Microsoft Server v. 2008 R2, Revenue Manager v. 7.5, Usage Conversion System v. 1.0, Microsoft SQL Server v. 2008 R2",Singapore,"7/12/2011,  05/03/2002, 14/01/2020, 29/12/2017, 31/12/2017",,Kuan Choon Cheit ,billing,"Most of the programs and the web application are dependent on the Revenue Manager application and its API which are running in the .NET 3.5 Framework. 
  
 Modernization of these applications are currently in-progress, pending recommendations by an external system architect, and a subsequent server upgrade. ",NC,IaaS,COTS,High,High,High,"CMSSGD-DEV,CMSSGD-PRD,CMSSGD-PRD02,CMSUSD-DEV,CMSUSD-PRD,CMSUSD-PRD1",N,
@@ -21,14 +21,14 @@ MIS 3.0  (Pufeite) v. 3.0,"Microsoft Server v. 2008 R2, Oracle Database v. 10.2.
  SSW has made a budget to replace it billing system (Pufeite) in 2020.  Oracle 10.2.0.1 and Windows Server will retire once the new system go live. ",C,On-prem,COTS,High,High,High,"fzsksec, SKS-WA, SKS-WB",N,
 "Nomination, Allocation Billing System v. 1",".NET Framework v. 4.5, Internet Information Services v. 10.0, Microsoft SQL Server Reporting Services v. 2017, Microsoft Server v. 2016, Microsoft SQL Server v. 2017",Singapore,,,Prasanth Thomas,billing,,C,IaaS,Bespoke,High,High,High,"AZSGP-NABAPIP1,AZSGP-NABAPIP2,AZSGP-NABCPWP1,AZSGP-NABCPWP2,AZSGP-NABDEV1,AZSGP-NABWEBP1,AZSGP-NABWEBP2",N,"Gas Nomination, Allocation and Billing 
 System for SembGas."
-RISK v. 7.6.0,Excel,Singapore,,,Prasanth Thomas,,,NC,IaaS,COTS,High,High,Medium,AZSGP-PALI1P,N,@RISK (pronounced ‚Äúat risk‚Äù) is an add-in to Microsoft Excel that lets you analyze risk using Monte Carlo simulation for our E@R models.
+RISK v. 7.6.0,Excel,Singapore,,,Prasanth Thomas,,,NC,IaaS,COTS,High,High,Medium,AZSGP-PALI1P,N,@RISK (pronounced ìat riskî) is an add-in to Microsoft Excel that lets you analyze risk using Monte Carlo simulation for our E@R models.
 Salesforce-TIRS  Intergration Webservices v. 1.0,".NET Framework v. 3.5, Microsoft Server v. 2008 R2",Singapore,"7/12/2011,14/1/2020",,Kuan Choon Cheit ,,,C,IaaS,Bespoke,Medium,Medium,Medium,SFCONN,N,
 Trade Information Reporting Systems v. 1,".NET Framework v. 3.5, DotNetNuke v. 7.0, Internet Information Services v. 6.0, Microsoft Server v. 2008 R2, Microsoft SQL Server v. 2012",Singapore," 12/7/2011, 27/11/2015, 14/7/2015, 14/1/2020",19-Dec,Kuan Choon Cheit ,,TIRS server will be upgraded to Windows 2016,C,IaaS,Bespoke,High,Medium,Medium,"TIRS, TIRS-DEV",N,"An application to allow traders to upload deal tickets information for verification
  by Finance and to print Settlement and Mark to Mark reports and export trade detail to Infinax."
 EMC Extract Monitoring System v. 1,".NET Framework v. 3.5, Internet Information Services v. 6.0, Microsoft Server v. 2008, Microsoft SQL Server v. 2008 R2",Singapore,"7/12/2011, 14/7/2015",19-Dec,Kuan Choon Cheit ,,EMC server will be upgraded to Windows 2016,NC,IaaS,Bespoke,High,Medium,High,"EMCDATA, EMCHA",N,"An application to allow users to create new reports, and Invoice task and schedule it. It also allow user to monitor the schedule task status."
 Electronic Business Transaction v. 1,".NET Framework v. 4.5, Internet Information Services v.10.0, Microsoft Server v. 2016, Microsoft SQL Server v.2016",Singapore,,,Prasanth Thomas,,,C,IaaS,Bespoke,High,High,High,"SGPSCU-EBTDEV1D, SGPSCU-EBTPRD1P",N,"To send and receive MSSL message via 
 SONIC MQ Broker"
-Settlement v. 1,".NET Framework v. 3.5, Internet Information Services v. 6.0, Crystal Reports Server 2013 v.14.1, Microsoft Server v. 2008, Microsoft SQL Server v. 2008 R2",Singapore,"7/12/2011,  14/1/2020",31-Dec-19,Kuan Choon Cheit ,,Settlement server will be upgraded to Windows 2016.  Settlement Application is no longer in used. Only the report scripts are still in used.,C,IaaS,Bespoke,High,Medium,Low,"BU-DEV, SETTLEMENT",N,"PSS is used by the Settlement team to¬†
+Settlement v. 1,".NET Framework v. 3.5, Internet Information Services v. 6.0, Crystal Reports Server 2013 v.14.1, Microsoft Server v. 2008, Microsoft SQL Server v. 2008 R2",Singapore,"7/12/2011,  14/1/2020",31-Dec-19,Kuan Choon Cheit ,,Settlement server will be upgraded to Windows 2016.  Settlement Application is no longer in used. Only the report scripts are still in used.,C,IaaS,Bespoke,High,Medium,Low,"BU-DEV, SETTLEMENT",N,"PSS is used by the Settlement team to†
 verify the monthly usages and charges of EMC, MSSL and Sembcorp Cogen. The team reviews and performs necessary follow-up on variances from Settlement reports generated."
 CSLUCAS v. 1,"IBM HTTP Server v. 8.0, IBM WebSphere Application Server v. 8.0, Java Runtime Environment v. 1.6, IBM Data Server Manager v. 2.1, IBM DB2 Express Edition v.10.5",Singapore,"30/4//2018, 30/4/2018, 01/9/2017",,Kuan Choon Cheit ,,CSLUCAS will be replaced by TMS,C,IaaS,COTS,High,Medium,Medium,"CSLUCAS-APP,CSLUCAS-UAT",N,"To keep track of all information pertaining to investor companies, contacts, correspondence & meeting  and to generate reports and meeting statistics."
 Non-Audit Services Report Consolidation v. 1.0,".NET Framework v.4.6, Internet Information Services v. 8.5, Microsoft SQL Server Reporting Services v. 2012, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC,IaaS,Bespoke,High,High,Medium,"WEBDEVAPP, WEBDEVDB, WEBDEVRPT, WEBPRDAPP, WEBPRDDB, WEBPRDRPT",N,A system used by Group Reporting & Policies and BU Finance for Non Audit Services reporting consolidation.
@@ -68,7 +68,7 @@ Cognos Controller v. 10.3.1,"IBM Cognos Configuration v. 11.0, IBM Cognos Contro
 Exception Form v. 1.0,,UK,,,Mateusz Siatrak,finance,,,On-prem,Bespoke,High,High,High,,N,Web App to register exception for Purchasing
 Faxmaker v. 16.0,"FaxMaker v.16.0, Fluid Monitor v. 2.1, Microsoft Server v. 2016",Corporate,1/10/2014,,Mel Naa Wong,finance,Upgrade completed,NC,On-Prem,COTS,High,High,High,SGPSCI-SAPFAX1P,N,"Faxmaker is the software that help to send correspondences generated by SAP as faxes to external parties. It also allow users to monitor the status of fax sending. Example of correspondences that we are currently sending are: payment advice, statement of account, dunning letters, etc"
 Fixed Asset Transfer eform v. 1.0,"K2 Five v. 5.2, Internet Information Services v. 10.0, Microsoft Server v. 2016, Microsoft SQL Server v. 2017",Corporate,,,Prasanth Thomas,finance,,C,On-prem,Bespoke,Medium,Medium,Medium,"SGPSCI-K5SQL1P, SGPSCI-K5SQL1T, SGPSCI-K5WEB1D, SGPSCI-K5WEB1P, SGPSCI-K5WEB1T",N,An eForm for fixed asset transfer
-Investment Risk Exposure v. 1.0,"Internet Information Services v. 8.0, .NET Framework v. 3.5 SP1, Microsoft Server v. 2012 R2, Microsoft SQL Reporting Services v. 2012, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,finance,,NC,IaaS,Bespoke,Medium,Medium,Medium,"WEBDEVAPP, WEBDEVDB, WEBDEVRPT, WEBPRDAPP, WEBPRDDB, WEBPRDRPT",N,A platform to compile the Group‚Äôs Country Risk Exposure from investment in various entities from submission by respective SBUs on a quarterly basis and provide an update to Group Risk Management on the Group‚Äôs country risk exposure on a quarterly basis
+Investment Risk Exposure v. 1.0,"Internet Information Services v. 8.0, .NET Framework v. 3.5 SP1, Microsoft Server v. 2012 R2, Microsoft SQL Reporting Services v. 2012, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,finance,,NC,IaaS,Bespoke,Medium,Medium,Medium,"WEBDEVAPP, WEBDEVDB, WEBDEVRPT, WEBPRDAPP, WEBPRDDB, WEBPRDRPT",N,A platform to compile the Groupís Country Risk Exposure from investment in various entities from submission by respective SBUs on a quarterly basis and provide an update to Group Risk Management on the Groupís country risk exposure on a quarterly basis
 Mobile Bills v. 1.0,.NET Framework v. 2.0,UK,12/7/2011,,Mateusz Siatrak,finance,,NC,On-prem,Bespoke,Medium,Low,Low,"GBRTEE-SQL1P, GBRTEE-WEB1P",N,Allows users to view their monthly mobile usage to reimburse the company.  Also allows the IT department to manage a list of mobile phone users for the business.
 Payment Request eform v. 1.0,"K2 Five v. 5.2, Internet Information Services v. 10.0, Microsoft Server v. 2016, Microsoft SQL Server v. 2017",Corporate,,,Prasanth Thomas,finance,,C,IaaS,Bespoke,Medium,Medium,Medium,"K2DEV, K2PRD, WEBDEVAPP, WEBPRDDB",N,An eForm for payment request
 SAP Business Warehouse  Business Planning and Consolidation v. BPC 810 SP7,Microsoft Server v. 2008 R2,Singapore,1/14/2020,,Partha Dutta,finance,Migrating to cloud hosting,NC,On-prem,COTS,Medium,Medium,Medium,"HANABWDEVQAS, HANABWPRD, HANADEVQASDATA, HANAPRDDATA",N,Business Planning and Consolidation
@@ -83,12 +83,12 @@ Cost Centre Accounting (CCA)
 Profit Centre Accounting (PCA)
 Internal Order (IO)
 Fund Management (FM)
-Parallel Currency ‚Äì SembGas only"
+Parallel Currency ñ SembGas only"
 SAP VIM v. 7.5,"OpenText Imaging Web Viewer v. 10.5, SAP Invoice Capture Center v. 7.5, NetScaler Virtual Applicance v. 450010, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012, OpenText Archive Server v. 10.5",Corporate,31/3/2019,Q3 2020,Mel Naa Wong,finance,Upgrade project to kick-off in Feb 2020.,C,On-Prem,COTS,High,High,High,"VIM75-OTWV-LB, VIM-OTAS-DEV, VIM-OTAS-PRD-01, VIM-OTAS-PRD-02, VIM-OTICC-DEV, VIM-OTIC-PRD-01, VIM-OTIC-PRD-02, VIM-OTWV-DEV, VIM-OTWV-PRD-01, VIM-OTWV-PRD-02",N,"VIM is Vendor Invoice Management module.
 It is to process invoice from scanning, data validation, invoice exception handling, invoice approval and invoice posting"
-Career Centre Admin v. 1.0,".NET Framework v 3.5 SP1, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC,IaaS,Bespoke,Low,Low,Medium,"INTPRDDB, WEBDEVAPP, WEBDEVDB, WEBPRDAPP",N,A system for HR admin to post job vacancy on www.sembcorp.com¬†or/and Intranet.
-Career Centre Internal v. 1.0,".NET Framework v 3.5 SP1, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC,IaaS,Bespoke,Low,Low,Medium,"INTPRDDB, WEBDEVAPP, WEBDEVDB, WEBPRDAPP",N,A system for HR admin to post job vacancy on www.sembcorp.com¬†or/and Intranet.
-Career Centre Public v. 1.0,".NET Framework v 3.5 SP1, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC,IaaS,Bespoke,Low,Low,High,"INTPRDAPP, INTPRDDB, WEBDEVAPP, WEBDEVDB",N,A system for HR admin to post job vacancy on www.sembcorp.com¬†or/and Intranet.
+Career Centre Admin v. 1.0,".NET Framework v 3.5 SP1, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC,IaaS,Bespoke,Low,Low,Medium,"INTPRDDB, WEBDEVAPP, WEBDEVDB, WEBPRDAPP",N,A system for HR admin to post job vacancy on www.sembcorp.com†or/and Intranet.
+Career Centre Internal v. 1.0,".NET Framework v 3.5 SP1, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC,IaaS,Bespoke,Low,Low,Medium,"INTPRDDB, WEBDEVAPP, WEBDEVDB, WEBPRDAPP",N,A system for HR admin to post job vacancy on www.sembcorp.com†or/and Intranet.
+Career Centre Public v. 1.0,".NET Framework v 3.5 SP1, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC,IaaS,Bespoke,Low,Low,High,"INTPRDAPP, INTPRDDB, WEBDEVAPP, WEBDEVDB",N,A system for HR admin to post job vacancy on www.sembcorp.com†or/and Intranet.
 Employee Common Database v. 1.0,,Corporate,,,Prasanth Thomas,,,C,On-Prem,Bespoke,Medium,Medium,High,,N,Employee master data repository which synch up from SAP HCM via Dell Boomi
 Employee Share Plans System v. 1.0,".NET Framework v. 2.0, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server Reporting Services v. 2012, Microsoft SQL Server v. 2012",Corporate,12/7/2011,,Prasanth Thomas,,It will be retired once the new provider/software is selected ,C,IaaS,Bespoke,High,High,High,"WEBDEVAPP, WEBDEVDB, WEBDEVRPT, WEBPRDAPP, WEBPRDDB, WEBPRDRPT",N,A System for HR to manage shares granted to staffs prior to RSP and PSP
 HR Self-service Kiosk v. 1,".NET Framework v. 4.6, WCF Data Services 5.6.0 Runtime v.5.6.0",Corporate,,,Prasanth Thomas,,,NC,On-Prem,Bespoke,Medium,Medium,Medium,,N,The kiosk system allows direct labours to login to the system to view their leaves and payslips. appraisal acknowledgement will also be done through the kiosk.
@@ -107,24 +107,24 @@ Appraisal
 SuccessFactors Learning 
 Employee File Management System (Singapore)"
 Scholarship.net v. 1.0,".NET Framework v.4.6, Internet Information Services v. 8.0, Microsoft SQL Server Reporting Services v. 2012, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC,IaaS,Bespoke,Medium,Medium,Medium,"WEBDEVAPP, WEBDEVDB, WEBDEVRPT, WEBPRDAPP, WEBPRDDB, WEBPRDRPT",N,"A system to computerize the process of scheduling interviews, assessing candidates generating reports."
-TMS (Time Management System) v. 1,".NET Framework v 4.6, Internet Information Services v. 8.0, Microsoft SQL Server Reporting Services v. 2012, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,C,IaaS,Bespoke,High,High,Medium,"IWIS-APP-DEV, IWIS-DB-PRD, TMS-APP-DEV, TMS-APP-PRD",N,"TMS is used by SembWaste‚Äôs HR to maintain shift group , attendance code and payment instruction for Over-Time work schedule for its Direct Labour staff and to generate Over-Time schedule to be exported to SAP."
+TMS (Time Management System) v. 1,".NET Framework v 4.6, Internet Information Services v. 8.0, Microsoft SQL Server Reporting Services v. 2012, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,C,IaaS,Bespoke,High,High,Medium,"IWIS-APP-DEV, IWIS-DB-PRD, TMS-APP-DEV, TMS-APP-PRD",N,"TMS is used by SembWasteís HR to maintain shift group , attendance code and payment instruction for Over-Time work schedule for its Direct Labour staff and to generate Over-Time schedule to be exported to SAP."
 Sembcorp OTUJ - Backend Administrative Portal v. 1.0,".NET Framework v. 4.7, Azure AD Authentication Connected Service v. 14.0, Internet Information Services v. 8.0,  Microsoft Server v. 2016, Microsoft SQL Server v. 2016",Corporate,,,Prasanth Thomas,,,C,IaaS,Bespoke,Medium,Medium,Medium,"SGPSCI-MADB1P, SGPSCI-MADBS1D, SGPSCI-MAWEB1D, SGPSCI-MAWEB1P",N,"The backend administrative portal will be developed to manage the OTUJ mobile application and users. This section of the document explains the features and functionality of Administrative Portal. The following are the modules in administrative portal.
 
-‚Ä¢    Login
+ï    Login
 
-‚Ä¢    User Management
+ï    User Management
 
-‚Ä¢    Roles Management
+ï    Roles Management
 
-‚Ä¢    Overtime Job Applications
+ï    Overtime Job Applications
 
-‚Ä¢    Urgent Job Applications
+ï    Urgent Job Applications
 
-‚Ä¢    System Configuration"
-Sembcorp OTUJ v. 1.3,".NET Framework v. 4.7, Google Firebase v. 1.0, Xamarin Forms v. 2016, Azure AD Authentication Connected Service v. 14.0, Internet Information Services v. 8.0, Intune v. 5.0, Microsoft Server v. 2016, Microsoft SQL Server v. 2016",Corporate,,,Prasanth Thomas,,,C,Mobile App,Bespoke,Medium,Medium,Medium,,N,"A Mobile application for JI Maintenance Dept. staffs ¬†to apply for overtime and urgent job requests.
+ï    System Configuration"
+Sembcorp OTUJ v. 1.3,".NET Framework v. 4.7, Google Firebase v. 1.0, Xamarin Forms v. 2016, Azure AD Authentication Connected Service v. 14.0, Internet Information Services v. 8.0, Intune v. 5.0, Microsoft Server v. 2016, Microsoft SQL Server v. 2016",Corporate,,,Prasanth Thomas,,,C,Mobile App,Bespoke,Medium,Medium,Medium,,N,"A Mobile application for JI Maintenance Dept. staffs †to apply for overtime and urgent job requests.
 The mobile application consists for following modules
-‚Ä¢    Overtime
-‚Ä¢    Urgent Jobs
+ï    Overtime
+ï    Urgent Jobs
 The application shows the above functional modules in different tabs. Only applicable user roles (Engineer, HOS and HOD) can view both the tabs. The Technician only view Overtime related functionality. The SVP & Head only view Urgent Jobs related functionality."
 Time Off eform v. 1.0,"K2 v. 4.7, Internet Information Services v. 8.5, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC,IaaS,Bespoke,Medium,Medium,Medium,"K2DEV, K2PRD, WEBDEVAPP, WEBPRDDB",N,A system to record time off for Digital & Technology Department
 Timesheets v. 1.0,,UK,,,Mateusz Siatrak ,,,NC,On-Prem,Bespoke,High,High,High,,N,Web App for time recording
@@ -138,15 +138,15 @@ Tableau Reporting Dashboard v. 10.3.2,"Desktop (Tableau Desktop) v. 10.3, Server
 Sustainability Data Management System v. 8.4,Enablon Connect v. 8.4,Singapore,,,Mel Naa Wong,,,NC,SaaS,COTS,Medium,Medium,Medium,,N,"Enablon cloud application that provides the end to end flow of sustainability data from collection, storage, workflow and reporting on GRI, DJSI, CDP."
 Global HSE Information System v. 1.0,".NET Framework v. 4.5, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server Reporting Services v. 2012, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC,IaaS,Bespoke,High,High,Medium,"WEBDEVAPP, WEBDEVDB, WEBDEVRPT, WEBPRDAPP, WEBPRDDB, WEBPRDRPT",N,"For HSE performance, incidents and investigations reporting, and report retrieval."
 Sembcorp Secure App - Backend Administrative Portal v. 1.0,".NET Framework v. 4.6, Azure AD Authentication Connected Service v. 14.0, Internet Information Services v. 8.0, Microsoft Server v. 2016, Microsoft SQL Server v. 2016",Singapore,,,Prasanth Thomas,,,NC,IaaS,Bespoke,Medium,Medium,Medium,"SGPSCI-MADBS1D, SGPSCI-MASCDB1P, SGPSCI-SCWEB1P",N,"The backend administrative portal will be developed to manage the secure app mobile application and users. This section of the document explains the features and functionality of Administrative Portal. The following are the modules in administrative portal.
-‚Ä¢    Login
-‚Ä¢    User Management
-‚Ä¢    Roles Management
-‚Ä¢    Staff Location & Status
-‚Ä¢    Alerts
-‚Ä¢    Announcements
-‚Ä¢    Emergency Contacts
-‚Ä¢    Incident Reports
-‚Ä¢    System Configuration"
+ï    Login
+ï    User Management
+ï    Roles Management
+ï    Staff Location & Status
+ï    Alerts
+ï    Announcements
+ï    Emergency Contacts
+ï    Incident Reports
+ï    System Configuration"
 Sembcorp Secure Mobile App v. 1.3,".NET Framework v. 4.6, Azure AD Authentication Connected Service v. 14.0, Google Firebase v. 1.0, Xamarin Forms v. 2016, Internet Information Services v. 8.0, Intune v. 5.0, Microsoft Server v. 2016, Microsoft SQL Server v. 2016",Singapore,,,Prasanth Thomas,,,NC,Mobile App,Bespoke,Medium,Medium,Medium,,N,"Mobile application to alert all Sembcorp employees on critical incidents relating to health, safety and security. The application will allow a two-way communication whereby Sembcorp staff are able to respond on their status or report on updates of an incident in their locality. Conversely, the crisis administrator is also able to communicate with the affected staff via the chat function in the application."
 SAP ARIBA Strategic sourcing v. 1.0,,India,,,Jitesh Patel,,,C,SaaS,COTS,High,High,High,,N,On line E-procurment platform for handling Sourcing activity 
 PCard v. 1.0,".NET Framework v. 4.5, Internet Information Services v. 8.0, Microsoft Server v. 2012, Microsoft SQL Server v. 2012",UK,,,Mateusz Siatrak,,,NC,On-Prem,Bespoke,High,High,High,GBRTEE-WEB1P,N,Web App to Purchase items using purchasing cards
@@ -209,7 +209,7 @@ e-Greeting,".NET Framework v. 4.6, Internet Information Services v. 8.5, Microso
 Whistle Blowing Portal,".NET Framework v.4.6, Internet Information Services v. 8.0, Microsoft SQL Server Reporting Services v. 2012, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC,IaaS,Bespoke,High,High,Medium,"INTPRDAPP, INTPRDDB, SGPSCI-WBFS1P, WEBDEVAPP, WEBDEVAPP",N,Whistleblowing portal.
 Whistle Blowing Case Management,".NET Framework v.4.6, Internet Information Services v. 8.0, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC,IaaS,Bespoke,High,High,Medium,"INTPRDDB, WEBDEVAPP, WEBDEVAPP, WEBPRDAPP",N,Whistleblowing Case Management system
 SAP Password Reset,".NET Framework v.4.6, Internet Information Services v. 8.5, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Prasanth Thomas,,,NC,On-Prem,Bespoke,Medium,Medium,Medium,,N,Employees Self Service Password Reset Application
-Customer Management System FTP Server,"Gpg4win v. 3.0, WinSCP v. 5.13, Microsoft Server v. 2016, PuTTY release 0.71",Singapore,,,Prasanth Thomas,,,NC,IaaS,COTS,High,High,High,SGPSCU-CMSFTP1P,N,"Customer Management and billing system¬†for following entitie's C&I customers:
+Customer Management System FTP Server,"Gpg4win v. 3.0, WinSCP v. 5.13, Microsoft Server v. 2016, PuTTY release 0.71",Singapore,,,Prasanth Thomas,,,NC,IaaS,COTS,High,High,High,SGPSCU-CMSFTP1P,N,"Customer Management and billing system†for following entitie's C&I customers:
 -Power
 -Gas
 -SUT
@@ -245,9 +245,9 @@ Sonic MQ Broker,"SonicMQ v. 2015, Java Runtime Environment v. 1.8, Microsoft Ser
 Whatsup Gold Network Monitoring System,Microsoft Server v. 2008 R2,Corporate,14/1/2020,Q1 2020,Liang Kwee Jong,,To be replaced early 2020 once SolarWinds is implemented,,,,Medium,Medium,Medium,"HS-SNMP, JI-SNMP",N,
 SGI Legacy SAP System,SAP NetWeaver (ABAP) v. 7.01,India,31/12/2017,,Jitesh Patel,,"This is SGI legacy SAP system migrated from SGI ex vendor, and is owned by India Team.  SGP ITSM Infrastructure Support only supports for OS patching and server availability. OS + DB can last until 2022. ",NC,On-Prem,COTS,Medium,Medium,Medium,SGISAPLEGACY,N,SGI ERP System
 Lidar Data Downloader,".NET Framework v. 2.0, Windows XP v. 5.0",,"7/12/2011, 24/4/2014",,Jitesh Patel,,,,Laptop / Desktop,Bespoke,High,High,High,"DESKTOPVS, LAPTOP-IND",Y,Console Application - Download the data from Lidar log and stored into FTP.
-Warehouse Management System,Microsoft Visual Studio 2017 v. 15.0 ,Singapore,14/1/2020,,Prasanth Thomas,,,NC,IaaS,,Low,Low,Low,"AZSGP-WMSAPP1D,AZSGP-WMSAPP1P,AZSGP-WMSWEB1P, SGPSCI-K5WEB1D, SGPSCI-K5WEB1P, SGPSCI-K5WEB1T",N,This application is to digitalize and automate the warehouse‚Äôs asset movement and its related processes in Sembcorp‚Äôs warehouses.
-Tripwire Enterprise,Tomcat v. 8.0,Corporate,30/6/2018,,Raymond Lee,security,Tripwire is a bundled software. We can‚Äôt just upgrade Tomcat. Enquired vendor (support) informed that it is still supported. However they need to escalate to principle vendor ‚Äì Tripwire for further clarification. Pending reply. ,NC,On-Prem,COTS,Medium,High,Medium,,N,Tripwire is a security and data integrity tool for monitoring and alerting on specific file change(s) on a range of systems.
-SAP Solution Manager,SAP NetWeaver (ABAP + JAVA) v. 7.02,Corporate,31/12/2017,,Mel Naa Wong,,"OS + DB can last until 2022. We don‚Äôt use major functionality of Solution Manager such as ITSM, no impact for no functionality patches after major support. New version will be using HANA and it is budgeted together with S4HANA.",NC,On-Prem,COTS,Medium,Medium,Medium,SOLMAN,N,"SAP Solution Manager(SolMan) is a module of SAP that provides functionalities like integrated content, methodologies, tools etc. to implement, operate, monitor and support an enterprise‚Äôs SAP solution."
+Warehouse Management System,Microsoft Visual Studio 2017 v. 15.0 ,Singapore,14/1/2020,,Prasanth Thomas,,,NC,IaaS,,Low,Low,Low,"AZSGP-WMSAPP1D,AZSGP-WMSAPP1P,AZSGP-WMSWEB1P, SGPSCI-K5WEB1D, SGPSCI-K5WEB1P, SGPSCI-K5WEB1T",N,This application is to digitalize and automate the warehouseís asset movement and its related processes in Sembcorpís warehouses.
+Tripwire Enterprise,Tomcat v. 8.0,Corporate,30/6/2018,,Raymond Lee,security,Tripwire is a bundled software. We canít just upgrade Tomcat. Enquired vendor (support) informed that it is still supported. However they need to escalate to principle vendor ñ Tripwire for further clarification. Pending reply. ,NC,On-Prem,COTS,Medium,High,Medium,,N,Tripwire is a security and data integrity tool for monitoring and alerting on specific file change(s) on a range of systems.
+SAP Solution Manager,SAP NetWeaver (ABAP + JAVA) v. 7.02,Corporate,31/12/2017,,Mel Naa Wong,,"OS + DB can last until 2022. We donít use major functionality of Solution Manager such as ITSM, no impact for no functionality patches after major support. New version will be using HANA and it is budgeted together with S4HANA.",NC,On-Prem,COTS,Medium,Medium,Medium,SOLMAN,N,"SAP Solution Manager(SolMan) is a module of SAP that provides functionalities like integrated content, methodologies, tools etc. to implement, operate, monitor and support an enterpriseís SAP solution."
 SAP Plant Connectivity,"SAP Plant Connectivity v. 15.0.6, Microsoft Server v. 2012 R2",Corporate,,,,,,,On-Prem,COTS,High,High,High,"SGMIIDEVQAS, SGMIIPRD",N,
 SAP ESS/MSS SAP NetWeaver 7.5,"SAP NetWeaver (JAVA) v. 7.5, Solution Manager v. 7.1, SAP Router v. 745, SAP Web Dispatcher v. 7.2, Microsoft Server v. 2008, Microsoft Server v. 2012 R2, Microsoft SQL Server v. 2012",Corporate,,,Mel Naa Wong,,,NC,On-Prem,COTS,High,High,High,"EPDEV, EPPROD, SAPBQ1CLONE, SOLMAN",N,"SAP ESS/MSS is Employee Self Service and Manager Self Service, which is the web enabled tool used by employees. Employees & Manager can perform below function in ESS/MSS: 
 - Apply, Approve & Reject leave application 
@@ -278,7 +278,7 @@ Fly Ash Billing System,,India,,,Jitesh Patel,,,NC,On-Prem,COTS,Low,High,High,,N,
 Gate Pass System,,India,,,Jitesh Patel,,,C,On-Prem,COTS,Low,Medium,High,,N,Gate pass system for material movement from factory  on returnable and non returnable basis with end to end tracking
 MIS Thermal Power billing & Reporting tool,,India,,,Jitesh Patel,,,NC,On-Prem,COTS,Low,High,Medium,,N,System for generating monthly/Weekly power bills for various PPAs. Calculation and reporting of various financial numbers.
 MIS Reporting,,India,,,Jitesh Patel,,,C,On-Prem,COTS,Medium,High,High,,N,A system for Daily MIS reporting including Technical & Financial parameters
-MIS-Power Scheduling system,,India,,,Jitesh Patel,,,NC,On-Prem,COTS,Low,Medium,High,,N,System for Daily power scheduling of different PPA based on which bills and other values of¬† financial parameters are calculated.
+MIS-Power Scheduling system,,India,,,Jitesh Patel,,,NC,On-Prem,COTS,Low,Medium,High,,N,System for Daily power scheduling of different PPA based on which bills and other values of† financial parameters are calculated.
 PIP portal,,India,,,Jitesh Patel,,,NC,On-Prem,COTS,Low,Low,Low,,N,Online portal for Generation and evaluation of ideas under PIP 
 Quality Module,,India,,,Jitesh Patel,,,NC,On-Prem,COTS,Low,Low,Medium,,N,Fuel oil receipt monitoring and necessary reporting 
 Solus Visitor Management System v. 1,,India,,,Jitesh Patel,,,NC,On-Prem,COTS,Low,Medium,Medium,,N,For recording and tracking of Visitor details entering into plant premises 
@@ -350,14 +350,14 @@ Network Access Control,,Corporate,,,Nigel Watson,,,,On-Prem,COTS,Medium,Medium,H
 Forti-Analyzer,,,,,,,,,On-Prem,COTS,High,High,High,SGPSCI-FGFA01,N,
 DCS Emerson Ovation 3.6,,Bangladesh,,,Momenul Hoque,,,C,On-Prem,COTS,,,,,Y,
 GT Control System,,Bangladesh,,,Momenul Hoque,,,C,On-Prem,COTS,,,,,Y,
-ZJG¬†‚ÄìPLC siemens s7-400/300/1200¬†+Wincc,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
-TJ‚ÄîPLC Rockwell A-B1756+Wincc 7.4,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
+ZJG†ñPLC siemens s7-400/300/1200†+Wincc,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
+TJóPLC Rockwell A-B1756+Wincc 7.4,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
 SSW-PLC Siemens/GE+ Wincc/iFix/Kingviews,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
-QSW‚ÄîPLC ABB AC500/Siemens s7-300/200+Fameview,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
-YJ‚ÄîPLC Siemens s7-200smart+Wincc 7.4,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
+QSWóPLC ABB AC500/Siemens s7-300/200+Fameview,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
+YJóPLC Siemens s7-200smart+Wincc 7.4,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
 FZ---PLC Siemens S7+Wincc 7.0,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
 CZ---DCS Hollias MACS v6.5.2,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
-QD‚ÄîPLC Siemens S7-200+Wincc 7.0,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
+QDóPLC Siemens S7-200+Wincc 7.0,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
 QTH-PLC Siemens s7-1500+MCGS 6.2,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
 Automated DGR 2.21.05a,,India,,,Ramesh Raman,,,,On-Prem,Bespoke,High,High,Medium,,Y,Windows Application - Recording turbine downtime & generation using turbine data and calculate the DGR & availability based on the acceptance of the recorded downtime from site manager.
 F&S Data Collector 1.0.0,,India,,,,,,,On-Prem,Bespoke,High,High,High,,Y,Console Application - Collect the forecasting and scheduling data from Email/FTP shared by forecasting agencies and stored into SQL database.
@@ -464,11 +464,11 @@ Vendor,,UK,,,,,,NC,,,,,,,N,Vendor Approval system
 ViewUMISPerformance,,UK,,,,,,NC,,,,,,,N,SSRS report to view UMIS performance
 Webmedia,,UK,,,,,,NC,,,,,,,N,Corporate video portal
 WTP Report,,UK,,,,,,NC,,,,,,,N,WTP performance report
-www.sembcorp.co.uk,,UK,,,,,,NC,,,,,,,N,Sembcorp UK Website
-www.wiltoninternational.co.uk,,UK,,,,,,NC,,,,,,,N,Wilton International Website
+Sembcorp UK Website,,UK,,,,,,NC,,,,,,,N,Sembcorp UK Website
+Wilton International Website,,UK,,,,,,NC,,,,,,,N,Wilton International Website
 Google Earth,,Vietnam,,,,,,C,SaaS,COTS,,,,,N,For searching location/information
 Unikey,,Vietnam,,,,,,C,,,,,,,N,For typing Vietnamese
 HTTK,,Vietnam,,,,,,C,,,,,,,N,For tax declaration
 Microsoft Visio,,Vietnam,,,,,,C,Desktop / Laptop,COTS,,,,,N,For drawing org chart
-Fuji xerox printer¬† &quot; scan,,Vietnam,,,,,,C,On-Prem,COTS,,,,,N,For Printing & scanning
+Fuji xerox printer† &quot; scan,,Vietnam,,,,,,C,On-Prem,COTS,,,,,N,For Printing & scanning
 Card access,,Vietnam,,,,,,C,,,,,,,N,For extracting data from card access machine
