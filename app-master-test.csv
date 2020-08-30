@@ -350,14 +350,14 @@ Network Access Control,,Corporate,,,Nigel Watson,,,,On-Prem,COTS,Medium,Medium,H
 Forti-Analyzer,,,,,,,,,On-Prem,COTS,High,High,High,SGPSCI-FGFA01,N,
 DCS Emerson Ovation 3.6,,Bangladesh,,,Momenul Hoque,,,C,On-Prem,COTS,,,,,Y,
 GT Control System,,Bangladesh,,,Momenul Hoque,,,C,On-Prem,COTS,,,,,Y,
-ZJG –PLC siemens s7-400/300/1200 +Wincc,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
-TJ—PLC Rockwell A-B1756+Wincc 7.4,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
+ZJG PLC siemens s7-400/300/1200 +Wincc,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
+TJ PLC Rockwell A-B1756+Wincc 7.4,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
 SSW-PLC Siemens/GE+ Wincc/iFix/Kingviews,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
-QSW—PLC ABB AC500/Siemens s7-300/200+Fameview,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
-YJ—PLC Siemens s7-200smart+Wincc 7.4,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
-FZ---PLC Siemens S7+Wincc 7.0,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
-CZ---DCS Hollias MACS v6.5.2,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
-QD—PLC Siemens S7-200+Wincc 7.0,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
+QSW PLC ABB AC500/Siemens s7-300/200+Fameview,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
+YJ PLC Siemens s7-200smart+Wincc 7.4,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
+FZ PLC Siemens S7+Wincc 7.0,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
+CZ DCS Hollias MACS v6.5.2,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
+QD PLC Siemens S7-200+Wincc 7.0,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
 QTH-PLC Siemens s7-1500+MCGS 6.2,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
 Automated DGR 2.21.05a,,India,,,Ramesh Raman,,,,On-Prem,Bespoke,High,High,Medium,,Y,Windows Application - Recording turbine downtime & generation using turbine data and calculate the DGR & availability based on the acceptance of the recorded downtime from site manager.
 F&S Data Collector 1.0.0,,India,,,,,,,On-Prem,Bespoke,High,High,High,,Y,Console Application - Collect the forecasting and scheduling data from Email/FTP shared by forecasting agencies and stored into SQL database.
@@ -380,7 +380,7 @@ EMS,,UK,,,,,,C,,,,,,,N,Web App for Electrical Metering Data
 ENS,,UK,,,,,,C,,,,,,,N,Web app for Electrical Nominations
 GE Historian Administrator,,UK,,,,,,C,,,,,,,N,Admin tool for working with the Historian Database
 GE ifix Webspace,,UK,,,,,,C,,,,,,,N,Service that generates a web front end for viewing UMIS
-http://anpr.sembcorp.co.uk,,UK,,,,,,C,,,,,,,N,ANPR Website for Falck
+ANPR Website,,UK,,,,,,C,,,,,,,N,ANPR Website for Falck
 InfrastructureGIS,,UK,,,,,,C,,,,,,,N,GIS Application for LinkVeinline Information
 Product Sales,,UK,,,,,,C,,,,,,,N,Web App for billing info
 RMMT,,UK,,,,,,C,,,,,,,N,Used to record customer stock items
@@ -416,7 +416,7 @@ Glances,,UK,,,,,,NC,,,,,,,N,Web App for Mobile devices to view Asset Information
 Ground Loading,,UK,,,,,,NC,,,,,,,N,GIS Application showing ground loading info for Wilton
 Hire Desk,,UK,,,,,,NC,,,,,,,N,Web App to Hire Plant Items or Hire Car
 HR_Database_Update,,UK,,,,,,NC,,,,,,,N,Website for HR to register new role profile
-http://siteaccess.sembcorp.co.uk,,UK,,,,,,NC,,,,,,,N,Site Pass System for Wilton Site
+Site Access,,UK,,,,,,NC,,,,,,,N,Site Pass System for Wilton Site
 HuntmanWeighRep,,UK,,,,,,NC,,,,,,,N,Weighbridge Reports relevant to Huntsman
 HVSM,,UK,,,,,,NC,,,,,,,N,Sub Station records
 HVSM Task Delete,,UK,,,,,,NC,,,,,,,N,Sub Station records
