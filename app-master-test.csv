@@ -442,7 +442,7 @@ New Starters Form,,UK,,,,,,NC,,,,,,,N,Allows new contractors to be added to IT s
 o500,,UK,,,,,,NC,,,,,,,N,GIS Application for legacy underground services
 PAT Testing,,UK,,,,,,NC,,,,,,,N,Allows users to regster pat testing
 People Finder,,UK,,,,,,NC,,,,,,,N,Directory of users
-PES,,UK,,,,,,NC,,,,,,,N,"Change control for PES syste,s"
+PES,,UK,,,,,,NC,,,,,,,N,Change control for PES systems
 Pipeline EDMS,,UK,,,,,,NC,,,,,,,N,Web App for Services pipeline information
 PONC,,UK,,,,,,NC,,,,,,,N,Price of Non Conformance
 Reception,,UK,,,,,,NC,,,,,,,N,Web App to add visitors to screens
@@ -470,5 +470,5 @@ Google Earth,,Vietnam,,,,,,C,SaaS,COTS,,,,,N,For searching location/information
 Unikey,,Vietnam,,,,,,C,,,,,,,N,For typing Vietnamese
 HTTK,,Vietnam,,,,,,C,,,,,,,N,For tax declaration
 Microsoft Visio,,Vietnam,,,,,,C,Desktop / Laptop,COTS,,,,,N,For drawing org chart
-Fuji xerox printer  &quot; scan,,Vietnam,,,,,,C,On-Prem,COTS,,,,,N,For Printing & scanning
+Fuji xerox printer &quot; scan,,Vietnam,,,,,,C,On-Prem,COTS,,,,,N,For Printing & scanning
 Card access,,Vietnam,,,,,,C,,,,,,,N,For extracting data from card access machine
