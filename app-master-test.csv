@@ -254,7 +254,7 @@ NCIP Water - DCS v. XDC800,Windows 7 v. Professional,China,14/1//2020,,Wang Jin 
 NSS - DCS v. XDC800,Windows 7 v. Professional,China,14/1/2020,,Wang Jin Hua,,,C,On-Prem,COTS,Medium,High,High,,Y,
 ZJG DCS v. 5.3+sp3,"Windows 10, Microsoft Server v. 2012",China,,,George Dong,,,C,On-Prem,COTS,Medium,Medium,High,"PS, SERVER01, SERVER02, WRI1, WRII1, WWI1, WWII1, WWII-2",Y,Zhangjiagang DCS
 KABA v. 1.0,,China,,,George Dong,,,,On-Prem,COTS,Low,Low,Low,SH-KABA,N,
-ZJG PLC siemens s7-400/300/1200 +Wincc,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
+ZJG PLC siemens s7 400/300/1200+Wincc,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
 TJ PLC Rockwell A-B1756+Wincc 7.4,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
 SSW-PLC Siemens/GE+ Wincc/iFix/Kingviews,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
 QSW PLC ABB AC500/Siemens s7-300/200+Fameview,,China,,,Wang Jin Hua,,,C,On-Prem,COTS,,,,,Y,Plant PLC
@@ -302,9 +302,9 @@ Inverter Data Auto Downloader,".NET Framework v. 4.5, Windows 10",India,,,,,,,On
 Compliance Reporting Tool,,India,,,Jitesh Patel,,,C,On-Prem,COTS,Low,Medium,Medium,,N,Central repository of all department compliance data items and online tracking and closure of compliance as per the timelines
 Contract Labour Management System,,India,,,Jitesh Patel,,,NC,On-Prem,COTS,Low,Medium,Medium,,N,A System to handle contract labour management activities 
 Field Data Logging,,India,,,Jitesh Patel,,,NC,On-Prem,COTS,Low,Medium,Medium,,N,A system to capture field data parameter values for Equipments using Mobile platform
-Fly Ash Billing System,,India,,,Jitesh Patel,,,NC,On-Prem,COTS,Low,High,High,,N,Online system for Fly ash invoicing 
+Fly Ash Billing System,,India,,,Jitesh Patel,billing,,NC,On-Prem,COTS,Low,High,High,,N,Online system for Fly ash invoicing 
 Gate Pass System,,India,,,Jitesh Patel,,,C,On-Prem,COTS,Low,Medium,High,,N,Gate pass system for material movement from factory  on returnable and non returnable basis with end to end tracking
-MIS Thermal Power billing & Reporting tool,,India,,,Jitesh Patel,,,NC,On-Prem,COTS,Low,High,Medium,,N,System for generating monthly/Weekly power bills for various PPAs. Calculation and reporting of various financial numbers.
+MIS Thermal Power billing & Reporting tool,,India,,,Jitesh Patel,billing,,NC,On-Prem,COTS,Low,High,Medium,,N,System for generating monthly/Weekly power bills for various PPAs. Calculation and reporting of various financial numbers.
 MIS Reporting,,India,,,Jitesh Patel,,,C,On-Prem,COTS,Medium,High,High,,N,A system for Daily MIS reporting including Technical & Financial parameters
 MIS-Power Scheduling system,,India,,,Jitesh Patel,,,NC,On-Prem,COTS,Low,Medium,High,,N,System for Daily power scheduling of different PPA based on which bills and other values of  financial parameters are calculated.
 PIP portal,,India,,,Jitesh Patel,,,NC,On-Prem,COTS,Low,Low,Low,,N,Online portal for Generation and evaluation of ideas under PIP 
